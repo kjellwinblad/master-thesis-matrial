@@ -1,0 +1,41 @@
+*.*.**.*
+optimization finished, #iter = 32
+Objective value = -1321.052887
+nSV = 83942
+*.**.**.*
+optimization finished, #iter = 32
+Objective value = -1315.919379
+nSV = 83413
+*.**.*.**
+optimization finished, #iter = 35
+Objective value = -1317.136890
+nSV = 83133
+*.**.*.*
+optimization finished, #iter = 31
+Objective value = -1316.582926
+nSV = 83764
+*.*.**.**.*
+optimization finished, #iter = 42
+Objective value = -1319.795344
+nSV = 82855
+*.**.*
+optimization finished, #iter = 29
+Objective value = -1315.640788
+nSV = 83661
+*.**.*.**
+optimization finished, #iter = 33
+Objective value = -1312.645619
+nSV = 83280
+*.**..**
+optimization finished, #iter = 34
+Objective value = -1312.101280
+nSV = 83245
+*.*.**.*
+optimization finished, #iter = 33
+Objective value = -1309.923435
+nSV = 83205
+*.**.*.**
+optimization finished, #iter = 34
+Objective value = -1314.109283
+nSV = 83550
+Cross Validation Accuracy = 96.6046%

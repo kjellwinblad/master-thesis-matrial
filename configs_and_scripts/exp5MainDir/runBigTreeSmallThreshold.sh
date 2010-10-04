@@ -1,0 +1,27 @@
+#!/bin/sh
+
+
+#chinese_sinica_train.conll                     CoNLL2009-ST-English-train.CONVERTED-GOLD.conll  german_tiger_train.conll
+#CoNLL2009-ST-Czech-train.CONVERTED-GOLD.conll  CoNLL2009-ST-German-train.CONVERTED-GOLD.conll   swedish_talbanken05_train.conll
+
+#Liblinear no div
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6swe swedish_talbanken05_train.conll 2:0:0 16000 8
+
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6chi chinese_sinica_train.conll 4:0:0 16000 8
+
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6ger_small german_tiger_train.conll 6:0:0 16000 8
+
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6cze CoNLL2009-ST-Czech-train.CONVERTED-GOLD.conll 8:0:0 16000 8
+
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6ger_big CoNLL2009-ST-German-train.CONVERTED-GOLD.conll 10:0:0 16000 8
+
+java -cp scala/lib/scala-library.jar:. experiment1/ExperimentExecutor \
+ experiment6_liblinear_decision_tree_small_treshold_test.xml exp6eng CoNLL2009-ST-English-train.CONVERTED-GOLD.conll 12:0:0 16000 8
+
+
+

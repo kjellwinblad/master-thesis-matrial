@@ -1,0 +1,744 @@
+Node file=output_unique_cze_stack_proj divide by=2,1,3,4,5,6
+Node file=output_unique_cze_stack_proj_c2_t1000_cat11 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat8_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat8_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat8_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat7_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat4_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat3_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat3_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat2_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat1_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat1_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat0_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat0_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat10_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat10 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat9_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat10 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat9_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat8 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat8_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat2_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat8_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat8 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat7_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat7_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat8 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat4_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat6_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat8_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat8_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat8_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat7_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat1_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat1_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat5_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat7_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat4_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat9 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat8 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat8_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat8_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat8 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat7_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat6_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat4_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat3_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat3_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat2_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat7 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat5_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat5_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat5_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat5_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat2_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat2_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat2_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat1_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0 divide by=1,2,3,4,5
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat6 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat5 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat9 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat8 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat7 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat6 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat5 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat4 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat4_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat3 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat2 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat1 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat1_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat1_c1_t1000_cat0 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat0 divide by=1,2,3,4
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat0_c1_t1000_cat3 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat0_c1_t1000_cat2 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat0_c1_t1000_cat1 divide by=1,2,3
+Node file=output_unique_cze_stack_proj_c2_t1000_cat0_c1_t1000_cat0_c1_t1000_cat0 divide by=1,2,3
+Tree(89.7828,91.64561623070628,1305088,List(OtherTree(50.0,0.0,56,List()), Tree(89.234,90.27361782744086,105332,List(OtherTree(85.7527,0.0,372,List()), Tree(88.1401,86.61050410108624,4511,List()), Tree(89.9158,89.6367105860065,39061,List()), Tree(87.1386,86.35385540227986,24212,List()), Tree(84.5093,0.0,1885,List()), Tree(92.7682,91.64958550496297,6347,List()), Tree(90.9876,90.69496077542063,6835,List()), Tree(96.1218,95.82984378648875,4796,List()), Tree(98.5839,98.26923948274167,10169,List()), Tree(86.8701,87.3040308930571,7144,List(OtherTree(88.998,0.0,2545,List()), Tree(76.5405,0.0,1347,List()), Tree(94.0519,0.0,2236,List()), Tree(82.4803,0.0,1016,List()))))), Tree(98.2548,98.37943342364616,257623,List(OtherTree(96.1774,0.0,654,List()), Tree(95.9686,0.0,4589,List()), Tree(98.1117,0.0,70803,List()), Tree(95.4526,0.0,34261,List()), Tree(100.0,0.0,69032,List()), Tree(94.2911,0.0,2137,List()), Tree(97.9912,0.0,15084,List()), Tree(98.5692,0.0,36972,List()), Tree(98.9263,0.0,2794,List()), Tree(99.7541,0.0,15045,List()), Tree(99.2163,0.0,6252,List()))), Tree(88.2576,89.1748328181665,225558,List(OtherTree(60.0,0.0,5,List()), Tree(85.4071,82.49288057142857,14000,List()), Tree(88.6628,86.8696383078387,27326,List()), Tree(93.4746,0.0,2360,List()), Tree(80.6604,78.4455324676008,57023,List()), Tree(90.8921,90.53454021520305,28810,List()), Tree(88.3168,86.6746059185768,5846,List()), Tree(89.7749,88.67205735722193,24391,List()), Tree(89.8515,88.05673383558607,9026,List()), Tree(98.2784,98.13098058210872,42054,List()), Tree(95.5765,94.67281107562683,14717,List()))), Tree(92.2792,92.56572047739105,61082,List(OtherTree(88.8889,0.0,648,List()), Tree(98.2067,0.0,3067,List()), Tree(85.853,82.837540935243,24507,List()), Tree(97.9737,97.78397270262944,14756,List()), Tree(93.8184,93.00281431637691,4659,List()), Tree(97.5361,97.67686884899683,2841,List(OtherTree(96.8193,0.0,1572,List()), Tree(98.7392,0.0,1269,List()))), Tree(94.2271,0.0,2096,List()), Tree(99.6302,99.5274585370865,4867,List()), Tree(95.7429,0.0,3641,List()))), Tree(86.0949,86.91541777122006,157575,List(OtherTree(90.4348,0.0,115,List()), Tree(96.7547,0.0,2650,List()), Tree(95.0701,94.766292533177,18763,List()), Tree(80.385,79.53126987530212,83161,List()), Tree(95.4026,95.05086121090315,7961,List()), Tree(90.6162,89.82753812324555,7481,List()), Tree(89.249,88.32295086714934,11878,List()), Tree(91.7485,91.36675156306796,5502,List()), Tree(99.7191,0.0,2136,List()), Tree(97.3282,96.97680543284248,17928,List()))), Tree(91.8533,92.73360781449249,89398,List(OtherTree(91.8883,0.0,752,List()), Tree(90.0242,89.60582831975336,4541,List()), Tree(90.9202,90.88455085696796,19604,List()), Tree(91.0478,90.46092421846039,16186,List()), Tree(94.7465,94.0823814804816,18521,List()), Tree(90.7953,90.27381720990873,3835,List()), Tree(98.7237,98.80348899228927,7522,List(OtherTree(97.1441,0.0,2346,List()), Tree(99.5556,0.0,5176,List()))), Tree(92.2408,90.98381273869954,8274,List()), Tree(95.4382,94.97693511019989,5853,List()), Tree(90.0696,89.58235092807425,4310,List()))), Tree(89.7272,90.48067846908249,44457,List(OtherTree(88.4,0.0,250,List()), Tree(82.1661,0.0,2770,List()), Tree(92.55,91.1168986212735,16537,List()), Tree(86.1801,85.59109326882624,4754,List()), Tree(87.7865,87.32814276085197,3709,List()), Tree(77.533,0.0,1135,List()), Tree(95.0754,0.0,2254,List()), Tree(83.2103,0.0,1626,List()), Tree(97.7423,97.56169285069234,6644,List()), Tree(87.9029,86.54247419422352,4778,List()))), Tree(88.0249,88.77753810435304,246586,List(OtherTree(92.1376,0.0,407,List()), Tree(92.466,92.19013709677418,4712,List()), Tree(83.7686,82.4583912259248,45794,List()), Tree(84.8119,82.15101366684841,73360,List()), Tree(84.5598,81.54537989783239,21729,List()), Tree(93.8691,93.47023569212587,6769,List()), Tree(87.8029,86.42223391096081,28392,List()), Tree(97.7742,97.68519471153846,5616,List()), Tree(99.3811,99.22389908666685,40073,List()), Tree(94.4005,93.89377980135806,19734,List()))), Tree(90.4417,87.44231227752141,6068,List()), Tree(87.6669,88.04506745374096,24860,List(OtherTree(80.7256,0.0,441,List()), Tree(74.1158,0.0,1244,List()), Tree(89.5795,88.85009369956549,12888,List()), Tree(70.9953,0.0,1055,List()), Tree(89.0534,0.0,1553,List()), Tree(87.1076,86.7074140720455,4747,List()), Tree(98.3571,0.0,1400,List()), Tree(92.7546,0.0,1532,List()))), Tree(96.2922,96.46789975489347,86493,List(OtherTree(84.9214,0.0,2036,List()), Tree(81.4398,0.0,1778,List()), Tree(97.584,97.54536195226827,64653,List()), Tree(90.5747,0.0,3915,List()), Tree(88.2182,0.0,3098,List()), Tree(98.465,98.20919229293253,3127,List()), Tree(99.0616,98.98551477301547,7886,List())))))
+DOT file
+
+digraph G
+   {
+
+node [	fontsize = 10 ];
+
+root ;
+root [label="l:89.7828%\nd:91.64561623070628%\ns:1305088"] ;
+root_nl1b0 ;
+root_nl1b0 [color = red label="OTHER l:50.0%\nd:0.0%\ns:56"] ;
+root -> root_nl1b0 ;
+root_nl1b1 ;
+root_nl1b1 [ label="l:89.234%\nd:90.27361782744086%\ns:105332"] ;
+root -> root_nl1b1 ;
+root_nl1b1_nl2b0 ;
+root_nl1b1_nl2b0 [color = red label="OTHER l:85.7527%\nd:0.0%\ns:372"] ;
+root_nl1b1 -> root_nl1b1_nl2b0 ;
+root_nl1b1_nl2b1 ;
+root_nl1b1_nl2b1 [color = red label="l:88.1401%\nd:86.61050410108624%\ns:4511"] ;
+root_nl1b1 -> root_nl1b1_nl2b1 ;
+root_nl1b1_nl2b2 ;
+root_nl1b1_nl2b2 [color = red label="l:89.9158%\nd:89.6367105860065%\ns:39061"] ;
+root_nl1b1 -> root_nl1b1_nl2b2 ;
+root_nl1b1_nl2b3 ;
+root_nl1b1_nl2b3 [color = red label="l:87.1386%\nd:86.35385540227986%\ns:24212"] ;
+root_nl1b1 -> root_nl1b1_nl2b3 ;
+root_nl1b1_nl2b4 ;
+root_nl1b1_nl2b4 [color = red label="l:84.5093%\nd:0.0%\ns:1885"] ;
+root_nl1b1 -> root_nl1b1_nl2b4 ;
+root_nl1b1_nl2b5 ;
+root_nl1b1_nl2b5 [color = red label="l:92.7682%\nd:91.64958550496297%\ns:6347"] ;
+root_nl1b1 -> root_nl1b1_nl2b5 ;
+root_nl1b1_nl2b6 ;
+root_nl1b1_nl2b6 [color = red label="l:90.9876%\nd:90.69496077542063%\ns:6835"] ;
+root_nl1b1 -> root_nl1b1_nl2b6 ;
+root_nl1b1_nl2b7 ;
+root_nl1b1_nl2b7 [color = red label="l:96.1218%\nd:95.82984378648875%\ns:4796"] ;
+root_nl1b1 -> root_nl1b1_nl2b7 ;
+root_nl1b1_nl2b8 ;
+root_nl1b1_nl2b8 [color = red label="l:98.5839%\nd:98.26923948274167%\ns:10169"] ;
+root_nl1b1 -> root_nl1b1_nl2b8 ;
+root_nl1b1_nl2b9 ;
+root_nl1b1_nl2b9 [ label="l:86.8701%\nd:87.3040308930571%\ns:7144"] ;
+root_nl1b1 -> root_nl1b1_nl2b9 ;
+root_nl1b1_nl2b9_nl3b0 ;
+root_nl1b1_nl2b9_nl3b0 [color = red label="OTHER l:88.998%\nd:0.0%\ns:2545"] ;
+root_nl1b1_nl2b9 -> root_nl1b1_nl2b9_nl3b0 ;
+root_nl1b1_nl2b9_nl3b1 ;
+root_nl1b1_nl2b9_nl3b1 [color = red label="l:76.5405%\nd:0.0%\ns:1347"] ;
+root_nl1b1_nl2b9 -> root_nl1b1_nl2b9_nl3b1 ;
+root_nl1b1_nl2b9_nl3b2 ;
+root_nl1b1_nl2b9_nl3b2 [color = red label="l:94.0519%\nd:0.0%\ns:2236"] ;
+root_nl1b1_nl2b9 -> root_nl1b1_nl2b9_nl3b2 ;
+root_nl1b1_nl2b9_nl3b3 ;
+root_nl1b1_nl2b9_nl3b3 [color = red label="l:82.4803%\nd:0.0%\ns:1016"] ;
+root_nl1b1_nl2b9 -> root_nl1b1_nl2b9_nl3b3 ;
+root_nl1b2 ;
+root_nl1b2 [ label="l:98.2548%\nd:98.37943342364616%\ns:257623"] ;
+root -> root_nl1b2 ;
+root_nl1b2_nl2b0 ;
+root_nl1b2_nl2b0 [color = red label="OTHER l:96.1774%\nd:0.0%\ns:654"] ;
+root_nl1b2 -> root_nl1b2_nl2b0 ;
+root_nl1b2_nl2b1 ;
+root_nl1b2_nl2b1 [color = red label="l:95.9686%\nd:0.0%\ns:4589"] ;
+root_nl1b2 -> root_nl1b2_nl2b1 ;
+root_nl1b2_nl2b2 ;
+root_nl1b2_nl2b2 [color = red label="l:98.1117%\nd:0.0%\ns:70803"] ;
+root_nl1b2 -> root_nl1b2_nl2b2 ;
+root_nl1b2_nl2b3 ;
+root_nl1b2_nl2b3 [color = red label="l:95.4526%\nd:0.0%\ns:34261"] ;
+root_nl1b2 -> root_nl1b2_nl2b3 ;
+root_nl1b2_nl2b4 ;
+root_nl1b2_nl2b4 [color = red label="l:100.0%\nd:0.0%\ns:69032"] ;
+root_nl1b2 -> root_nl1b2_nl2b4 ;
+root_nl1b2_nl2b5 ;
+root_nl1b2_nl2b5 [color = red label="l:94.2911%\nd:0.0%\ns:2137"] ;
+root_nl1b2 -> root_nl1b2_nl2b5 ;
+root_nl1b2_nl2b6 ;
+root_nl1b2_nl2b6 [color = red label="l:97.9912%\nd:0.0%\ns:15084"] ;
+root_nl1b2 -> root_nl1b2_nl2b6 ;
+root_nl1b2_nl2b7 ;
+root_nl1b2_nl2b7 [color = red label="l:98.5692%\nd:0.0%\ns:36972"] ;
+root_nl1b2 -> root_nl1b2_nl2b7 ;
+root_nl1b2_nl2b8 ;
+root_nl1b2_nl2b8 [color = red label="l:98.9263%\nd:0.0%\ns:2794"] ;
+root_nl1b2 -> root_nl1b2_nl2b8 ;
+root_nl1b2_nl2b9 ;
+root_nl1b2_nl2b9 [color = red label="l:99.7541%\nd:0.0%\ns:15045"] ;
+root_nl1b2 -> root_nl1b2_nl2b9 ;
+root_nl1b2_nl2b10 ;
+root_nl1b2_nl2b10 [color = red label="l:99.2163%\nd:0.0%\ns:6252"] ;
+root_nl1b2 -> root_nl1b2_nl2b10 ;
+root_nl1b3 ;
+root_nl1b3 [ label="l:88.2576%\nd:89.1748328181665%\ns:225558"] ;
+root -> root_nl1b3 ;
+root_nl1b3_nl2b0 ;
+root_nl1b3_nl2b0 [color = red label="OTHER l:60.0%\nd:0.0%\ns:5"] ;
+root_nl1b3 -> root_nl1b3_nl2b0 ;
+root_nl1b3_nl2b1 ;
+root_nl1b3_nl2b1 [color = red label="l:85.4071%\nd:82.49288057142857%\ns:14000"] ;
+root_nl1b3 -> root_nl1b3_nl2b1 ;
+root_nl1b3_nl2b2 ;
+root_nl1b3_nl2b2 [color = red label="l:88.6628%\nd:86.8696383078387%\ns:27326"] ;
+root_nl1b3 -> root_nl1b3_nl2b2 ;
+root_nl1b3_nl2b3 ;
+root_nl1b3_nl2b3 [color = red label="l:93.4746%\nd:0.0%\ns:2360"] ;
+root_nl1b3 -> root_nl1b3_nl2b3 ;
+root_nl1b3_nl2b4 ;
+root_nl1b3_nl2b4 [color = red label="l:80.6604%\nd:78.4455324676008%\ns:57023"] ;
+root_nl1b3 -> root_nl1b3_nl2b4 ;
+root_nl1b3_nl2b5 ;
+root_nl1b3_nl2b5 [color = red label="l:90.8921%\nd:90.53454021520305%\ns:28810"] ;
+root_nl1b3 -> root_nl1b3_nl2b5 ;
+root_nl1b3_nl2b6 ;
+root_nl1b3_nl2b6 [color = red label="l:88.3168%\nd:86.6746059185768%\ns:5846"] ;
+root_nl1b3 -> root_nl1b3_nl2b6 ;
+root_nl1b3_nl2b7 ;
+root_nl1b3_nl2b7 [color = red label="l:89.7749%\nd:88.67205735722193%\ns:24391"] ;
+root_nl1b3 -> root_nl1b3_nl2b7 ;
+root_nl1b3_nl2b8 ;
+root_nl1b3_nl2b8 [color = red label="l:89.8515%\nd:88.05673383558607%\ns:9026"] ;
+root_nl1b3 -> root_nl1b3_nl2b8 ;
+root_nl1b3_nl2b9 ;
+root_nl1b3_nl2b9 [color = red label="l:98.2784%\nd:98.13098058210872%\ns:42054"] ;
+root_nl1b3 -> root_nl1b3_nl2b9 ;
+root_nl1b3_nl2b10 ;
+root_nl1b3_nl2b10 [color = red label="l:95.5765%\nd:94.67281107562683%\ns:14717"] ;
+root_nl1b3 -> root_nl1b3_nl2b10 ;
+root_nl1b4 ;
+root_nl1b4 [ label="l:92.2792%\nd:92.56572047739105%\ns:61082"] ;
+root -> root_nl1b4 ;
+root_nl1b4_nl2b0 ;
+root_nl1b4_nl2b0 [color = red label="OTHER l:88.8889%\nd:0.0%\ns:648"] ;
+root_nl1b4 -> root_nl1b4_nl2b0 ;
+root_nl1b4_nl2b1 ;
+root_nl1b4_nl2b1 [color = red label="l:98.2067%\nd:0.0%\ns:3067"] ;
+root_nl1b4 -> root_nl1b4_nl2b1 ;
+root_nl1b4_nl2b2 ;
+root_nl1b4_nl2b2 [color = red label="l:85.853%\nd:82.837540935243%\ns:24507"] ;
+root_nl1b4 -> root_nl1b4_nl2b2 ;
+root_nl1b4_nl2b3 ;
+root_nl1b4_nl2b3 [color = red label="l:97.9737%\nd:97.78397270262944%\ns:14756"] ;
+root_nl1b4 -> root_nl1b4_nl2b3 ;
+root_nl1b4_nl2b4 ;
+root_nl1b4_nl2b4 [color = red label="l:93.8184%\nd:93.00281431637691%\ns:4659"] ;
+root_nl1b4 -> root_nl1b4_nl2b4 ;
+root_nl1b4_nl2b5 ;
+root_nl1b4_nl2b5 [ label="l:97.5361%\nd:97.67686884899683%\ns:2841"] ;
+root_nl1b4 -> root_nl1b4_nl2b5 ;
+root_nl1b4_nl2b5_nl3b0 ;
+root_nl1b4_nl2b5_nl3b0 [color = red label="OTHER l:96.8193%\nd:0.0%\ns:1572"] ;
+root_nl1b4_nl2b5 -> root_nl1b4_nl2b5_nl3b0 ;
+root_nl1b4_nl2b5_nl3b1 ;
+root_nl1b4_nl2b5_nl3b1 [color = red label="l:98.7392%\nd:0.0%\ns:1269"] ;
+root_nl1b4_nl2b5 -> root_nl1b4_nl2b5_nl3b1 ;
+root_nl1b4_nl2b6 ;
+root_nl1b4_nl2b6 [color = red label="l:94.2271%\nd:0.0%\ns:2096"] ;
+root_nl1b4 -> root_nl1b4_nl2b6 ;
+root_nl1b4_nl2b7 ;
+root_nl1b4_nl2b7 [color = red label="l:99.6302%\nd:99.5274585370865%\ns:4867"] ;
+root_nl1b4 -> root_nl1b4_nl2b7 ;
+root_nl1b4_nl2b8 ;
+root_nl1b4_nl2b8 [color = red label="l:95.7429%\nd:0.0%\ns:3641"] ;
+root_nl1b4 -> root_nl1b4_nl2b8 ;
+root_nl1b5 ;
+root_nl1b5 [ label="l:86.0949%\nd:86.91541777122006%\ns:157575"] ;
+root -> root_nl1b5 ;
+root_nl1b5_nl2b0 ;
+root_nl1b5_nl2b0 [color = red label="OTHER l:90.4348%\nd:0.0%\ns:115"] ;
+root_nl1b5 -> root_nl1b5_nl2b0 ;
+root_nl1b5_nl2b1 ;
+root_nl1b5_nl2b1 [color = red label="l:96.7547%\nd:0.0%\ns:2650"] ;
+root_nl1b5 -> root_nl1b5_nl2b1 ;
+root_nl1b5_nl2b2 ;
+root_nl1b5_nl2b2 [color = red label="l:95.0701%\nd:94.766292533177%\ns:18763"] ;
+root_nl1b5 -> root_nl1b5_nl2b2 ;
+root_nl1b5_nl2b3 ;
+root_nl1b5_nl2b3 [color = red label="l:80.385%\nd:79.53126987530212%\ns:83161"] ;
+root_nl1b5 -> root_nl1b5_nl2b3 ;
+root_nl1b5_nl2b4 ;
+root_nl1b5_nl2b4 [color = red label="l:95.4026%\nd:95.05086121090315%\ns:7961"] ;
+root_nl1b5 -> root_nl1b5_nl2b4 ;
+root_nl1b5_nl2b5 ;
+root_nl1b5_nl2b5 [color = red label="l:90.6162%\nd:89.82753812324555%\ns:7481"] ;
+root_nl1b5 -> root_nl1b5_nl2b5 ;
+root_nl1b5_nl2b6 ;
+root_nl1b5_nl2b6 [color = red label="l:89.249%\nd:88.32295086714934%\ns:11878"] ;
+root_nl1b5 -> root_nl1b5_nl2b6 ;
+root_nl1b5_nl2b7 ;
+root_nl1b5_nl2b7 [color = red label="l:91.7485%\nd:91.36675156306796%\ns:5502"] ;
+root_nl1b5 -> root_nl1b5_nl2b7 ;
+root_nl1b5_nl2b8 ;
+root_nl1b5_nl2b8 [color = red label="l:99.7191%\nd:0.0%\ns:2136"] ;
+root_nl1b5 -> root_nl1b5_nl2b8 ;
+root_nl1b5_nl2b9 ;
+root_nl1b5_nl2b9 [color = red label="l:97.3282%\nd:96.97680543284248%\ns:17928"] ;
+root_nl1b5 -> root_nl1b5_nl2b9 ;
+root_nl1b6 ;
+root_nl1b6 [ label="l:91.8533%\nd:92.73360781449249%\ns:89398"] ;
+root -> root_nl1b6 ;
+root_nl1b6_nl2b0 ;
+root_nl1b6_nl2b0 [color = red label="OTHER l:91.8883%\nd:0.0%\ns:752"] ;
+root_nl1b6 -> root_nl1b6_nl2b0 ;
+root_nl1b6_nl2b1 ;
+root_nl1b6_nl2b1 [color = red label="l:90.0242%\nd:89.60582831975336%\ns:4541"] ;
+root_nl1b6 -> root_nl1b6_nl2b1 ;
+root_nl1b6_nl2b2 ;
+root_nl1b6_nl2b2 [color = red label="l:90.9202%\nd:90.88455085696796%\ns:19604"] ;
+root_nl1b6 -> root_nl1b6_nl2b2 ;
+root_nl1b6_nl2b3 ;
+root_nl1b6_nl2b3 [color = red label="l:91.0478%\nd:90.46092421846039%\ns:16186"] ;
+root_nl1b6 -> root_nl1b6_nl2b3 ;
+root_nl1b6_nl2b4 ;
+root_nl1b6_nl2b4 [color = red label="l:94.7465%\nd:94.0823814804816%\ns:18521"] ;
+root_nl1b6 -> root_nl1b6_nl2b4 ;
+root_nl1b6_nl2b5 ;
+root_nl1b6_nl2b5 [color = red label="l:90.7953%\nd:90.27381720990873%\ns:3835"] ;
+root_nl1b6 -> root_nl1b6_nl2b5 ;
+root_nl1b6_nl2b6 ;
+root_nl1b6_nl2b6 [ label="l:98.7237%\nd:98.80348899228927%\ns:7522"] ;
+root_nl1b6 -> root_nl1b6_nl2b6 ;
+root_nl1b6_nl2b6_nl3b0 ;
+root_nl1b6_nl2b6_nl3b0 [color = red label="OTHER l:97.1441%\nd:0.0%\ns:2346"] ;
+root_nl1b6_nl2b6 -> root_nl1b6_nl2b6_nl3b0 ;
+root_nl1b6_nl2b6_nl3b1 ;
+root_nl1b6_nl2b6_nl3b1 [color = red label="l:99.5556%\nd:0.0%\ns:5176"] ;
+root_nl1b6_nl2b6 -> root_nl1b6_nl2b6_nl3b1 ;
+root_nl1b6_nl2b7 ;
+root_nl1b6_nl2b7 [color = red label="l:92.2408%\nd:90.98381273869954%\ns:8274"] ;
+root_nl1b6 -> root_nl1b6_nl2b7 ;
+root_nl1b6_nl2b8 ;
+root_nl1b6_nl2b8 [color = red label="l:95.4382%\nd:94.97693511019989%\ns:5853"] ;
+root_nl1b6 -> root_nl1b6_nl2b8 ;
+root_nl1b6_nl2b9 ;
+root_nl1b6_nl2b9 [color = red label="l:90.0696%\nd:89.58235092807425%\ns:4310"] ;
+root_nl1b6 -> root_nl1b6_nl2b9 ;
+root_nl1b7 ;
+root_nl1b7 [ label="l:89.7272%\nd:90.48067846908249%\ns:44457"] ;
+root -> root_nl1b7 ;
+root_nl1b7_nl2b0 ;
+root_nl1b7_nl2b0 [color = red label="OTHER l:88.4%\nd:0.0%\ns:250"] ;
+root_nl1b7 -> root_nl1b7_nl2b0 ;
+root_nl1b7_nl2b1 ;
+root_nl1b7_nl2b1 [color = red label="l:82.1661%\nd:0.0%\ns:2770"] ;
+root_nl1b7 -> root_nl1b7_nl2b1 ;
+root_nl1b7_nl2b2 ;
+root_nl1b7_nl2b2 [color = red label="l:92.55%\nd:91.1168986212735%\ns:16537"] ;
+root_nl1b7 -> root_nl1b7_nl2b2 ;
+root_nl1b7_nl2b3 ;
+root_nl1b7_nl2b3 [color = red label="l:86.1801%\nd:85.59109326882624%\ns:4754"] ;
+root_nl1b7 -> root_nl1b7_nl2b3 ;
+root_nl1b7_nl2b4 ;
+root_nl1b7_nl2b4 [color = red label="l:87.7865%\nd:87.32814276085197%\ns:3709"] ;
+root_nl1b7 -> root_nl1b7_nl2b4 ;
+root_nl1b7_nl2b5 ;
+root_nl1b7_nl2b5 [color = red label="l:77.533%\nd:0.0%\ns:1135"] ;
+root_nl1b7 -> root_nl1b7_nl2b5 ;
+root_nl1b7_nl2b6 ;
+root_nl1b7_nl2b6 [color = red label="l:95.0754%\nd:0.0%\ns:2254"] ;
+root_nl1b7 -> root_nl1b7_nl2b6 ;
+root_nl1b7_nl2b7 ;
+root_nl1b7_nl2b7 [color = red label="l:83.2103%\nd:0.0%\ns:1626"] ;
+root_nl1b7 -> root_nl1b7_nl2b7 ;
+root_nl1b7_nl2b8 ;
+root_nl1b7_nl2b8 [color = red label="l:97.7423%\nd:97.56169285069234%\ns:6644"] ;
+root_nl1b7 -> root_nl1b7_nl2b8 ;
+root_nl1b7_nl2b9 ;
+root_nl1b7_nl2b9 [color = red label="l:87.9029%\nd:86.54247419422352%\ns:4778"] ;
+root_nl1b7 -> root_nl1b7_nl2b9 ;
+root_nl1b8 ;
+root_nl1b8 [ label="l:88.0249%\nd:88.77753810435304%\ns:246586"] ;
+root -> root_nl1b8 ;
+root_nl1b8_nl2b0 ;
+root_nl1b8_nl2b0 [color = red label="OTHER l:92.1376%\nd:0.0%\ns:407"] ;
+root_nl1b8 -> root_nl1b8_nl2b0 ;
+root_nl1b8_nl2b1 ;
+root_nl1b8_nl2b1 [color = red label="l:92.466%\nd:92.19013709677418%\ns:4712"] ;
+root_nl1b8 -> root_nl1b8_nl2b1 ;
+root_nl1b8_nl2b2 ;
+root_nl1b8_nl2b2 [color = red label="l:83.7686%\nd:82.4583912259248%\ns:45794"] ;
+root_nl1b8 -> root_nl1b8_nl2b2 ;
+root_nl1b8_nl2b3 ;
+root_nl1b8_nl2b3 [color = red label="l:84.8119%\nd:82.15101366684841%\ns:73360"] ;
+root_nl1b8 -> root_nl1b8_nl2b3 ;
+root_nl1b8_nl2b4 ;
+root_nl1b8_nl2b4 [color = red label="l:84.5598%\nd:81.54537989783239%\ns:21729"] ;
+root_nl1b8 -> root_nl1b8_nl2b4 ;
+root_nl1b8_nl2b5 ;
+root_nl1b8_nl2b5 [color = red label="l:93.8691%\nd:93.47023569212587%\ns:6769"] ;
+root_nl1b8 -> root_nl1b8_nl2b5 ;
+root_nl1b8_nl2b6 ;
+root_nl1b8_nl2b6 [color = red label="l:87.8029%\nd:86.42223391096081%\ns:28392"] ;
+root_nl1b8 -> root_nl1b8_nl2b6 ;
+root_nl1b8_nl2b7 ;
+root_nl1b8_nl2b7 [color = red label="l:97.7742%\nd:97.68519471153846%\ns:5616"] ;
+root_nl1b8 -> root_nl1b8_nl2b7 ;
+root_nl1b8_nl2b8 ;
+root_nl1b8_nl2b8 [color = red label="l:99.3811%\nd:99.22389908666685%\ns:40073"] ;
+root_nl1b8 -> root_nl1b8_nl2b8 ;
+root_nl1b8_nl2b9 ;
+root_nl1b8_nl2b9 [color = red label="l:94.4005%\nd:93.89377980135806%\ns:19734"] ;
+root_nl1b8 -> root_nl1b8_nl2b9 ;
+root_nl1b9 ;
+root_nl1b9 [color = red label="l:90.4417%\nd:87.44231227752141%\ns:6068"] ;
+root -> root_nl1b9 ;
+root_nl1b10 ;
+root_nl1b10 [ label="l:87.6669%\nd:88.04506745374096%\ns:24860"] ;
+root -> root_nl1b10 ;
+root_nl1b10_nl2b0 ;
+root_nl1b10_nl2b0 [color = red label="OTHER l:80.7256%\nd:0.0%\ns:441"] ;
+root_nl1b10 -> root_nl1b10_nl2b0 ;
+root_nl1b10_nl2b1 ;
+root_nl1b10_nl2b1 [color = red label="l:74.1158%\nd:0.0%\ns:1244"] ;
+root_nl1b10 -> root_nl1b10_nl2b1 ;
+root_nl1b10_nl2b2 ;
+root_nl1b10_nl2b2 [color = red label="l:89.5795%\nd:88.85009369956549%\ns:12888"] ;
+root_nl1b10 -> root_nl1b10_nl2b2 ;
+root_nl1b10_nl2b3 ;
+root_nl1b10_nl2b3 [color = red label="l:70.9953%\nd:0.0%\ns:1055"] ;
+root_nl1b10 -> root_nl1b10_nl2b3 ;
+root_nl1b10_nl2b4 ;
+root_nl1b10_nl2b4 [color = red label="l:89.0534%\nd:0.0%\ns:1553"] ;
+root_nl1b10 -> root_nl1b10_nl2b4 ;
+root_nl1b10_nl2b5 ;
+root_nl1b10_nl2b5 [color = red label="l:87.1076%\nd:86.7074140720455%\ns:4747"] ;
+root_nl1b10 -> root_nl1b10_nl2b5 ;
+root_nl1b10_nl2b6 ;
+root_nl1b10_nl2b6 [color = red label="l:98.3571%\nd:0.0%\ns:1400"] ;
+root_nl1b10 -> root_nl1b10_nl2b6 ;
+root_nl1b10_nl2b7 ;
+root_nl1b10_nl2b7 [color = red label="l:92.7546%\nd:0.0%\ns:1532"] ;
+root_nl1b10 -> root_nl1b10_nl2b7 ;
+root_nl1b11 ;
+root_nl1b11 [ label="l:96.2922%\nd:96.46789975489347%\ns:86493"] ;
+root -> root_nl1b11 ;
+root_nl1b11_nl2b0 ;
+root_nl1b11_nl2b0 [color = red label="OTHER l:84.9214%\nd:0.0%\ns:2036"] ;
+root_nl1b11 -> root_nl1b11_nl2b0 ;
+root_nl1b11_nl2b1 ;
+root_nl1b11_nl2b1 [color = red label="l:81.4398%\nd:0.0%\ns:1778"] ;
+root_nl1b11 -> root_nl1b11_nl2b1 ;
+root_nl1b11_nl2b2 ;
+root_nl1b11_nl2b2 [color = red label="l:97.584%\nd:97.54536195226827%\ns:64653"] ;
+root_nl1b11 -> root_nl1b11_nl2b2 ;
+root_nl1b11_nl2b3 ;
+root_nl1b11_nl2b3 [color = red label="l:90.5747%\nd:0.0%\ns:3915"] ;
+root_nl1b11 -> root_nl1b11_nl2b3 ;
+root_nl1b11_nl2b4 ;
+root_nl1b11_nl2b4 [color = red label="l:88.2182%\nd:0.0%\ns:3098"] ;
+root_nl1b11 -> root_nl1b11_nl2b4 ;
+root_nl1b11_nl2b5 ;
+root_nl1b11_nl2b5 [color = red label="l:98.465%\nd:98.20919229293253%\ns:3127"] ;
+root_nl1b11 -> root_nl1b11_nl2b5 ;
+root_nl1b11_nl2b6 ;
+root_nl1b11_nl2b6 [color = red label="l:99.0616%\nd:98.98551477301547%\ns:7886"] ;
+root_nl1b11 -> root_nl1b11_nl2b6 ;
+}

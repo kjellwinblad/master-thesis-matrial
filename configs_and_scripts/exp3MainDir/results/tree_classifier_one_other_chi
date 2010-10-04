@@ -1,0 +1,576 @@
+Node file=output_unique_chi divide by=2,1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat74 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat73 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat72 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat71 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat71_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat70 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat69 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat68 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat68_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat67 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat66 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat66_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat66_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat66_c1_t1000_cat1_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat66_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat65 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat64 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat64_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat63 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat63_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat62 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat62_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat61 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat61_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat61_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat61_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat60 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat60_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat59 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat58 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat57 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat57_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat57_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat56 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat56_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat55 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat54 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat53 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat53_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat52 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat51 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat50 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat49 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat49_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat48 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat47 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat46 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat46_c1_t1000_cat3 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat46_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat46_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat46_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat45 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat44 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat44_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat44_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat44_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat43 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat43_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat43_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat43_c1_t1000_cat0_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat42 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat41 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat41_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat40 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat39 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat38 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat37 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat36 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat35 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat34 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat33 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat32 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat32_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat31 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat31_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat30 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat30_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat29 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat29_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat28 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat28_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat27 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat26 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat25 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat24 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat23 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat23_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat8 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat7 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat6 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat5 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat5_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat4 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat4_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat3 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat2_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat22_c1_t1000_cat0_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat21 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat20 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat20_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat20_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat19 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat19_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat18 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17_c1_t1000_cat3 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat17_c1_t1000_cat0_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat16 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat15 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat15_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat14 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat14_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat13 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat13_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat7 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat6 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat5 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat4 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat3 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat2_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat12_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat11 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat10 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat9 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat9_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat8 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat7 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat4 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat4_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat3 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat2 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat2_c3_t1000_cat0 divide by=4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat1 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat6_c1_t1000_cat0 divide by=3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat5 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat4 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat3 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat2 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat1 divide by=1,3,4,5,6
+Node file=output_unique_chi_c2_t1000_cat0 divide by=1,3,4,5,6
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+Other node found
+TreeNode(92.0441,93.61582153492652,284626,List(OtherTreeNode(output_unique_chi_c2_t1000_cat75), TreeNode(85.8676,0.0,3262,List()), TreeNode(99.281,0.0,3477,List()), TreeNode(84.4882,0.0,1270,List()), TreeNode(99.6751,99.8712,2329,List(OtherTreeNode(output_unique_chi_c2_t1000_cat71_c1_t1000_cat1), TreeNode(99.8712,0.0,2329,List()))), TreeNode(85.0299,0.0,1169,List()), TreeNode(89.0487,0.0,2155,List()), TreeNode(99.4479,99.8495,2657,List(OtherTreeNode(output_unique_chi_c2_t1000_cat68_c1_t1000_cat1), TreeNode(99.8495,0.0,2657,List()))), TreeNode(96.067,0.0,1373,List()), TreeNode(89.8929,92.29519198702353,6165,List(OtherTreeNode(output_unique_chi_c2_t1000_cat66_c1_t1000_cat3), TreeNode(93.4033,0.0,1334,List()), TreeNode(79.9013,81.3786,1944,List(OtherTreeNode(output_unique_chi_c2_t1000_cat66_c1_t1000_cat1_c3_t1000_cat1), TreeNode(81.3786,0.0,1944,List()))), TreeNode(99.134,0.0,2887,List()))), TreeNode(88.3633,0.0,1057,List()), TreeNode(92.3394,96.1787,2015,List(OtherTreeNode(output_unique_chi_c2_t1000_cat64_c1_t1000_cat1), TreeNode(96.1787,0.0,2015,List()))), TreeNode(92.8202,99.6814,2197,List(OtherTreeNode(output_unique_chi_c2_t1000_cat63_c1_t1000_cat1), TreeNode(99.6814,0.0,2197,List()))), TreeNode(97.2148,99.2611,3248,List(OtherTreeNode(output_unique_chi_c2_t1000_cat62_c1_t1000_cat1), TreeNode(99.2611,0.0,3248,List()))), TreeNode(89.0362,92.51258204697987,4768,List(OtherTreeNode(output_unique_chi_c2_t1000_cat61_c1_t1000_cat3), TreeNode(95.8034,0.0,1668,List()), TreeNode(97.1212,0.0,1320,List()), TreeNode(86.0112,0.0,1780,List()))), TreeNode(89.1918,92.3109,2432,List(OtherTreeNode(output_unique_chi_c2_t1000_cat60_c1_t1000_cat1), TreeNode(92.3109,0.0,2432,List()))), TreeNode(93.2268,0.0,1565,List()), TreeNode(99.5694,0.0,2090,List()), TreeNode(92.4303,98.12276499804457,5114,List(OtherTreeNode(output_unique_chi_c2_t1000_cat57_c1_t1000_cat2), TreeNode(93.2337,0.0,1138,List()), TreeNode(99.5221,0.0,3976,List()))), TreeNode(89.4689,94.4444,1026,List(OtherTreeNode(output_unique_chi_c2_t1000_cat56_c1_t1000_cat1), TreeNode(94.4444,0.0,1026,List()))), TreeNode(91.698,0.0,4794,List()), TreeNode(87.8085,0.0,1337,List()), TreeNode(96.5166,99.777,3587,List(OtherTreeNode(output_unique_chi_c2_t1000_cat53_c1_t1000_cat1), TreeNode(99.777,0.0,3587,List()))), TreeNode(85.3327,0.0,2134,List()), TreeNode(88.2083,0.0,4147,List()), TreeNode(85.6548,0.0,2642,List()), TreeNode(88.7281,92.5,1200,List(OtherTreeNode(output_unique_chi_c2_t1000_cat49_c1_t1000_cat1), TreeNode(92.5,0.0,1200,List()))), TreeNode(91.6711,0.0,1861,List()), TreeNode(96.7712,0.0,2137,List()), TreeNode(89.4068,93.68791088134368,11074,List(OtherTreeNode(output_unique_chi_c2_t1000_cat46_c1_t1000_cat4), TreeNode(89.5161,0.0,1860,List()), TreeNode(99.0305,0.0,1444,List()), TreeNode(97.5826,0.0,1241,List()), TreeNode(92.9545,0.0,6529,List()))), TreeNode(86.9973,0.0,1492,List()), TreeNode(90.4602,88.94410039751551,13732,List()), TreeNode(93.3285,98.65836780104712,3056,List(OtherTreeNode(output_unique_chi_c2_t1000_cat43_c1_t1000_cat2), TreeNode(96.5254,0.0,1180,List()), TreeNode(97.5021,100.0,1876,List(OtherTreeNode(output_unique_chi_c2_t1000_cat43_c1_t1000_cat0_c3_t1000_cat1), TreeNode(100.0,0.0,1876,List()))))), TreeNode(99.4342,0.0,3358,List()), TreeNode(88.3534,92.2702,1643,List(OtherTreeNode(output_unique_chi_c2_t1000_cat41_c1_t1000_cat1), TreeNode(92.2702,0.0,1643,List()))), TreeNode(84.1213,0.0,1121,List()), TreeNode(93.2449,0.0,3168,List()), TreeNode(89.0323,0.0,2015,List()), TreeNode(98.834,0.0,1458,List()), TreeNode(89.7518,0.0,1249,List()), TreeNode(87.4755,0.0,1022,List()), TreeNode(86.7201,0.0,4488,List()), TreeNode(94.2373,0.0,1180,List()), TreeNode(87.9203,95.8812,1044,List(OtherTreeNode(output_unique_chi_c2_t1000_cat32_c1_t1000_cat1), TreeNode(95.8812,0.0,1044,List()))), TreeNode(99.192,99.9029,1030,List(OtherTreeNode(output_unique_chi_c2_t1000_cat31_c1_t1000_cat1), TreeNode(99.9029,0.0,1030,List()))), TreeNode(91.8833,99.4086,2198,List(OtherTreeNode(output_unique_chi_c2_t1000_cat30_c1_t1000_cat1), TreeNode(99.4086,0.0,2198,List()))), TreeNode(87.5076,76.6438,3274,List()), TreeNode(91.0861,93.9428,1783,List(OtherTreeNode(output_unique_chi_c2_t1000_cat28_c1_t1000_cat1), TreeNode(93.9428,0.0,1783,List()))), TreeNode(98.9603,0.0,1058,List()), TreeNode(98.3209,0.0,1608,List()), TreeNode(93.4813,0.0,2884,List()), TreeNode(82.879,0.0,1174,List()), TreeNode(93.7729,97.1354,1920,List(OtherTreeNode(output_unique_chi_c2_t1000_cat23_c1_t1000_cat1), TreeNode(97.1354,0.0,1920,List()))), TreeNode(89.4382,87.15564262224147,48685,List()), TreeNode(95.5827,0.0,2943,List()), TreeNode(98.1562,99.02079588719154,2553,List(OtherTreeNode(output_unique_chi_c2_t1000_cat20_c1_t1000_cat2), TreeNode(97.8887,0.0,1042,List()), TreeNode(99.8015,0.0,1511,List()))), TreeNode(90.1815,91.7607,2039,List(OtherTreeNode(output_unique_chi_c2_t1000_cat19_c1_t1000_cat1), TreeNode(91.7607,0.0,2039,List()))), TreeNode(85.5491,0.0,1384,List()), TreeNode(91.6909,95.7944395473314,6539,List(OtherTreeNode(output_unique_chi_c2_t1000_cat17_c1_t1000_cat4), TreeNode(88.4155,0.0,1338,List()), TreeNode(98.5935,0.0,1422,List()), TreeNode(91.3941,0.0,1162,List()), TreeNode(96.9604,100.0,2617,List(OtherTreeNode(output_unique_chi_c2_t1000_cat17_c1_t1000_cat0_c3_t1000_cat1), TreeNode(100.0,0.0,2617,List()))))), TreeNode(92.4528,0.0,1325,List()), TreeNode(85.2789,95.2663,1014,List(OtherTreeNode(output_unique_chi_c2_t1000_cat15_c1_t1000_cat1), TreeNode(95.2663,0.0,1014,List()))), TreeNode(99.6851,99.8754,2408,List(OtherTreeNode(output_unique_chi_c2_t1000_cat14_c1_t1000_cat1), TreeNode(99.8754,0.0,2408,List()))), TreeNode(95.2534,97.9101,1579,List(OtherTreeNode(output_unique_chi_c2_t1000_cat13_c1_t1000_cat1), TreeNode(97.9101,0.0,1579,List()))), TreeNode(99.0606,98.53004132480473,42049,List()), TreeNode(84.8848,0.0,1085,List()), TreeNode(99.3145,0.0,4668,List()), TreeNode(89.2249,93.6409,1604,List(OtherTreeNode(output_unique_chi_c2_t1000_cat9_c1_t1000_cat1), TreeNode(93.6409,0.0,1604,List()))), TreeNode(91.2664,0.0,1374,List()), TreeNode(98.5209,0.0,1893,List()), TreeNode(90.2945,90.64965707346691,9882,List(OtherTreeNode(output_unique_chi_c2_t1000_cat6_c1_t1000_cat5), TreeNode(93.1075,98.0207,1061,List(OtherTreeNode(output_unique_chi_c2_t1000_cat6_c1_t1000_cat4_c3_t1000_cat1), TreeNode(98.0207,0.0,1061,List()))), TreeNode(90.5031,0.0,1769,List()), TreeNode(76.2349,77.7229,2837,List(OtherTreeNode(output_unique_chi_c2_t1000_cat6_c1_t1000_cat2_c3_t1000_cat1), TreeNode(77.7229,0.0,2837,List()))), TreeNode(92.4731,0.0,1023,List()), TreeNode(99.1855,0.0,3192,List()))), TreeNode(99.2096,0.0,2910,List()), TreeNode(85.7402,0.0,1101,List()), TreeNode(90.6618,0.0,1103,List()), TreeNode(98.5396,0.0,2465,List()), TreeNode(87.6171,0.0,1494,List()), TreeNode(96.517,0.0,1292,List())))
+otherFileSize 227243 otherProcentageCorrectLibLinear 89.9504
+DOT file
+
+digraph G
+   {
+
+node [	fontsize = 10 ];
+
+root ;
+root [label="l:92.0441%\nd:93.61582153492652%\ns:284626 do:91.98856654222075%"] ;
+other ;
+other [label="OTHER l:89.9504%\nd:0%\ns:227243"] ;
+root -> other ;
+root_nl1b0 ;
+root_nl1b0 [color = red label="l:85.8676%\nd:0.0%\ns:3262"] ;
+root -> root_nl1b0 ;
+root_nl1b1 ;
+root_nl1b1 [color = red label="l:99.281%\nd:0.0%\ns:3477"] ;
+root -> root_nl1b1 ;
+root_nl1b2 ;
+root_nl1b2 [color = red label="l:84.4882%\nd:0.0%\ns:1270"] ;
+root -> root_nl1b2 ;
+root_nl1b3 ;
+root_nl1b3 [ label="l:99.6751%\nd:99.8712%\ns:2329"] ;
+root -> root_nl1b3 ;
+root_nl1b3_nl2b0 ;
+root_nl1b3_nl2b0 [color = red label="l:99.8712%\nd:0.0%\ns:2329"] ;
+root_nl1b3 -> root_nl1b3_nl2b0 ;
+root_nl1b4 ;
+root_nl1b4 [color = red label="l:85.0299%\nd:0.0%\ns:1169"] ;
+root -> root_nl1b4 ;
+root_nl1b5 ;
+root_nl1b5 [color = red label="l:89.0487%\nd:0.0%\ns:2155"] ;
+root -> root_nl1b5 ;
+root_nl1b6 ;
+root_nl1b6 [ label="l:99.4479%\nd:99.8495%\ns:2657"] ;
+root -> root_nl1b6 ;
+root_nl1b6_nl2b0 ;
+root_nl1b6_nl2b0 [color = red label="l:99.8495%\nd:0.0%\ns:2657"] ;
+root_nl1b6 -> root_nl1b6_nl2b0 ;
+root_nl1b7 ;
+root_nl1b7 [color = red label="l:96.067%\nd:0.0%\ns:1373"] ;
+root -> root_nl1b7 ;
+root_nl1b8 ;
+root_nl1b8 [ label="l:89.8929%\nd:92.29519198702353%\ns:6165"] ;
+root -> root_nl1b8 ;
+root_nl1b8_nl2b0 ;
+root_nl1b8_nl2b0 [color = red label="l:93.4033%\nd:0.0%\ns:1334"] ;
+root_nl1b8 -> root_nl1b8_nl2b0 ;
+root_nl1b8_nl2b1 ;
+root_nl1b8_nl2b1 [ label="l:79.9013%\nd:81.3786%\ns:1944"] ;
+root_nl1b8 -> root_nl1b8_nl2b1 ;
+root_nl1b8_nl2b1_nl3b0 ;
+root_nl1b8_nl2b1_nl3b0 [color = red label="l:81.3786%\nd:0.0%\ns:1944"] ;
+root_nl1b8_nl2b1 -> root_nl1b8_nl2b1_nl3b0 ;
+root_nl1b8_nl2b2 ;
+root_nl1b8_nl2b2 [color = red label="l:99.134%\nd:0.0%\ns:2887"] ;
+root_nl1b8 -> root_nl1b8_nl2b2 ;
+root_nl1b9 ;
+root_nl1b9 [color = red label="l:88.3633%\nd:0.0%\ns:1057"] ;
+root -> root_nl1b9 ;
+root_nl1b10 ;
+root_nl1b10 [ label="l:92.3394%\nd:96.1787%\ns:2015"] ;
+root -> root_nl1b10 ;
+root_nl1b10_nl2b0 ;
+root_nl1b10_nl2b0 [color = red label="l:96.1787%\nd:0.0%\ns:2015"] ;
+root_nl1b10 -> root_nl1b10_nl2b0 ;
+root_nl1b11 ;
+root_nl1b11 [ label="l:92.8202%\nd:99.6814%\ns:2197"] ;
+root -> root_nl1b11 ;
+root_nl1b11_nl2b0 ;
+root_nl1b11_nl2b0 [color = red label="l:99.6814%\nd:0.0%\ns:2197"] ;
+root_nl1b11 -> root_nl1b11_nl2b0 ;
+root_nl1b12 ;
+root_nl1b12 [ label="l:97.2148%\nd:99.2611%\ns:3248"] ;
+root -> root_nl1b12 ;
+root_nl1b12_nl2b0 ;
+root_nl1b12_nl2b0 [color = red label="l:99.2611%\nd:0.0%\ns:3248"] ;
+root_nl1b12 -> root_nl1b12_nl2b0 ;
+root_nl1b13 ;
+root_nl1b13 [ label="l:89.0362%\nd:92.51258204697987%\ns:4768"] ;
+root -> root_nl1b13 ;
+root_nl1b13_nl2b0 ;
+root_nl1b13_nl2b0 [color = red label="l:95.8034%\nd:0.0%\ns:1668"] ;
+root_nl1b13 -> root_nl1b13_nl2b0 ;
+root_nl1b13_nl2b1 ;
+root_nl1b13_nl2b1 [color = red label="l:97.1212%\nd:0.0%\ns:1320"] ;
+root_nl1b13 -> root_nl1b13_nl2b1 ;
+root_nl1b13_nl2b2 ;
+root_nl1b13_nl2b2 [color = red label="l:86.0112%\nd:0.0%\ns:1780"] ;
+root_nl1b13 -> root_nl1b13_nl2b2 ;
+root_nl1b14 ;
+root_nl1b14 [ label="l:89.1918%\nd:92.3109%\ns:2432"] ;
+root -> root_nl1b14 ;
+root_nl1b14_nl2b0 ;
+root_nl1b14_nl2b0 [color = red label="l:92.3109%\nd:0.0%\ns:2432"] ;
+root_nl1b14 -> root_nl1b14_nl2b0 ;
+root_nl1b15 ;
+root_nl1b15 [color = red label="l:93.2268%\nd:0.0%\ns:1565"] ;
+root -> root_nl1b15 ;
+root_nl1b16 ;
+root_nl1b16 [color = red label="l:99.5694%\nd:0.0%\ns:2090"] ;
+root -> root_nl1b16 ;
+root_nl1b17 ;
+root_nl1b17 [ label="l:92.4303%\nd:98.12276499804457%\ns:5114"] ;
+root -> root_nl1b17 ;
+root_nl1b17_nl2b0 ;
+root_nl1b17_nl2b0 [color = red label="l:93.2337%\nd:0.0%\ns:1138"] ;
+root_nl1b17 -> root_nl1b17_nl2b0 ;
+root_nl1b17_nl2b1 ;
+root_nl1b17_nl2b1 [color = red label="l:99.5221%\nd:0.0%\ns:3976"] ;
+root_nl1b17 -> root_nl1b17_nl2b1 ;
+root_nl1b18 ;
+root_nl1b18 [ label="l:89.4689%\nd:94.4444%\ns:1026"] ;
+root -> root_nl1b18 ;
+root_nl1b18_nl2b0 ;
+root_nl1b18_nl2b0 [color = red label="l:94.4444%\nd:0.0%\ns:1026"] ;
+root_nl1b18 -> root_nl1b18_nl2b0 ;
+root_nl1b19 ;
+root_nl1b19 [color = red label="l:91.698%\nd:0.0%\ns:4794"] ;
+root -> root_nl1b19 ;
+root_nl1b20 ;
+root_nl1b20 [color = red label="l:87.8085%\nd:0.0%\ns:1337"] ;
+root -> root_nl1b20 ;
+root_nl1b21 ;
+root_nl1b21 [ label="l:96.5166%\nd:99.777%\ns:3587"] ;
+root -> root_nl1b21 ;
+root_nl1b21_nl2b0 ;
+root_nl1b21_nl2b0 [color = red label="l:99.777%\nd:0.0%\ns:3587"] ;
+root_nl1b21 -> root_nl1b21_nl2b0 ;
+root_nl1b22 ;
+root_nl1b22 [color = red label="l:85.3327%\nd:0.0%\ns:2134"] ;
+root -> root_nl1b22 ;
+root_nl1b23 ;
+root_nl1b23 [color = red label="l:88.2083%\nd:0.0%\ns:4147"] ;
+root -> root_nl1b23 ;
+root_nl1b24 ;
+root_nl1b24 [color = red label="l:85.6548%\nd:0.0%\ns:2642"] ;
+root -> root_nl1b24 ;
+root_nl1b25 ;
+root_nl1b25 [ label="l:88.7281%\nd:92.5%\ns:1200"] ;
+root -> root_nl1b25 ;
+root_nl1b25_nl2b0 ;
+root_nl1b25_nl2b0 [color = red label="l:92.5%\nd:0.0%\ns:1200"] ;
+root_nl1b25 -> root_nl1b25_nl2b0 ;
+root_nl1b26 ;
+root_nl1b26 [color = red label="l:91.6711%\nd:0.0%\ns:1861"] ;
+root -> root_nl1b26 ;
+root_nl1b27 ;
+root_nl1b27 [color = red label="l:96.7712%\nd:0.0%\ns:2137"] ;
+root -> root_nl1b27 ;
+root_nl1b28 ;
+root_nl1b28 [ label="l:89.4068%\nd:93.68791088134368%\ns:11074"] ;
+root -> root_nl1b28 ;
+root_nl1b28_nl2b0 ;
+root_nl1b28_nl2b0 [color = red label="l:89.5161%\nd:0.0%\ns:1860"] ;
+root_nl1b28 -> root_nl1b28_nl2b0 ;
+root_nl1b28_nl2b1 ;
+root_nl1b28_nl2b1 [color = red label="l:99.0305%\nd:0.0%\ns:1444"] ;
+root_nl1b28 -> root_nl1b28_nl2b1 ;
+root_nl1b28_nl2b2 ;
+root_nl1b28_nl2b2 [color = red label="l:97.5826%\nd:0.0%\ns:1241"] ;
+root_nl1b28 -> root_nl1b28_nl2b2 ;
+root_nl1b28_nl2b3 ;
+root_nl1b28_nl2b3 [color = red label="l:92.9545%\nd:0.0%\ns:6529"] ;
+root_nl1b28 -> root_nl1b28_nl2b3 ;
+root_nl1b29 ;
+root_nl1b29 [color = red label="l:86.9973%\nd:0.0%\ns:1492"] ;
+root -> root_nl1b29 ;
+root_nl1b30 ;
+root_nl1b30 [color = red label="l:90.4602%\nd:88.94410039751551%\ns:13732"] ;
+root -> root_nl1b30 ;
+root_nl1b31 ;
+root_nl1b31 [ label="l:93.3285%\nd:98.65836780104712%\ns:3056"] ;
+root -> root_nl1b31 ;
+root_nl1b31_nl2b0 ;
+root_nl1b31_nl2b0 [color = red label="l:96.5254%\nd:0.0%\ns:1180"] ;
+root_nl1b31 -> root_nl1b31_nl2b0 ;
+root_nl1b31_nl2b1 ;
+root_nl1b31_nl2b1 [ label="l:97.5021%\nd:100.0%\ns:1876"] ;
+root_nl1b31 -> root_nl1b31_nl2b1 ;
+root_nl1b31_nl2b1_nl3b0 ;
+root_nl1b31_nl2b1_nl3b0 [color = red label="l:100.0%\nd:0.0%\ns:1876"] ;
+root_nl1b31_nl2b1 -> root_nl1b31_nl2b1_nl3b0 ;
+root_nl1b32 ;
+root_nl1b32 [color = red label="l:99.4342%\nd:0.0%\ns:3358"] ;
+root -> root_nl1b32 ;
+root_nl1b33 ;
+root_nl1b33 [ label="l:88.3534%\nd:92.2702%\ns:1643"] ;
+root -> root_nl1b33 ;
+root_nl1b33_nl2b0 ;
+root_nl1b33_nl2b0 [color = red label="l:92.2702%\nd:0.0%\ns:1643"] ;
+root_nl1b33 -> root_nl1b33_nl2b0 ;
+root_nl1b34 ;
+root_nl1b34 [color = red label="l:84.1213%\nd:0.0%\ns:1121"] ;
+root -> root_nl1b34 ;
+root_nl1b35 ;
+root_nl1b35 [color = red label="l:93.2449%\nd:0.0%\ns:3168"] ;
+root -> root_nl1b35 ;
+root_nl1b36 ;
+root_nl1b36 [color = red label="l:89.0323%\nd:0.0%\ns:2015"] ;
+root -> root_nl1b36 ;
+root_nl1b37 ;
+root_nl1b37 [color = red label="l:98.834%\nd:0.0%\ns:1458"] ;
+root -> root_nl1b37 ;
+root_nl1b38 ;
+root_nl1b38 [color = red label="l:89.7518%\nd:0.0%\ns:1249"] ;
+root -> root_nl1b38 ;
+root_nl1b39 ;
+root_nl1b39 [color = red label="l:87.4755%\nd:0.0%\ns:1022"] ;
+root -> root_nl1b39 ;
+root_nl1b40 ;
+root_nl1b40 [color = red label="l:86.7201%\nd:0.0%\ns:4488"] ;
+root -> root_nl1b40 ;
+root_nl1b41 ;
+root_nl1b41 [color = red label="l:94.2373%\nd:0.0%\ns:1180"] ;
+root -> root_nl1b41 ;
+root_nl1b42 ;
+root_nl1b42 [ label="l:87.9203%\nd:95.8812%\ns:1044"] ;
+root -> root_nl1b42 ;
+root_nl1b42_nl2b0 ;
+root_nl1b42_nl2b0 [color = red label="l:95.8812%\nd:0.0%\ns:1044"] ;
+root_nl1b42 -> root_nl1b42_nl2b0 ;
+root_nl1b43 ;
+root_nl1b43 [ label="l:99.192%\nd:99.9029%\ns:1030"] ;
+root -> root_nl1b43 ;
+root_nl1b43_nl2b0 ;
+root_nl1b43_nl2b0 [color = red label="l:99.9029%\nd:0.0%\ns:1030"] ;
+root_nl1b43 -> root_nl1b43_nl2b0 ;
+root_nl1b44 ;
+root_nl1b44 [ label="l:91.8833%\nd:99.4086%\ns:2198"] ;
+root -> root_nl1b44 ;
+root_nl1b44_nl2b0 ;
+root_nl1b44_nl2b0 [color = red label="l:99.4086%\nd:0.0%\ns:2198"] ;
+root_nl1b44 -> root_nl1b44_nl2b0 ;
+root_nl1b45 ;
+root_nl1b45 [color = red label="l:87.5076%\nd:76.6438%\ns:3274"] ;
+root -> root_nl1b45 ;
+root_nl1b46 ;
+root_nl1b46 [ label="l:91.0861%\nd:93.9428%\ns:1783"] ;
+root -> root_nl1b46 ;
+root_nl1b46_nl2b0 ;
+root_nl1b46_nl2b0 [color = red label="l:93.9428%\nd:0.0%\ns:1783"] ;
+root_nl1b46 -> root_nl1b46_nl2b0 ;
+root_nl1b47 ;
+root_nl1b47 [color = red label="l:98.9603%\nd:0.0%\ns:1058"] ;
+root -> root_nl1b47 ;
+root_nl1b48 ;
+root_nl1b48 [color = red label="l:98.3209%\nd:0.0%\ns:1608"] ;
+root -> root_nl1b48 ;
+root_nl1b49 ;
+root_nl1b49 [color = red label="l:93.4813%\nd:0.0%\ns:2884"] ;
+root -> root_nl1b49 ;
+root_nl1b50 ;
+root_nl1b50 [color = red label="l:82.879%\nd:0.0%\ns:1174"] ;
+root -> root_nl1b50 ;
+root_nl1b51 ;
+root_nl1b51 [ label="l:93.7729%\nd:97.1354%\ns:1920"] ;
+root -> root_nl1b51 ;
+root_nl1b51_nl2b0 ;
+root_nl1b51_nl2b0 [color = red label="l:97.1354%\nd:0.0%\ns:1920"] ;
+root_nl1b51 -> root_nl1b51_nl2b0 ;
+root_nl1b52 ;
+root_nl1b52 [color = red label="l:89.4382%\nd:87.15564262224147%\ns:48685"] ;
+root -> root_nl1b52 ;
+root_nl1b53 ;
+root_nl1b53 [color = red label="l:95.5827%\nd:0.0%\ns:2943"] ;
+root -> root_nl1b53 ;
+root_nl1b54 ;
+root_nl1b54 [ label="l:98.1562%\nd:99.02079588719154%\ns:2553"] ;
+root -> root_nl1b54 ;
+root_nl1b54_nl2b0 ;
+root_nl1b54_nl2b0 [color = red label="l:97.8887%\nd:0.0%\ns:1042"] ;
+root_nl1b54 -> root_nl1b54_nl2b0 ;
+root_nl1b54_nl2b1 ;
+root_nl1b54_nl2b1 [color = red label="l:99.8015%\nd:0.0%\ns:1511"] ;
+root_nl1b54 -> root_nl1b54_nl2b1 ;
+root_nl1b55 ;
+root_nl1b55 [ label="l:90.1815%\nd:91.7607%\ns:2039"] ;
+root -> root_nl1b55 ;
+root_nl1b55_nl2b0 ;
+root_nl1b55_nl2b0 [color = red label="l:91.7607%\nd:0.0%\ns:2039"] ;
+root_nl1b55 -> root_nl1b55_nl2b0 ;
+root_nl1b56 ;
+root_nl1b56 [color = red label="l:85.5491%\nd:0.0%\ns:1384"] ;
+root -> root_nl1b56 ;
+root_nl1b57 ;
+root_nl1b57 [ label="l:91.6909%\nd:95.7944395473314%\ns:6539"] ;
+root -> root_nl1b57 ;
+root_nl1b57_nl2b0 ;
+root_nl1b57_nl2b0 [color = red label="l:88.4155%\nd:0.0%\ns:1338"] ;
+root_nl1b57 -> root_nl1b57_nl2b0 ;
+root_nl1b57_nl2b1 ;
+root_nl1b57_nl2b1 [color = red label="l:98.5935%\nd:0.0%\ns:1422"] ;
+root_nl1b57 -> root_nl1b57_nl2b1 ;
+root_nl1b57_nl2b2 ;
+root_nl1b57_nl2b2 [color = red label="l:91.3941%\nd:0.0%\ns:1162"] ;
+root_nl1b57 -> root_nl1b57_nl2b2 ;
+root_nl1b57_nl2b3 ;
+root_nl1b57_nl2b3 [ label="l:96.9604%\nd:100.0%\ns:2617"] ;
+root_nl1b57 -> root_nl1b57_nl2b3 ;
+root_nl1b57_nl2b3_nl3b0 ;
+root_nl1b57_nl2b3_nl3b0 [color = red label="l:100.0%\nd:0.0%\ns:2617"] ;
+root_nl1b57_nl2b3 -> root_nl1b57_nl2b3_nl3b0 ;
+root_nl1b58 ;
+root_nl1b58 [color = red label="l:92.4528%\nd:0.0%\ns:1325"] ;
+root -> root_nl1b58 ;
+root_nl1b59 ;
+root_nl1b59 [ label="l:85.2789%\nd:95.2663%\ns:1014"] ;
+root -> root_nl1b59 ;
+root_nl1b59_nl2b0 ;
+root_nl1b59_nl2b0 [color = red label="l:95.2663%\nd:0.0%\ns:1014"] ;
+root_nl1b59 -> root_nl1b59_nl2b0 ;
+root_nl1b60 ;
+root_nl1b60 [ label="l:99.6851%\nd:99.8754%\ns:2408"] ;
+root -> root_nl1b60 ;
+root_nl1b60_nl2b0 ;
+root_nl1b60_nl2b0 [color = red label="l:99.8754%\nd:0.0%\ns:2408"] ;
+root_nl1b60 -> root_nl1b60_nl2b0 ;
+root_nl1b61 ;
+root_nl1b61 [ label="l:95.2534%\nd:97.9101%\ns:1579"] ;
+root -> root_nl1b61 ;
+root_nl1b61_nl2b0 ;
+root_nl1b61_nl2b0 [color = red label="l:97.9101%\nd:0.0%\ns:1579"] ;
+root_nl1b61 -> root_nl1b61_nl2b0 ;
+root_nl1b62 ;
+root_nl1b62 [color = red label="l:99.0606%\nd:98.53004132480473%\ns:42049"] ;
+root -> root_nl1b62 ;
+root_nl1b63 ;
+root_nl1b63 [color = red label="l:84.8848%\nd:0.0%\ns:1085"] ;
+root -> root_nl1b63 ;
+root_nl1b64 ;
+root_nl1b64 [color = red label="l:99.3145%\nd:0.0%\ns:4668"] ;
+root -> root_nl1b64 ;
+root_nl1b65 ;
+root_nl1b65 [ label="l:89.2249%\nd:93.6409%\ns:1604"] ;
+root -> root_nl1b65 ;
+root_nl1b65_nl2b0 ;
+root_nl1b65_nl2b0 [color = red label="l:93.6409%\nd:0.0%\ns:1604"] ;
+root_nl1b65 -> root_nl1b65_nl2b0 ;
+root_nl1b66 ;
+root_nl1b66 [color = red label="l:91.2664%\nd:0.0%\ns:1374"] ;
+root -> root_nl1b66 ;
+root_nl1b67 ;
+root_nl1b67 [color = red label="l:98.5209%\nd:0.0%\ns:1893"] ;
+root -> root_nl1b67 ;
+root_nl1b68 ;
+root_nl1b68 [ label="l:90.2945%\nd:90.64965707346691%\ns:9882"] ;
+root -> root_nl1b68 ;
+root_nl1b68_nl2b0 ;
+root_nl1b68_nl2b0 [ label="l:93.1075%\nd:98.0207%\ns:1061"] ;
+root_nl1b68 -> root_nl1b68_nl2b0 ;
+root_nl1b68_nl2b0_nl3b0 ;
+root_nl1b68_nl2b0_nl3b0 [color = red label="l:98.0207%\nd:0.0%\ns:1061"] ;
+root_nl1b68_nl2b0 -> root_nl1b68_nl2b0_nl3b0 ;
+root_nl1b68_nl2b1 ;
+root_nl1b68_nl2b1 [color = red label="l:90.5031%\nd:0.0%\ns:1769"] ;
+root_nl1b68 -> root_nl1b68_nl2b1 ;
+root_nl1b68_nl2b2 ;
+root_nl1b68_nl2b2 [ label="l:76.2349%\nd:77.7229%\ns:2837"] ;
+root_nl1b68 -> root_nl1b68_nl2b2 ;
+root_nl1b68_nl2b2_nl3b0 ;
+root_nl1b68_nl2b2_nl3b0 [color = red label="l:77.7229%\nd:0.0%\ns:2837"] ;
+root_nl1b68_nl2b2 -> root_nl1b68_nl2b2_nl3b0 ;
+root_nl1b68_nl2b3 ;
+root_nl1b68_nl2b3 [color = red label="l:92.4731%\nd:0.0%\ns:1023"] ;
+root_nl1b68 -> root_nl1b68_nl2b3 ;
+root_nl1b68_nl2b4 ;
+root_nl1b68_nl2b4 [color = red label="l:99.1855%\nd:0.0%\ns:3192"] ;
+root_nl1b68 -> root_nl1b68_nl2b4 ;
+root_nl1b69 ;
+root_nl1b69 [color = red label="l:99.2096%\nd:0.0%\ns:2910"] ;
+root -> root_nl1b69 ;
+root_nl1b70 ;
+root_nl1b70 [color = red label="l:85.7402%\nd:0.0%\ns:1101"] ;
+root -> root_nl1b70 ;
+root_nl1b71 ;
+root_nl1b71 [color = red label="l:90.6618%\nd:0.0%\ns:1103"] ;
+root -> root_nl1b71 ;
+root_nl1b72 ;
+root_nl1b72 [color = red label="l:98.5396%\nd:0.0%\ns:2465"] ;
+root -> root_nl1b72 ;
+root_nl1b73 ;
+root_nl1b73 [color = red label="l:87.6171%\nd:0.0%\ns:1494"] ;
+root -> root_nl1b73 ;
+root_nl1b74 ;
+root_nl1b74 [color = red label="l:96.517%\nd:0.0%\ns:1292"] ;
+root -> root_nl1b74 ;
+}
