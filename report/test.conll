@@ -1,0 +1,11 @@
+1	Mr.	mr.	NNP	NNP	_	2	TITLE	_	_
+2	Nivre	nivre	NNP	NNP	_	3	SBJ	_	_
+3	teaches	teach	VBZ	VBZ	_	0	ROOT	_	_
+4	linguistics	linguistics	NNP	NNP	_	3	OBJ	_	_
+5	and	and	CC	CC	_	4	COORD	_	_
+6	machine	machine	JJ	JJ	_	7	NMOD	_	_
+7	learning	learning	NN	NN	_	5	CONJ	_	_
+8	at	at	IN	IN	_	3	LOC	_	_
+9	Uppsala	uppsala	NNP	NNP	_	10	NAME	_	_
+10	University	university	NNP	NNP	_	8	PMOD	_	_
+11	.	.	.	.	_	3	P	_	_

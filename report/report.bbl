@@ -1,0 +1,117 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{OAC{\etalchar{+}}04}
+
+\bibitem[BDH{\etalchar{+}}02]{brants2002tiger}
+S.~Brants, S.~Dipper, S.~Hansen, W.~Lezius, and G.~Smith.
+\newblock {The TIGER treebank}.
+\newblock In {\em Proceedings of the workshop on treebanks and linguistic
+  theories}, pages 24--41, 2002.
+
+\bibitem[BGV92]{boser1992training}
+B.E. Boser, I.M. Guyon, and V.N. Vapnik.
+\newblock {A training algorithm for optimal margin classifiers}.
+\newblock In {\em Proceedings of the fifth annual workshop on Computational
+  learning theory}, pages 144--152. ACM, 1992.
+
+\bibitem[BM06]{Buchholz06conll-xshared}
+Sabine Buchholz and Erwin Marsi.
+\newblock Conll-x shared task on multilingual dependency parsing.
+\newblock pages 149--164, 2006.
+
+\bibitem[CL01]{chang2001libsvm}
+C.C. Chang and C.J. Lin.
+\newblock {LIBSVM: a library for support vector machines}, 2001.
+
+\bibitem[CLC{\etalchar{+}}03]{chen2003sinica}
+K.J. Chen, C.~Luo, M.~Chang, F.~Chen, C.~Chen, C.~Huang, and Z.M. Gao.
+\newblock {Sinica treebank: Design criteria, representational issues and
+  implementation}.
+\newblock {\em Abeill{\'e} (Abeill{\'e}, 2003)}, pages 231--248, 2003.
+
+\bibitem[FCH{\etalchar{+}}08]{fan2008liblinear}
+R.E. Fan, K.W. Chang, C.J. Hsieh, X.R. Wang, and C.J. Lin.
+\newblock {LIBLINEAR: A library for large linear classification}.
+\newblock {\em The Journal of Machine Learning Research}, 9:1871--1874, 2008.
+
+\bibitem[HCJ{\etalchar{+}}09]{Hajic09theconll-2009}
+Jan Haji\v{c}, Massimiliano Ciaramita, Richard Johansson, Daisuke Kawahara,
+  Maria Ant{\`o}nia, Mart{\'i} Llu{\'i}s, M{\`a}rquez Adam, Meyers Joakim, and
+  Nivre~Sebastian Pad{\'o}.
+\newblock The conll-2009 shared task: Syntactic and semantic dependencies in
+  multiple languages, 2009.
+
+\bibitem[HPH{\etalchar{+}}06]{hajic2006prague}
+J.~Hajic, J.~Panevov{\'a}, E.~Hajicov{\'a}, P.~Sgall, P.~Pajas,
+  J.~\v{S}tep{\'a}nek, J.~Havelka, M.~Mikulov{\'a}, Z.~Zabokrtsk{\`y}, and
+  M.\v{S}. Raz{\i}mov{\'a}.
+\newblock {Prague Dependency Treebank 2.0}.
+\newblock {\em LDC2006T01, ISBN}, pages 1--58563, 2006.
+
+\bibitem[KMN09]{kubler2009dependency}
+S.~K\"{u}bler, R.~McDonald, and J.~Nivre.
+\newblock {Dependency parsing}.
+\newblock {\em Synthesis Lectures on Human Language Technologies}, 1(1):1--127,
+  2009.
+
+\bibitem[KSC{\etalchar{+}}08]{keerthi2008sequential}
+S.S. Keerthi, S.~Sundararajan, K.W. Chang, C.J. Hsieh, and C.J. Lin.
+\newblock {A sequential dual method for large scale multi-class linear SVMs}.
+\newblock In {\em Proceeding of the 14th ACM SIGKDD international conference on
+  Knowledge discovery and data mining}, pages 408--416. ACM, 2008.
+
+\bibitem[NHN06]{nivre2006maltparser}
+J.~Nivre, J.~Hall, and J.~Nilsson.
+\newblock {MaltParser: A data-driven parser-generator for dependency parsing}.
+\newblock In {\em Proceedings of LREC}, volume~6. Citeseer, 2006.
+
+\bibitem[Niv08]{nivre2008algorithms}
+J.~Nivre.
+\newblock {Algorithms for deterministic incremental dependency parsing}.
+\newblock {\em Computational Linguistics}, 34(4):513--553, 2008.
+
+\bibitem[NNH06]{nivre2006talbanken05}
+J.~Nivre, J.~Nilsson, and J.~Hall.
+\newblock {Talbanken05: A Swedish treebank with phrase structure and dependency
+  annotation}.
+\newblock In {\em Proceedings of the fifth International Conference on Language
+  Resources and Evaluation (LREC)}, pages 1392--1395. Citeseer, 2006.
+
+\bibitem[NRY07]{nilsson2007conll}
+J.~Nilsson, S.~Riedel, and D.~Yuret.
+\newblock {The CoNLL 2007 shared task on dependency parsing}.
+\newblock In {\em Proceedings of the CoNLL Shared Task Session of EMNLP-CoNLL},
+  pages 915--932, 2007.
+
+\bibitem[OAC{\etalchar{+}}04]{odersky2004overview}
+M.~Odersky, P.~Altherr, V.~Cremet, B.~Emir, S.~Maneth, S.~Micheloud,
+  N.~Mihaylov, M.~Schinz, E.~Stenman, and M.~Zenger.
+\newblock {An overview of the Scala programming language}.
+\newblock {\em LAMP-EPFL}, 2004.
+
+\bibitem[Qui93]{quinlan1993c4}
+J.R. Quinlan.
+\newblock {\em {C4. 5: programs for machine learning}}.
+\newblock Morgan Kaufmann, 1993.
+
+\bibitem[Sha48]{shannon1948mathematical}
+C.E Shannon.
+\newblock {A mathematical theory of communication. Bell Syst. Tech}.
+\newblock {\em Journal}, 27:1--65, 1948.
+
+\bibitem[SL91]{safavian1991survey}
+S.R. Safavian and D.~Landgrebe.
+\newblock {A survey of decision tree classifier methodology}.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  21(3):660--673, 1991.
+
+\bibitem[TSK05]{TanSK2005}
+Pang-Ning Tan, Michael Steinbach, and Vipin Kumar.
+\newblock {\em Introduction to Data Mining}.
+\newblock Addison-Wesley, 2005.
+
+\bibitem[YM03]{yamada2003statistical}
+H.~Yamada and Y.~Matsumoto.
+\newblock {Statistical dependency analysis with support vector machines}.
+\newblock In {\em Proceedings of IWPT}, volume~3. Citeseer, 2003.
+
+\end{thebibliography}

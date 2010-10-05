@@ -1,0 +1,6 @@
+To create the diagram use the following command:
+
+ploticus -eps create_candle_stick_diagram.pl
+     
+     
+

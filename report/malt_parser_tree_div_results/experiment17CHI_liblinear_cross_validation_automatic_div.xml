@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiment>
+	<optioncontainer>
+		<optiongroup groupname="config">
+			<option name="name" value="experiment1"/>
+			<option name="flowchart" value="learn"/>
+		</optiongroup>
+		<optiongroup groupname="singlemalt">
+			<option name="parsing_algorithm" value="nivreeager"/>
+		</optiongroup>
+		<optiongroup groupname="input">
+			<option name="infile" value="./data_train.conll"/>
+		</optiongroup>
+		<optiongroup groupname="nivre">
+			<option name="root_handling" value="relaxed"/>
+		</optiongroup>
+		<optiongroup groupname="pproj">
+			<option name="marking_strategy" value="head"/>
+		</optiongroup>
+		<optiongroup groupname="liblinear">
+			<option name="liblinear_options" value="-s_4_-c_0.1"/>
+		</optiongroup>
+		<optiongroup groupname="guide">
+			<option name="learner" value="liblinear"/>
+			<option name="features" value="chinese-plus.xml"/>
+			<option name="tree_automatic_split_order" value="yes"/>
+			<option name="tree_split_threshold" value="1000"/>
+		</optiongroup>
+	</optioncontainer>
+</experiment>

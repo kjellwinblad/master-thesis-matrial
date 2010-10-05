@@ -1,0 +1,54 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Problem Description}{2}
+\contentsline {subsection}{\numberline {1.1.1}Problem Statement}{2}
+\contentsline {subsection}{\numberline {1.1.2}Goals}{2}
+\contentsline {chapter}{\numberline {2}Background}{5}
+\contentsline {section}{\numberline {2.1}Dependency Grammar}{5}
+\contentsline {section}{\numberline {2.2}Dependency Parsing}{6}
+\contentsline {subsection}{\numberline {2.2.1}Measuring the Accuracy of Dependency Parsing Systems}{7}
+\contentsline {section}{\numberline {2.3}Support Vector Machines}{8}
+\contentsline {subsection}{\numberline {2.3.1}The Basic Support Vector Machine Concept}{8}
+\contentsline {subsection}{\numberline {2.3.2}The Kernel Trick}{8}
+\contentsline {subsection}{\numberline {2.3.3}The Extension to Support Multiple Class Classification}{9}
+\contentsline {section}{\numberline {2.4}Decision Trees}{9}
+\contentsline {subsection}{\numberline {2.4.1}Gain Ratio}{10}
+\contentsline {section}{\numberline {2.5}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{11}
+\contentsline {chapter}{\numberline {3}Hypotheses and Methodology}{13}
+\contentsline {section}{\numberline {3.1}Hypotheses}{13}
+\contentsline {section}{\numberline {3.2}Methods}{14}
+\contentsline {section}{\numberline {3.3}Tools}{14}
+\contentsline {subsection}{\numberline {3.3.1}MaltParser}{14}
+\contentsline {subsection}{\numberline {3.3.2}The Support Vector Machine Libraries LIBSVM and LIBLINEAR}{15}
+\contentsline {subsection}{\numberline {3.3.3}The Programming Language Used for the Experiments: Scala}{15}
+\contentsline {section}{\numberline {3.4}Data Sets}{16}
+\contentsline {chapter}{\numberline {4}Experiments}{17}
+\contentsline {section}{\numberline {4.1}Division of the Training Set With LIBLINEAR and LIBSVM}{17}
+\contentsline {subsection}{\numberline {4.1.1}Results and Discussion}{18}
+\contentsline {section}{\numberline {4.2}Accuracy of Partitions Created by Division}{19}
+\contentsline {subsection}{\numberline {4.2.1}Results and Discussion}{20}
+\contentsline {section}{\numberline {4.3}An Other Division of the Worst Performing Partitions After the First Division}{21}
+\contentsline {subsection}{\numberline {4.3.1}Results and Discussion}{21}
+\contentsline {section}{\numberline {4.4}Different Levels of Division}{22}
+\contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
+\contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}
+\contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}
+\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}
+\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{25}
+\contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}
+\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}
+\contentsline {chapter}{\numberline {5}MaltParser Plugin}{29}
+\contentsline {section}{\numberline {5.1}Implementation}{29}
+\contentsline {section}{\numberline {5.2}Usage}{29}
+\contentsline {chapter}{\numberline {6}Conclusions}{31}
+\contentsline {section}{\numberline {6.1}Limitations}{32}
+\contentsline {section}{\numberline {6.2}Future work}{32}
+\contentsline {chapter}{References}{33}
+\contentsline {chapter}{\numberline {A}Experiment Diagrams}{35}
+\contentsline {chapter}{\numberline {B}MaltParser Settings}{47}
+\contentsline {section}{\numberline {B.1}Basic Configuration}{47}
+\contentsline {section}{\numberline {B.2}Advanced Feature Extraction Models for Czech and English}{48}
+\contentsline {subsection}{\numberline {B.2.1}English Stack Projection}{49}
+\contentsline {subsection}{\numberline {B.2.2}English Stack Lazy}{49}
+\contentsline {subsection}{\numberline {B.2.3}Czech Stack Projection}{50}
+\contentsline {subsection}{\numberline {B.2.4}Czech Stack Lazy}{51}
+\contentsline {section}{\numberline {B.3}Configuration for Division and Decision Tree in Malt Parser}{51}
