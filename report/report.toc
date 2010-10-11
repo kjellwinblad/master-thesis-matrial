@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Measuring the Accuracy of Dependency Parsing Systems}{7}
 \contentsline {section}{\numberline {2.3}Support Vector Machines}{8}
 \contentsline {subsection}{\numberline {2.3.1}The Basic Support Vector Machine Concept}{8}
-\contentsline {subsection}{\numberline {2.3.2}The Kernel Trick}{8}
+\contentsline {subsection}{\numberline {2.3.2}The Kernel Trick}{9}
 \contentsline {subsection}{\numberline {2.3.3}The Extension to Support Multiple Class Classification}{9}
 \contentsline {section}{\numberline {2.4}Decision Trees}{9}
 \contentsline {subsection}{\numberline {2.4.1}Gain Ratio}{10}
@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.2}Accuracy of Partitions Created by Division}{19}
 \contentsline {subsection}{\numberline {4.2.1}Results and Discussion}{20}
 \contentsline {section}{\numberline {4.3}An Other Division of the Worst Performing Partitions After the First Division}{21}
-\contentsline {subsection}{\numberline {4.3.1}Results and Discussion}{21}
+\contentsline {subsection}{\numberline {4.3.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.4}Different Levels of Division}{22}
 \contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}

@@ -33,6 +33,14 @@ R.E. Fan, K.W. Chang, C.J. Hsieh, X.R. Wang, and C.J. Lin.
 \newblock {LIBLINEAR: A library for large linear classification}.
 \newblock {\em The Journal of Machine Learning Research}, 9:1871--1874, 2008.
 
+\bibitem[GE08]{goldberg2008splitsvm}
+Y.~Goldberg and M.~Elhadad.
+\newblock {splitSVM: fast, space-efficient, non-heuristic, polynomial kernel
+  computation for NLP applications}.
+\newblock In {\em Proceedings of the 46th Annual Meeting of the Association for
+  Computational Linguistics on Human Language Technologies: Short Papers},
+  pages 237--240. Association for Computational Linguistics, 2008.
+
 \bibitem[HCJ{\etalchar{+}}09]{Hajic09theconll-2009}
 Jan Haji\v{c}, Massimiliano Ciaramita, Richard Johansson, Daisuke Kawahara,
   Maria Ant{\`o}nia, Mart{\'i} Llu{\'i}s, M{\`a}rquez Adam, Meyers Joakim, and
