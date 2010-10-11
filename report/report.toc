@@ -51,4 +51,4 @@
 \contentsline {subsection}{\numberline {B.2.2}English Stack Lazy}{49}
 \contentsline {subsection}{\numberline {B.2.3}Czech Stack Projection}{50}
 \contentsline {subsection}{\numberline {B.2.4}Czech Stack Lazy}{51}
-\contentsline {section}{\numberline {B.3}Configuration for Division and Decision Tree in Malt Parser}{51}
+\contentsline {section}{\numberline {B.3}Configuration for Division and Decision Tree in Malt Parser}{52}
