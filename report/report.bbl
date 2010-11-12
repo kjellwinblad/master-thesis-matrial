@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{OAC{\etalchar{+}}04}
+\begin{thebibliography}{NHK{\etalchar{+}}07}
 
 \bibitem[BDH{\etalchar{+}}02]{brants2002tiger}
 S.~Brants, S.~Dipper, S.~Hansen, W.~Lezius, and G.~Smith.
@@ -15,8 +15,9 @@ B.E. Boser, I.M. Guyon, and V.N. Vapnik.
 
 \bibitem[BM06]{Buchholz06conll-xshared}
 Sabine Buchholz and Erwin Marsi.
-\newblock Conll-x shared task on multilingual dependency parsing.
-\newblock pages 149--164, 2006.
+\newblock {CoNLL-X} shared task on multilingual dependency parsing.
+\newblock In {\em {CoNLL-X} '06 Proceedings of the Tenth Conference on
+  Computational Natural Language Learning}, pages 149--164, 2006.
 
 \bibitem[CL01]{chang2001libsvm}
 C.C. Chang and C.J. Lin.
@@ -26,7 +27,7 @@ C.C. Chang and C.J. Lin.
 K.J. Chen, C.~Luo, M.~Chang, F.~Chen, C.~Chen, C.~Huang, and Z.M. Gao.
 \newblock {Sinica treebank: Design criteria, representational issues and
   implementation}.
-\newblock {\em Abeill{\'e} (Abeill{\'e}, 2003)}, pages 231--248, 2003.
+\newblock {\em Abeill{\'e}, 2003}, pages 231--248, 2003.
 
 \bibitem[FCH{\etalchar{+}}08]{fan2008liblinear}
 R.E. Fan, K.W. Chang, C.J. Hsieh, X.R. Wang, and C.J. Lin.
@@ -43,23 +44,26 @@ Y.~Goldberg and M.~Elhadad.
 
 \bibitem[HCJ{\etalchar{+}}09]{Hajic09theconll-2009}
 Jan Haji\v{c}, Massimiliano Ciaramita, Richard Johansson, Daisuke Kawahara,
-  Maria Ant{\`o}nia, Mart{\'i} Llu{\'i}s, M{\`a}rquez Adam, Meyers Joakim, and
-  Nivre~Sebastian Pad{\'o}.
-\newblock The conll-2009 shared task: Syntactic and semantic dependencies in
-  multiple languages, 2009.
+  Maria Ant{\`o}nia, Mart{\'i} Llu{\'i}s, M{\`a}rquez, Adam Meyers, Joakim
+  Nivre, and Sebastian Pad{\'o}.
+\newblock The {CoNLL-2009} shared task: Syntactic and semantic dependencies in
+  multiple languages.
+\newblock In {\em {CoNLL '09 Proceedings of the Thirteenth Conference on
+  Computational Natural Language Learning: Shared Task}}, 2009.
 
-\bibitem[HPH{\etalchar{+}}06]{hajic2006prague}
+\bibitem[HPH{\etalchar{+}}]{hajic2006prague}
 J.~Hajic, J.~Panevov{\'a}, E.~Hajicov{\'a}, P.~Sgall, P.~Pajas,
   J.~\v{S}tep{\'a}nek, J.~Havelka, M.~Mikulov{\'a}, Z.~Zabokrtsk{\`y}, and
   M.\v{S}. Raz{\i}mov{\'a}.
 \newblock {Prague Dependency Treebank 2.0}.
-\newblock {\em LDC2006T01, ISBN}, pages 1--58563, 2006.
+\newblock CD-rom.
+\newblock ISBN:1-58563-370-4.
 
 \bibitem[KMN09]{kubler2009dependency}
 S.~K\"{u}bler, R.~McDonald, and J.~Nivre.
-\newblock {Dependency parsing}.
-\newblock {\em Synthesis Lectures on Human Language Technologies}, 1(1):1--127,
-  2009.
+\newblock {\em {Dependency parsing}}.
+\newblock {Synthesis Lectures on Human Language Technologies}. Morgan \&
+  Claypool Publishers, 2009.
 
 \bibitem[KSC{\etalchar{+}}08]{keerthi2008sequential}
 S.S. Keerthi, S.~Sundararajan, K.W. Chang, C.J. Hsieh, and C.J. Lin.
@@ -67,10 +71,12 @@ S.S. Keerthi, S.~Sundararajan, K.W. Chang, C.J. Hsieh, and C.J. Lin.
 \newblock In {\em Proceeding of the 14th ACM SIGKDD international conference on
   Knowledge discovery and data mining}, pages 408--416. ACM, 2008.
 
-\bibitem[NHN06]{nivre2006maltparser}
-J.~Nivre, J.~Hall, and J.~Nilsson.
-\newblock {MaltParser: A data-driven parser-generator for dependency parsing}.
-\newblock In {\em Proceedings of LREC}, volume~6. Citeseer, 2006.
+\bibitem[NHK{\etalchar{+}}07]{nilsson2007conll}
+Joakim Nivre, Johan Hall, Sandra Kübler, Ryan McDonald, Jens Nilsson, Sebastian
+  Riedel, and Deniz Yuret.
+\newblock {The CoNLL 2007 shared task on dependency parsing}.
+\newblock In {\em Proceedings of the CoNLL Shared Task Session of EMNLP-CoNLL},
+  pages 915--932, 2007.
 
 \bibitem[Niv08]{nivre2008algorithms}
 J.~Nivre.
@@ -82,19 +88,7 @@ J.~Nivre, J.~Nilsson, and J.~Hall.
 \newblock {Talbanken05: A Swedish treebank with phrase structure and dependency
   annotation}.
 \newblock In {\em Proceedings of the fifth International Conference on Language
-  Resources and Evaluation (LREC)}, pages 1392--1395. Citeseer, 2006.
-
-\bibitem[NRY07]{nilsson2007conll}
-J.~Nilsson, S.~Riedel, and D.~Yuret.
-\newblock {The CoNLL 2007 shared task on dependency parsing}.
-\newblock In {\em Proceedings of the CoNLL Shared Task Session of EMNLP-CoNLL},
-  pages 915--932, 2007.
-
-\bibitem[OAC{\etalchar{+}}04]{odersky2004overview}
-M.~Odersky, P.~Altherr, V.~Cremet, B.~Emir, S.~Maneth, S.~Micheloud,
-  N.~Mihaylov, M.~Schinz, E.~Stenman, and M.~Zenger.
-\newblock {An overview of the Scala programming language}.
-\newblock {\em LAMP-EPFL}, 2004.
+  Resources and Evaluation (LREC)}, pages 1392--1395, 2006.
 
 \bibitem[Qui93]{quinlan1993c4}
 J.R. Quinlan.
@@ -120,6 +114,7 @@ Pang-Ning Tan, Michael Steinbach, and Vipin Kumar.
 \bibitem[YM03]{yamada2003statistical}
 H.~Yamada and Y.~Matsumoto.
 \newblock {Statistical dependency analysis with support vector machines}.
-\newblock In {\em Proceedings of IWPT}, volume~3. Citeseer, 2003.
+\newblock In {\em Proceedings of International Workshop on Parsing Technologies
+  (IWPT 2003)}, volume~3, 2003.
 
 \end{thebibliography}

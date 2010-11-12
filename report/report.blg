@@ -2,46 +2,55 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: report.aux
 The style file: alpha.bst
 Database file #1: base.bib
-Warning--empty booktitle in Buchholz06conll-xshared
-You've used 21 entries,
+I was expecting a `,' or a `}'---line 25 of file base.bib
+ :  
+ :  pages = {2216--2219}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 143 of file base.bib
+ : 
+ : year = {2006}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 19 entries,
             2543 wiz_defined-function locations,
-            680 strings with 8306 characters,
-and the built_in function-call counts, 10427 in all, are:
-= -- 1032
-> -- 594
-< -- 14
-+ -- 214
-- -- 213
-* -- 764
-:= -- 1681
-add.period$ -- 67
-call.type$ -- 21
-change.case$ -- 164
-chr.to.int$ -- 21
-cite$ -- 22
-duplicate$ -- 393
-empty$ -- 702
-format.name$ -- 230
-if$ -- 2160
+            671 strings with 8269 characters,
+and the built_in function-call counts, 9414 in all, are:
+= -- 920
+> -- 534
+< -- 12
++ -- 192
+- -- 191
+* -- 678
+:= -- 1514
+add.period$ -- 61
+call.type$ -- 19
+change.case$ -- 147
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 363
+empty$ -- 648
+format.name$ -- 206
+if$ -- 1956
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 107
-num.names$ -- 63
-pop$ -- 184
+missing$ -- 20
+newline$ -- 99
+num.names$ -- 57
+pop$ -- 177
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 169
 quote$ -- 0
-skip$ -- 344
+skip$ -- 312
 stack$ -- 0
-substring$ -- 548
-swap$ -- 108
-text.length$ -- 14
+substring$ -- 487
+swap$ -- 101
+text.length$ -- 12
 text.prefix$ -- 3
 top$ -- 0
-type$ -- 160
-warning$ -- 1
-while$ -- 97
-width$ -- 24
-write$ -- 272
-(There was 1 warning)
+type$ -- 140
+warning$ -- 0
+while$ -- 86
+width$ -- 23
+write$ -- 247
+(There were 2 error messages)
