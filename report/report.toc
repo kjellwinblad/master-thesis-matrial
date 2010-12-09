@@ -12,16 +12,16 @@
 \contentsline {subsection}{\numberline {2.4.3}The Extension to Support Multiple Class Classification}{9}
 \contentsline {section}{\numberline {2.5}Decision Trees}{9}
 \contentsline {subsection}{\numberline {2.5.1}Gain Ratio}{10}
-\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{12}
+\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{11}
 \contentsline {chapter}{\numberline {3}Hypotheses and Methodology}{13}
 \contentsline {section}{\numberline {3.1}Hypotheses}{13}
-\contentsline {section}{\numberline {3.2}Methods}{14}
+\contentsline {section}{\numberline {3.2}Methods}{13}
 \contentsline {section}{\numberline {3.3}Tools}{14}
 \contentsline {subsection}{\numberline {3.3.1}MaltParser}{14}
-\contentsline {subsection}{\numberline {3.3.2}The Support Vector Machine Libraries LIBSVM and LIBLINEAR}{15}
+\contentsline {subsection}{\numberline {3.3.2}The Support Vector Machine Libraries LIBSVM and LIBLINEAR}{14}
 \contentsline {section}{\numberline {3.4}Data Sets}{15}
 \contentsline {chapter}{\numberline {4}Experiments}{17}
-\contentsline {section}{\numberline {4.1}Division of the Training Set With Linear and Nonlinear SVM}{17}
+\contentsline {section}{\numberline {4.1}Division of the Training Set With Linear and Nonlinear SVMs}{17}
 \contentsline {subsection}{\numberline {4.1.1}Results and Discussion}{18}
 \contentsline {section}{\numberline {4.2}Accuracy of Partitions Created by Division}{19}
 \contentsline {subsection}{\numberline {4.2.1}Results and Discussion}{20}
@@ -31,8 +31,8 @@
 \contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}
 \contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}
-\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}
-\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{26}
+\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{24}
+\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{25}
 \contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}
 \contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}
 \contentsline {chapter}{\numberline {5}MaltParser Plugin}{29}

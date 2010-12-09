@@ -16,7 +16,7 @@
 \author{Kjell Winblad}
 \credits{30} 			% Use 15, 30, or 2*30 ECTS-credits (or hp if in Swedish)
 \supervisor{Olle Gällmo}
-\externalsupervisor{Joakim Nivre, Marco Kuhlmann}
+\externalsupervisor{Joakim Nivre}
 %Different persons act as examiner for different Theses Projects/Courses
 %Starting in F all 2009 the following are the examiners for different Theses Projects:
 %Bachelor in Computing Science, 5DV096 (Kandidat i datavetenskap)
@@ -47,9 +47,9 @@
 
 %Inductive Dependency Parsing has got a lot of attetntion the reacent years for it 
 
-Syntax parsing of natural language can be done with a technique called inductive dependency parsing which is also often referred to as data driven dependency parsing. Data driven dependency parsing makes use of machine learning method to train a classifier that leads the parser. In this report an attempt to improve the state of the art classifier for data driven dependency parsing is presented. 
+Syntax parsing of natural language can be done with a technique called inductive dependency parsing which is also often referred to as data driven dependency parsing. Data driven dependency parsing makes use of a machine learning method to train a classifier that leads the parser. In this report an attempt to improve the state of the art classifier for data driven dependency parsing is presented.
 
-It has been found experimentally that division of the training data by a feature can increase the accuracy of a dependency parsing system when the partitions created by the division are trained with linear Support Vector Machines. It has also been shown that the training and testing time can be significantly improved and that accuracy does not suffer much when this kind of division strategy is used together with nonlinear Support Vector Machines. Experiments with decision trees that use linear Support Vector Machines in the leaf nodes showed that a small improvement of the accuracy can be gained with that technique compared to simply dividing by one feature. 
+It has been found experimentally that division of the training data by a feature can increase the accuracy of a dependency parsing system when the partitions created by the division are trained with linear Support Vector Machines. It has also been shown that the training and testing time can be significantly improved and that the accuracy does not suffer much when this kind of division strategy is used together with nonlinear Support Vector Machines.  The results of experiments with decision trees that use linear Support Vector Machines in the leaf nodes indicates that a small improvement of the accuracy can be gained with that technique compared to simply dividing by one feature and training the resulting partitions with linear Support Vector Machines. 
 
 
 
@@ -77,7 +77,7 @@ It has been found experimentally that division of the training data by a feature
 
 Parsning av naturligt språk kan göras med en teknik som kallas induktiv dependensparsning som ofta också kallas databaserad dependensparsning. Databaserad dependensparsning använder en maskininlärningsmetod för att träna en klassificerare som leder parsern. I den här rapporten presenteras ett försök att förbättra en av de bästa metoderna som finns idag för dependensparsning. 
 
-Det har visats i experiment att delning av träningsdata baserat på värdet av en egenskap hos träningsexemplen kan förbättra parsningsresultatet för ett dependensparsningssystem när delarna som har skapats vid uppdelningen tränas med linjära stödvektormaskiner. Det har också visats att tiden det tar att träna och testa kan förbättras avsevärt och att parsningsresultatet inte förändras mycket när den här typen av uppdelnings strategier används tillsammans med ickelinjära stödvektormaskiner. Experiment med beslutsträd som använder linjära stödvektormaskiner i lövnoderna av beslutsträdet har visat att en liten förbättring av parsningsresultatet kan fås med tekniken jämfört med att göra en enkel uppdelning av träningsdatat baserat på en egenskap hos träningsexemplen.
+Det har visats i experiment att delning av träningsdata baserat på värdet av en egenskap hos träningsexemplen kan förbättra parsningsresultatet för ett dependensparsningssystem när delarna som har skapats vid uppdelningen tränas med linjära stödvektormaskiner. Det har också visats att tiden det tar att träna och testa kan förbättras avsevärt och att parsningsresultatet inte förändras mycket när den här typen av uppdelnings strategier används tillsammans med ickelinjära stödvektormaskiner. Resultaten från experiment med beslutsträd som använder linjära stödvektormaskiner i lövnoderna av beslutsträdet tyder på att en liten förbättring av parsningsresultatet kan fås med tekniken jämfört med att göra en enkel uppdelning av träningsdatat och träna de resulterande delarna med linjära stödvektormaskiner.
 
 %Dependensparsning har fått en ökad popularitet de senaste åren för parsning av naturligt språk. Detta är troligtvis på grund av att tekniken är robust och att den ger ger bra parsningsresultat. Det beror på att dependensgrammatik har några egenskaper som gör att det går att sätta upp parsnings-system som kan tränas med maskininlärningstekniker på en datamängd som innehåller syntaxträd för meningar utan att en formell grammatik behövs.
 
@@ -113,7 +113,7 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
   %This thesis project contains an investigation about the division strategy described above described above. 
 
-  The project contains experimentation and analysis with the aim to explain and confirm the improved result gained by using the division strategy together with linear SVMs described above. It also contains experiments with a more advanced tree division strategy. An implementation of the more advanced tree division strategy has been done as a plug in to the dependency parsing system MaltParser\footnote{MaltParser is an open source software package that can be downloaded from: ''http://maltparser.org''.}.
+  This report contains experimentation and analysis with the aim to explain and confirm the improved result gained by using the division strategy together with linear SVMs described above. It also contains experiments with a more advanced tree division strategy. An implementation of the more advanced tree division strategy has been done as a plug in to the dependency parsing system MaltParser\footnote{MaltParser is an open source software package that can be downloaded from: ''http://maltparser.org''.}.
 
   The rest of this chapter describes the problems that are dealt with in this thesis work and the goals of the thesis. Chapter~\ref{ch:background} will explain the technologies that are needed to be able to understand the results of this thesis, namely Dependency Parsing and SVMs. Chapter~\ref{ch:hypotheses_and_methodology} explains the hypotheses that are tested by the experiments and describes the software that have been used as well as the data sets. Chapter~\ref{ch:experiments} goes through the experiments performed and discusses the aim of them as well as the results. Chapter~\ref{ch:maltparser_plugin} describes the implementation and usage of the new plugin created for MaltParser. Finally, chapter~\ref{ch:conclusions} discusses the achievements of the work as well as its limitations and possible future work.
 
@@ -148,25 +148,27 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 \section{Problem Description}
 %Give a detailed description of the project and what exactly is your task. Remember to keep the description at a level such that a person with an education corresponding to yours and your fellow students should understand.
 
-  This chapter describes the initial tasks as they were formulated in the beginning of the project. It also describes the goals of the project and why these goals were desirable to accomplish. How the goals are met is described in chapter~\ref{ch:conclusions}. 
+  This section describes the initial tasks as they were formulated in the beginning of the project. It also describes the goals of the project and why these goals were desirable to accomplish. How the goals are met is described in chapter~\ref{ch:conclusions}. 
 
 %This part might be split in several subtitles. See examples below.
 
   \subsection{Problem Statement}
 %Describe what was the aim/goal of the project and your part of it. What are the restrictions for the prototype you should create.
-    The aim of the thesis work is to study dependency parsing and in particular the oracle function used to determine the next step in the parsing procedure. Different machine learning methods for creating this oracle function will be created and analyzed. Some results indicate that when a linear SVM is used the performance of the classifier can increase if the training set is divided to create several classifiers that are concatenated to create the final classifier. Division in this context means that every instance of the training data is mapped to one out of several partitions depending on the value of a feature. One aim of this project is to find an explanation for this result. If it turns out that the experiments and studies of machine learning methods show that it could be useful to implement a new feature in the parsing system MaltParser, it will also be a part of this project to do such an implementation, if the time limit permits. %An other factor that decides if an implementation of a new feature into MaltParser will be done is the amount of time that is left after the experimentation and analysis.
+    The aim of the thesis work is to study dependency parsing and in particular the oracle function used to determine the next step in the parsing procedure. 
+%Different machine learning methods for creating this oracle function will be created and analyzed. Some results indicate that when a linear SVM is used the performance of the classifier can increase if the training set is divided to create several classifiers that are concatenated to create the final classifier. Division in this context means that every instance of the training data is mapped to one out of several partitions depending on the value of a feature. One aim of this project is to find an explanation for this result. 
+    If it turns out that the experiments and studies of machine learning methods show that it could be useful to implement a new feature in the parsing system MaltParser, it will also be a part of this project to do such an implementation, if the time limit permits. %An other factor that decides if an implementation of a new feature into MaltParser will be done is the amount of time that is left after the experimentation and analysis.
 
   \subsection{Goals}
   \label{sec:goals}
     The goals of this project can be summarized in the following list: 
 
     \begin{description}
-      \item[Goal number 1] is to find out more in detail than what previously have been done how division effects the performance of the oracle function. Performance in this case refers to training time (the time it takes to train the classifier), testing time (how fast the classifier is when classifying instances) and the accuracy (how well the resulting oracle function performs inside the dependency parsing system in terms of measures such as percentage of correct labels compared to a correct syntax tree). This is interesting because it is known that division in some cases has a positive effect on the accuracy, but it is not very clear in which situations it has a positive effect on the accuracy. More insight into this can lead to new implementations of the oracle function which may have faster training time as well as acceptable or possibly even better accuracy than has been obtained so far.
+      \item[Goal number 1] is to find out more in detail than what previously have been done how division effects the performance of the oracle function. Performance in this case refers to training time (the time it takes to train the classifier), testing time (how fast the classifier is when classifying instances) and the accuracy (how well the resulting oracle function performs inside the dependency parsing system in terms of measures such as percentage of correct labels compared to a correct syntax tree). This is interesting because it is known that division in some cases has a positive effect on the accuracy, but it is not very clear in which situations it has a positive effect on the accuracy. More insight into this can lead to new implementations of the oracle function which may have faster training time as well as acceptable or possibly even better accuracy than what has been obtained so far.
       
       \item[Goal number 2] is to do an analysis about the theoretical reason for the effect that the division has. This goal can be seen as a subgoal of \emph{goal number 1}. The difference between this goal and \emph{goal number 1} is that this goal emphasis on why division effects the accuracy whereas \emph{goal number 1} is more about in what way division effects the training, for example how much different is the accuracy when division is used from when no division is used.  This may lead to new ideas about how to improve the accuracy of the classifier as well as new insight into the characters of the classification problem. 
       
       \item[Goal number 3] is to implement an alternative oracle function into MaltParser, if the investigations described above shows that it could be useful. %Even if the results does not show that a oracle function with better accuracy than the best so far which is a nonlinear SVM, it could be useful with a classifier that works nearly as well and have much better training and testing time. 
-      The difference in training time for a linear SVM and a nonlinear SVM is big. A shorter training time could be of help when parsing methods are tested. As an example, a training time for a nonlinear SVM on a dependency parsing problem can be about a week when the linear version of the classifier can be trained within a few hours. Therefore, it could be useful with a new type of oracle function even if its accuracy is not better than the state of the art, if it has a much faster training time.
+      The difference in training time for a linear SVM and a nonlinear SVM is big. A shorter training time could be of help when parsing methods are tested. As an example, a training time for a nonlinear SVM on a dependency parsing problem can be about a week when the linear version of the classifier can be trained within a few hours. Therefore, it could be useful with a new type of oracle function even if its accuracy is not better than the state of the art, if it has a faster training time.
     \end{description}
 
 %\section{Purposes}
@@ -179,12 +181,12 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
   A dependency parser is a system that parse sentences from a natural language into tree structures that belong to a dependency grammar. Dependency parsers often make use of machine learning methods to guide the parser. One of the machine learning methods that have shown the best results is Support Vector Machines (SVMs). How all these concepts fit together will be explained in the rest of the sections in this chapter.
 
-  Dependency Parsing is studied in the research fields computational linguistics and linguistics. SVMs are studied in the research field Machine Learning. 
+  Dependency Parsing is studied in the research fields computational linguistics and linguistics. SVMs are studied in the research field machine learning. 
 
 %  This chapters explains the three subjects Dependency Parsing, Support Vector Machines (SVMs) and decision trees as well as related concepts that are necessary to have an understanding of in order to understand the rest of the chapters in this report. 
 
   \section{Dependency Grammar} 
-    A dependency grammar like other grammatical frameworks describe the syntactic structure of sentences. Dependency grammar differs from other grammatical frameworks because the syntax is described as a directed graphs where the labeled edges represents dependencies between words. The graph in figure~\ref{fig:dependency_grammar_graph} gives an example of such a structure.
+    A dependency grammar like other grammatical frameworks describe the syntactic structure of sentences. Dependency grammar differs from other grammatical frameworks because the syntax is described as directed graphs where the labeled edges represents dependencies between words. The graph in figure~\ref{fig:dependency_grammar_graph} gives an example of such a structure.
 
 \footnotetext[1]{The figure is created by the open source tool ''What's Wrong With My NLP?'' that can be found at  the location ''http://whatswrong.googlecode.com''.}
     \begin{figure}[htb] 
@@ -212,13 +214,13 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
  
   \item A set of labeled arcs $T$ from one word to another word. The set is empty in the initial state.
  
-  \item A stack $S$ containing words that are partially parsed. The stack only contains the artificial word ROOT in the initial configuration. The artificial word ROOT is added for convenience. The ROOT word will always be the root of the parsed tree.  
+  \item A stack $S$ containing words that are partially parsed. The stack only contains an artificial word called ROOT in the initial configuration. The artificial word ROOT is added for convenience. The ROOT word will always be the root of the parsed tree.  
  
   \item A buffer $B$ containing words still to be processed. The first element in the buffer can be said to be under processing since an arc can be created between it and the top word in the stack and there is a rule that replaces the first word in the buffer with the first word on the stack. In the initial state the buffer contains the words in the sentence to be parsed with the first word of the sentence at the first position in the buffer and the second word in the sentence at the second position in the buffer etc. The configuration in which the buffer is empty defines the end of the parsing.
 
 \end{itemize}
 
-  The followin notations for instructions that changes the configuration are used in the descriptions of the rules used in the basic system:
+  The following notations for instructions that changes the configuration are used in the descriptions of the rules used in the basic system:
 
 \begin{description}
  
@@ -228,7 +230,7 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
   \item[Replace the first word $w_{1}$ in $B$ with $w_{2}$] means that the first word $w_{1}$ in the buffer $B$ shall be replaced with the word $w_{2}$.
 
-  \item[Remove the frist word $w$ in $B$] means that the first word $w$ in the buffer $B$ shall be removed from the buffer $B$.
+  \item[Remove the first word $w$ in $B$] means that the first word $w$ in the buffer $B$ shall be removed from the buffer $B$.
 
   \item[Push $w$ to $S$] means that the word $w$ shall be pushed to the top of the stack $S$.
 
@@ -238,11 +240,11 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
 \begin{description}
  
-  \item[LEFT-ARC] Pop $w_{1}$ from $S$ and add the arc $(w_{2}, l, w_{1})$ to $T$, where $w_{2}$ is the first word in $B$. A precondition for this rule to be alowed to be applied is that $W_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
+  \item[LEFT-ARC] Pop $w_{1}$ from $S$ and add the arc $(w_{2}, l, w_{1})$ to $T$, where $w_{2}$ is the first word in $B$. A precondition for this rule to be allowed to be applied is that $W_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
 
  \item[RIGHT-ARC] Pop $w_{1}$ from $S$, replace the first word $w_{2}$ in $B$ with $w_{1}$ and add the arc $(w_{1}, l, w_{2})$ to $T$.
 
- \item[SHIFT] Remove the frist word $w$ in $B$ and push $w$ to $S$.
+ \item[SHIFT] Remove the first word $w$ in $B$ and push $w$ to $S$.
 
  \end{description}
 
@@ -254,20 +256,21 @@ See section 2.1.2 in \cite{kubler2009dependency} for an explanation of what it m
 } 
 can be constructed by the rules \cite{nivre2008algorithms}.
 
-    The selection of which rule to apply in a given state needs to be done by an oracle that knows the path to a correctly parsed tree. The oracle can be approximated by any machine learning method. To be able to use a standard machine learning classifier the state needs to be transformed to a list of numerical features. Which features that are most useful for classification depends on which language should be parsed and the selection of features are often done by people with a lot of domain specific knowledge. One of the most successful machine learning methods that have been used for oracle approximation is Support Vector Machines (SVMs) with the Kernel Trick. Most of the experiments carried out during the thesis work has been done with SVMs without the kernel trick which has the advantage compared to SVMs with the kernel trick that the training and testing time is considerably smaller, but the disadvantage that the accuracy usually is a little bit worse. The general idea for how SVMs work will be explained in section~\ref{sec:svm}.
+    The selection of which rule to apply in a given state needs to be done by an oracle that knows the path to a correctly parsed tree. The oracle can be approximated by any machine learning method. To be able to use a standard machine learning classifier the state needs to be transformed to a list of numerical features. Which features that are most useful for classification depends on which language should be parsed and the selection of features are often done by people with a lot of domain specific knowledge. One of the most successful machine learning methods that have been used for oracle approximation is Support Vector Machines (SVMs) with the Kernel Trick also called nonlinear SVMs. %Most of the experiments carried out during the thesis work has been done with SVMs without the kernel trick which has the advantage compared to SVMs with the kernel trick that the training and testing time is considerably smaller, but the disadvantage that the accuracy usually is a little bit worse. 
+    The general idea for how SVMs work is explained in section~\ref{sec:svm}.
 
     It has been proven that both the basic system and Nivre arc-eager can parse sentences with the time complexity $O(N)$ given the assumption that the oracle function approximation runs in constant time \cite{nivre2008algorithms}. 
 
     \section{Measuring the Accuracy of Dependency Parsing Systems}
       The Labeled Attachment Score (LAS) is a commonly used measurement used to evaluate dependency parsing systems that is used in the experiments presented in chapter~\ref{ch:experiments}. The LAS is the percentage of words in the parsed sentences that have got the correct head attached to it with the correct label. The head of a word is the word that it depends on. %In the system presented in section~\ref{sec:dependency_parsing} the word in the root of the tree will have the special ROOT word as head and the special ROOT word is not included when the LAS is calculated. 
 
-      Other measures that are commonly used is Unlabeled Attachment Score which is the same as LAS but without any check of the label and the exact match measure that is the percentage of the number of sentences that exactly match the reference sentences.
+      Other measures that are commonly used is Unlabeled Attachment Score which is the same as LAS but without any check of the label and the exact match measure that is the percentage of sentences that exactly match the reference sentences.
 
   \section{Support Vector Machines}
     \label{sec:svm}
     Support Vector Machines (SVMs) are a machine learning techniques for classification. The basic linear SVM can only separate classification instances that can belong to one of two classes that are linearly separable. Through extensions of the basic concept it is possible to use variants of the basic SVM to classify nonlinearly separable data into many classes \cite{boser1992training}.  
 
-    Because the exact description of how SVMs work is such a complex topic involving advanced mathematical concepts, only the most fundamental idea behind it and the concepts necessary to understand the results of the thesis project will be explained here. Chapter 5.5 in the book Introduction to Data Mining by Tan and Steinbach and Kumar \cite{TanSK2005} is recommended to get a more in depth explanation of SVMs.
+    Because the exact description of how SVMs work is such a complex topic involving advanced mathematical concepts, only the most fundamental idea behind it and the concepts necessary to understand the results of the the experiments described in this report will be explained here. Chapter 5.5 in the book Introduction to Data Mining by Tan and Steinbach and Kumar \cite{TanSK2005} is recommended to get a more in depth explanation of SVMs.
 
     \subsection{The Basic Support Vector Machine Concept}
       The idea behind SVMs is to find the hyperplane in the space of the classification instances that separate the classes with the maximum margin to the nearest instance. This is illustrated in figure \ref{fig:maximum_margin_diagram} where the bold line is the hyperplane in 2-dimensional space that separate the square class from the circle class with the maximum margin. The two parallel lines illustrate where the borders are for which the margin should be maximized.
@@ -399,7 +402,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
       
       \item The smaller the partitions of the division becomes the more accurate the individual subclassifiers will become to some point when the accuracy will become worse because of lack of generalization. This is a well known principle in machine learning and this hypothesis was created to confirm that it applies to this particular problem as well. The hypothesis was created when experiments strongly supported \emph{hypothesis~1 and 2} as a working hypothesis to improve the accuracy of the classifier even further.
       
-      \item There exists a way to automatically create a division strategy that can by itself decide when to stop dividing to avoid lack of generalization and that gives better accuracy than no division. There exist a lot of intuitive knowledge about which features that are important for the classification in dependency parsing systems, but the knowledge may be language and system specific so a way to automatically calculate a good division strategy can be of practically usefulness as well as of theoretical interest. 
+     % \item There exists a way to automatically create a division strategy that can by itself decide when to stop dividing to avoid lack of generalization and that gives better accuracy than no division. There exist a lot of intuitive knowledge about which features that are important for the classification in dependency parsing systems, but the knowledge may be language and system specific so a way to automatically calculate a good division strategy can be of practically usefulness as well as of theoretical interest. 
      
     \end{enumerate}
 
@@ -416,18 +419,18 @@ can be constructed by the rules \cite{nivre2008algorithms}.
     %The results of the experiments were documented in documents where graphs and result tables etc were presented. The results were also analyzed and discussed with the supervisors. In retrospective it would have been much better to spend more time on the experiment just performed to write down a everything that could be of interest from the analysis, instead of writing down all analysis in the end of the project.
 
   \section{Tools}
-    Many different software tools have been used during the thesis work. In this sections the most important tools will be presented together with a short description. %Some of the tools are irrelevant for the results of the experiments but will be presented anyway because the lessons learned from them might be of interest for other reasons.
+    Many different software tools have been used during the thesis work. The most important tools are presented in the following sections. %Some of the tools are irrelevant for the results of the experiments but will be presented anyway because the lessons learned from them might be of interest for other reasons.
 
     \subsection{MaltParser}
       MaltParser is an open source data driven transition-based dependency parsing system. It is written in the Java programming language. The main developers are Johan Hall, Jens Nilsson and Joakim Nivre at Växjö University and Uppsala University. It has been proved to be one of the best performing systems by getting the top score in the competition CoNLL Shared Task 2007 on Dependency Parsing. The system is very configurable which makes it possible to optimize it for different languages. The system is written to be easy to extend by writing plugins to replace components such as the machine learning method.
 
       The MaltParser system can be run in two different modes. The first mode is the training mode where the input is configurations for the machine learning technique to use, a feature extraction model, dependency parsing algorithm settings and training data consisting of sentences with corresponding dependency trees. The output of the training phase is a model used to build the oracle function approximation used to decide the next step during parsing. The second mode is called parsing mode which takes a model created in the training mode and sentences to parse. The output of that mode is sentences with corresponding trees in the same format as the training set. The MaltParser settings used in the experiments are described in appendix~\ref{cha:appendix_maltparser_settings}.
 
-      To measure the accuracy of the parsed sentences an external tool named eval07.pl\footnote{The measurement tool can be found in the dependency parsing wiki ''http://depparse.uvt.nl/depparse-wiki/SoftwarePage''.} has been used. 
+      To measure the accuracy of the parsed sentences an external tool named eval07.pl\footnote{The measurement tool eval07.pl can be found in the dependency parsing wiki ''http://depparse.uvt.nl/depparse-wiki/SoftwarePage''.} has been used. 
       
     \subsection{The Support Vector Machine Libraries LIBSVM and LIBLINEAR}
       \label{sec:liblinear_libsvm}
-      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries. LIBLINEAR implements linear SVMs and LIBSVM implement SVMs with the Kernel Trick \cite{chang2001libsvm, fan2008liblinear}
+      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. LIBLINEAR implements linear SVMs and LIBSVM implements nonlinear SVMs. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries. LIBLINEAR implements linear SVMs and LIBSVM implement SVMs with the Kernel Trick \cite{chang2001libsvm, fan2008liblinear}
 
       The settings for the two libraries used in the experiments are presented in appendix~\ref{app:LIBLINAR_and_LIBSVM_settings}.
 
@@ -500,17 +503,17 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
   In the following sections, the experiments conducted in this work are presented. The experiments are related to the hypotheses presented in section~\ref{sec:hypotheses}. The \emph{Results and Discussion} sections in this chapter often refer to the different hypotheses. The experiments can be seen as dependent on each other because after an experiment was finished, the next experiment to be conducted was decided based on the results of the previous experiments. The experiments were conducted in the same order as they are presented in.% For parameters used for LIBLINEAR and LIBSVM in the experiments see section~\ref{sec:liblinear_libsvm}. For description of the data sets used in the experiments see section~\ref{sec:data_sets}.
 
-  \section{Division of the Training Set With Linear and Nonlinear SVM}
+  \section{Division of the Training Set With Linear and Nonlinear SVMs}
     \label{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}
     The aim of this experiment is to look at differences in training time, parsing time and parsing accuracy when MaltParser is configured to divide the training data on a particular feature or not to divide the training data and to use a linear SVM (LIBLINEAR) or a nonlinear SVM (LIBSVM) as learning method. The experiment was done with three different languages to see if the results are the same independently of the language.
 
     The following training methods were tested in the experiment:
 
 \begin{itemize}
- \item Linear SVM (LIBLINEAR) with division of the training set
- \item Linear SVM (LIBLINEAR) without division of the training set
- \item Nonlinear SVM (LIBSVM) with division of the training set
- \item Nonlinear SVM (LIBSVM) without division of the training set
+ \item Linear SVM with division of the training set
+ \item Linear SVM without division of the training set
+ \item Nonlinear SVM with division of the training set
+ \item Nonlinear SVM without division of the training set
 \end{itemize}
 
     When division was used the training data was divided by the feature representing the POSTAG property of the first element in the buffer. A test set was picked out from the original data set containing 10\% of instances. Eight different training sets were created from the remaining training instances where one contained all training instances, the next one half and the third one contained one forth etc until the last one that contained $\frac{1}{128}$ of the original training instances. The MaltParser configuration used in the experiment is explained in appendix~\ref{sec:appendix_LIBLINEAR_DIV}.
@@ -523,7 +526,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
  
   \begin{center}
 \begin{tabular}{l l | | l l l l l l l l}
-\multicolumn{10}{c}{\textbf{LIBLINEAR}} \\
+\multicolumn{10}{c}{\textbf{Linear SVM}} \\
 \textbf{Size} & & \textbf{1/128} & \textbf{1/64} & \textbf{1/32} & \textbf{1/16} & \textbf{1/8} & \textbf{1/4} & \textbf{1/2} & \textbf{1} \\ \hline \hline
 \multirow{3}{*}{\textbf{Swedish Div}}  
  & \textbf{TR} & $0.01$ & $0.01$ & $0.02$ & $0.03$ & $0.06$ & $0.18$ & $0.40$ & $0.78$ \\
@@ -572,7 +575,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
  
   \begin{center}
 \begin{tabular}{l l | | l l l l l l l l}
-\multicolumn{10}{c}{\textbf{LIBSVM}} \\
+\multicolumn{10}{c}{\textbf{Nonlinear SVM}} \\
 \textbf{Size} & & \textbf{1/128} & \textbf{1/64} & \textbf{1/32} & \textbf{1/16} & \textbf{1/8} & \textbf{1/4} & \textbf{1/2} & \textbf{1} \\ \hline \hline
 \multirow{3}{*}{\textbf{Swedish Div}}  
  & \textbf{TR} & $0.01$ & $0.03$ & $0.05$ & $0.10$ & $0.17$ & $0.39$ & $1.51$ & $5.63$ \\
@@ -663,7 +666,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
   \label{sec:an_other_division_of_the_worst_performing_partitions_after_the_first_division}
     The hypothesis tested in this experiment is if the accuracy of the worst partitions created by division are bad because the feature selected for division was not relevant for the instances in these partitions. The experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} showed that the division that was made created some partitions with good accuracy and some with worse. The span of the accuracy of the partitions is big, which gives a reason to believe that the division was not the best for all partitions and that another division or no division could be better for the worst performing ones.
 
-    All partitions that had worse than the weighted average accuracy for the partitions in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} were concatenated to a new chunk of training data. That new chunk of training data was then trained by cross validation and a linear SVM (LIBLINEAR) everything at once and after division with the feature representing the POSTAG property of the first element on the stack (feature 2). The feature used to divide the training data in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} represents the POSTAG property of the first element in the buffer (feature 1).  The same was done for the partitions with better than average accuracy.
+    All partitions that had worse than the weighted average accuracy for the partitions in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} were concatenated to a new chunk of training data. That new chunk of training data was then trained by cross validation and a linear SVM (LIBLINEAR) everything at once and after division with the feature representing the POSTAG property of the first element on the stack (feature~2). The feature used to divide the training data in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} represents the POSTAG property of the first element in the buffer (feature~1).  The same was done for the partitions with better than average accuracy.
 
     
 
@@ -698,9 +701,9 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
 \subsection{Results and Discussion}
 
-      The results from the execution of the experiment is presented in table~\ref{tab:experiment_divide_with_an_other_feature_after}. Division on feature 1 generally gives better accuracy than feature 2. The partitions that had better than average accuracy when dividing on feature 1 seems to be about the same amount better than the rest even without division. Division with feature 2 gives worse result than no division at all for all languages except German. 
+      The results from the execution of the experiment is presented in table~\ref{tab:experiment_divide_with_an_other_feature_after}. Division on feature~1 generally gives better accuracy than feature~2. The partitions that had better than average accuracy when dividing on feature~1 seems to be about the same amount better than the rest even without division. Division with feature~2 gives worse result than no division at all for all languages except German. 
 
-      The result does not indicate that the worst partitions after division with feature 1 were bad because the division had bad impact on them. Instead it seems like the division has good impact even on the partitions with worse than the weighted average for all language but Chinese where the accuracy is a little bit worse with division than without. The fact that dividing on another feature did not make the partitions that had worse than average accuracy after division with feature 1 get much better or worse accuracy suggests that the training instances that they represent are harder to separate independently of which division feature is chosen to divide on. It is also possible that feature 2 is very similar to feature 1. Another division feature could give another result so more division features need to be tested to be able to say something for certain. 
+      The result does not indicate that the worst partitions after division with feature~1 were bad because the division had bad impact on them. Instead it seems like the division has good impact even on the partitions with worse than the weighted average for all language but Chinese where the accuracy is a little bit worse with division than without. The fact that dividing on another feature did not make the partitions that had worse than average accuracy after division with feature~1 get much better or worse accuracy suggests that the training instances that they represent are harder to separate independently of which division feature is chosen to divide on. It is also possible that feature~2 is very similar to feature~1. Another division feature could give another result so more division features need to be tested to be able to say something for certain. 
 %TODO maybe it is possible to write something more clear here.
 
   \section{Different Levels of Division}
@@ -715,19 +718,21 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 \begin{table}[htb]
  
   \begin{center}
-\begin{tabular}{l | | l l l }
-  & \textbf{No Division} & \textbf{1 Division} & \textbf{2 Divisions} \\ \hline \hline
-\textbf{Swedish} &                  $90.9162$ & $91.1496*$ & $90.9787$ \\ \hline
-\textbf{Chinese} &                  $92.0441$ & $92.0889$ & $92.1678*$ \\ \hline
-\textbf{German} &                   $91.0386$ & $92.6778$ & $92.7075*$ \\ \hline
-\textbf{Czech Stack Lazy} &         $89.9787$ & $91.1751$ & $91.8522*$ \\ \hline
-\textbf{Czech Stack Projection} &   $89.7828$ & $91.0158$ & $91.6156*$ \\ \hline
-\textbf{English Stack Lazy} &       $94.3736$ & $94.7557$ & $94.9537*$ \\ \hline
-\textbf{English Stack Projection} & $94.4000$ & $94.7626$ & $95.0080*$ \\ \hline \hline
-\textit{\textbf{Average}} &                  \textit{92.0479} & \textit{92.7576} & \textit{93.0013*} \\ 
+\noindent\makebox[\textwidth]{%
+\begin{tabular}{l | | l l l l l }
+  & \textbf{No Div.} & \textbf{Sign.} & \textbf{1 Div.} & \textbf{Sign.} & \textbf{2 Div.} \\ \hline \hline
+\textbf{Swedish} &                  $90.9162$ & $<(70\%)$ & $91.1496*$ & $>(55\%)$ & $90.9787$ \\ \hline
+\textbf{Chinese} &                  $92.0441$ & $<(20\%)$ & $92.0889$ & $<(36\%)$ & $92.1678*$ \\ \hline
+\textbf{German} &                   $91.0386$ & $<(99\%)$ & $92.6778$ & $<(21\%)$ & $92.7075*$ \\ \hline
+\textbf{Czech Stack Lazy} &         $89.9787$ & $<(99\%)$ & $91.1751$ & $<(99\%)$ & $91.8522*$ \\ \hline
+\textbf{Czech Stack Projection} &   $89.7828$ & $<(99\%)$ & $91.0158$ & $<(99\%)$ & $91.6156*$ \\ \hline
+\textbf{English Stack Lazy} &       $94.3736$ & $<(99\%)$ & $94.7557$ & $<(99\%)$ & $94.9537*$ \\ \hline
+\textbf{English Stack Projection} & $94.4000$ & $<(99\%)$ & $94.7626$ & $<(99\%)$ & $95.0080*$ \\ \hline \hline
+\textit{\textbf{Average}} &                  \textit{92.0479} & & \textit{92.7576} &  & \textit{93.0013*} \\ 
 \end{tabular}
+}
 \end{center}
-\caption{The table shows weighted cross validation scores for different levels of division. %The column named \emph{No division} contains the cross validation score for the case when all training data is trained together. The column named \emph{1 Division} contains the weighted average of cross validation after the training instances had been divided by the feature representing the \emph{POSTAG} property of the first element in the buffer. The column named \emph{2 division} contains the weighted average of cross validation after the partitions created in the first division had been divided again by the feature representing the \emph{POSTAG} property of the first element in the stack. 10 fold cross validation was used when cross validation were used. The language Swedish, Chinese and Germans have the same feature extraction model used in the previous experiments. Czech and English have two different feature extraction models each that can be found in appendix~\ref{app:feature_extraction_models_for_czech_english} 
+\caption{The table shows weighted cross validation scores for the different levels of division. The columns with the header ''Sign.'' shows the statistical significance of the difference between the divisions. For example the statistical certainty that one division gives better accuracy than no divisions for a Swedish data set of the size used in the experiment is greater than 70\%. The estimation of the statistical certainty is based on the assumption that the cross validation accuracy has equal or better certainty than a test with a single test set of the same size as the test sets in the cross validation and a single training set with the rest of the instances.  %The column named \emph{No division} contains the cross validation score for the case when all training data is trained together. The column named \emph{1 Division} contains the weighted average of cross validation after the training instances had been divided by the feature representing the \emph{POSTAG} property of the first element in the buffer. The column named \emph{2 division} contains the weighted average of cross validation after the partitions created in the first division had been divided again by the feature representing the \emph{POSTAG} property of the first element in the stack. 10 fold cross validation was used when cross validation were used. The language Swedish, Chinese and Germans have the same feature extraction model used in the previous experiments. Czech and English have two different feature extraction models each that can be found in appendix~\ref{app:feature_extraction_models_for_czech_english} 
 }
 \label{tab:different_levels_of_division} 
 \end{table}
@@ -737,15 +742,15 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
       The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That Swedish got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were bigger for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
 
-      So far it has just been assumed that the features that have been used for division in the fist and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
+      So far it has just been assumed that the features that have been used for division in the first and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
 
 %Therefore, it is possible that a division feature can have much better impact on the accuracy in just one division than any combination of two division feature but it is not so likely because both features selected for division is believed to be the best.
 
   \section{Decision Tree With Intuitive Division Order}
   \label{sec:decision_tree_with_intuitive_division_order}
-    The experiments described so far have indicated that the accuracy of the classifier can be improved by division. They also indicate that there is a limit where division starts to make the accuracy of the classifier worse instead of improving it. If that is true, the best classifier could be created by dividing the training data to that limit but not longer. This experiments aims to do that by creating a decision tree that has a creation strategy where it is tested for every division if the accuracy gets better or worse by doing cross validation.
+    The experiments described so far have indicated that the accuracy of the classifier can be improved by division. They also indicate that there is a limit where division starts to make the accuracy of the classifier worse instead of improving it. If that is true, the best classifier could be created by dividing the training data to that limit but not longer. The aim of this experiment is to do that by creating a decision tree that has a creation strategy where it is tested for every division if the accuracy gets better or worse by doing cross validation.
 
-    A list of features ordered by intuitively importance was created. The intuition of the importance of the features is based on experiences gained by the supervisor of the thesis project Joakim Nivre during his research. The list is presented in table~\ref{tab:division_feature_table}.
+    A list of features ordered by intuitively importance was created. The intuition of the importance of the features is based on experiences made by the supervisor of the thesis project Joakim Nivre during his research. The list is presented in table~\ref{tab:division_feature_table}.
 
 \begin{table}[htb]
 \label{tab:division_feature_table}  
@@ -764,7 +769,7 @@ $6$ & Stack[1] & POSTAG  \\ \hline
 \label{tab:division_feature_table}  
 \end{table}
 
- The decision tree was created with the algorithm described in table~\ref{tab:decision_tree_algorithm}. The algorithm is a recursive algorithm that returns an accuracy and with some small modifications a decision tree as result. The experiment was run with 10 fold cross validation and 1000 as minimum training set.
+ The decision tree was created with the algorithm described in table~\ref{tab:decision_tree_algorithm}. The algorithm is a recursive algorithm that returns an accuracy and with some small modifications a decision tree as result. The experiment was run with 10 fold cross validation and 1000 as minimum training set size.
 
  \begin{table}[htb]
 
@@ -812,31 +817,37 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 %\end{verbatim}
 
 
-    
+%\textbf{Swedish} &                  $90.9162$ & $<(70\%)$ & $91.1496*$ & $>(55\%)$ & $90.9787$ \\ \hline
+%\textbf{Chinese} &                  $92.0441$ & $<(59\%)$ & $92.0889$ & $<(86\%)$ & $92.1678*$ \\ \hline
+%\textbf{German} &                   $91.0386$ & $<(99\%)$ & $92.6778$ & $<(62\%)$ & $92.7075*$ \\ \hline
+%\textbf{Czech Stack Lazy} &         $89.9787$ & $<(99\%)$ & $91.1751$ & $<(99\%)$ & $91.8522*$ \\ \hline
+%\textbf{Czech Stack Projection} &   $89.7828$ & $<(99\%)$ & $91.0158$ & $<(99\%)$ & $91.6156*$ \\ \hline
+%\textbf{English Stack Lazy} &       $94.3736$ & $<(99\%)$ & $94.7557$ & $<(99\%)$ & $94.9537*$ \\ \hline
+%\textbf{English Stack Projection} & $94.4000$ & $<(99\%)$ & $94.7626$ & $<(99\%)$ & $95.0080*$ \\ \hline \hline
 
     \subsection{Results and Discussion}
 \begin{table}[htb]  
   \begin{center}
-\begin{tabular}{l | | l | l }
- & \textbf{Intuitive} & \textbf{Gain Ratio} \\ \hline \hline
-\textbf{Swedish} &                  $91.1675*$ & $90.9472$ \\ \hline
-\textbf{Chinese} &                  $92.1179$ & $92.1349*$ \\ \hline
-\textbf{German} &                   $93.1317*$ & $92.9364$ \\ \hline
-\textbf{Czech Stack Lazy} &         $91.8662$ & $91.9473*$ \\ \hline
-\textbf{Czech Stack Projection} &   $91.6537$ & $91.7707*$ \\ \hline
-\textbf{English Stack Lazy} &       $95.0205$ & $95.1203*$ \\ \hline
-\textbf{English Stack Projection} & $95.0770$ & $95.1578*$ \\ \hline \hline
-\textit{\textbf{Average}} &         \textit{93.1178} & \textit{93.0884}
+\begin{tabular}{l | | l | l | l | l | l }
+ & \textbf{2 Div.} & \textbf{Sign.} & \textbf{Intuitive} & \textbf{Sign.} &\textbf{Gain Ratio} \\ \hline \hline
+\textbf{Swedish} &                  $90.9787*$  & $<(60\%)$ & $91.1675$ & $>(67\%)$ & $90.9472$ \\ \hline
+\textbf{Chinese} &                  $92.1678*$ & $>(23\%)$ & $92.1179$ & $<(8\%)$ & $92.1349$ \\ \hline
+\textbf{German} &                   $92.7075$ & $<(99\%)$ & $93.1317*$ & $>(93\%)$ & $92.9364$ \\ \hline
+\textbf{Czech Stack Lazy} &         $91.8522$ & $<(10\%)$ & $91.8662$ & $<(55\%)$ & $91.9473*$ \\ \hline
+\textbf{Czech Stack Projection} &   $91.6156$ & $<(27\%)$ & $91.6537$ & $<(72\%)$ & $91.7707*$ \\ \hline
+\textbf{English Stack Lazy} &       $94.9537$ & $<(66\%)$ & $95.0205$ & $<(84\%)$ & $95.1203*$ \\ \hline
+\textbf{English Stack Projection} & $95.0080$ & $<(67\%)$ & $95.0770$ & $<(75\%)$ & $95.1578*$ \\ \hline \hline
+\textit{\textbf{Average}} &         \textit{93.0013} & &\textit{93.1178} & & \textit{93.0884}
 \end{tabular}
 \end{center}
-\caption{The accuracy for different language calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. Please, see section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} for an explanation of the Gain Ratio column.}
+\caption{The accuracy for different languages calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. See section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} for an explanation of the Gain Ratio column and the description of table~\ref{tab:different_levels_of_division} for a description of the ''Sign.'' columns.}
 \label{tab:decion_tree_with_and_without_gain_ratio}
 \end{table}
 
       The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. Compared to the average accuracy obtained from two divisions in the experiment described in section~\ref{sec:different_levels_of_divisions} the decision tree gives an improvement of 0.11\%. All training sets except \emph{Chinese} had better accuracy with decision tree than the best obtained in the experiment described in section~\ref{sec:different_levels_of_divisions}. The two first features in the feature division list used for creating the decision tree are the same as the two used for the experiment with two divisions in section~\ref{sec:different_levels_of_divisions}. That \emph{Chinese} got slightly worse result with the decision tree anyway can be explained by the fact that when division with one and two features have been used partitions that contains less than 1000 instances have been put in a separate training set called the other training set, but with the decision tree there is one such other training set for every division. When looking  at the structure of the decision trees created for the different training sets, it is possible to see that some nodes are divided more than others and that the maximum depth for the trees seems to increase with the size of the training set\footnote{Images that shows the structure of the created decision trees can be found at the location ''http://github.com/kjellwinblad/master-thesis-matrial/tree/master/configs\_and\_scripts/exp3MainDir/results/graphs''.}. 
 
       \emph{Hypothesis~3}, which says that the classification accuracy of the problem can get improved by division to a certain point when it starts to get worse is strongly supported by the experiment. %The experiment indicates that the accuracy can get improved by several division but also that there is a limit for the improvement.
-      The experiment also supports \emph{hypothesis~4}, which says that there is a way to automatically create a division to improve the accuracy.
+      %The experiment also supports \emph{hypothesis~4}, which says that there is a way to automatically create a division to improve the accuracy.
 
       The only thing that is not automatic in the training is the selection of the division features. If that also can be automatic is investigated in the experiment described in the next section.
 
@@ -863,6 +874,24 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
     The decision tree creation methods described in section~\ref{sec:decision_tree_with_intuitive_division_order} and ~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} are integrated into MaltParser. The implementation and usage of the MaltParser decision tree plugin is described in chapter~\ref{ch:maltparser_plugin}. For all languages tested 10\% of the instances of the original training set were removed and put in a testing set. For all tested languages 8 different sizes of the training set were tested. One contained all training instances, the next one half and the third one contained one forth etc. The set up is very similar to the set up used in the experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}. Also the dependency parsing algorithm and feature extraction model are the same as the ones used in the experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}. As minimum size of a partition created by a division 50 was chosen. All partitions created by a particular division with a size less than 50 were concatenated to a new partition and if that new partition was smaller than 50 it was concatenated by the smallest partition created that is bigger than 50. To be able to compare the results with something the linear SVM with division tests described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm} were run again but with 50 as minimum partition size.
 
     \subsection{Results and Discussion}
+
+
+
+\begin{table}[htb]  
+  \begin{center}
+\begin{tabular}{l | | l | l | l | l | l }
+ & \textbf{Intuitive} & \textbf{Sign.} & \textbf{Division} & \textbf{Sign.} &\textbf{Gain Ratio} \\ \hline \hline
+\textbf{Swedish} &                  $82.18$ & $<(19\%)$ & $82.28$ & $>(40\%)$ & $82.06$ \\ \hline
+\textbf{Chinese} &                  $82.56$ & $>(5\%)$ & $82.54$ & $>(99\%)$ & $81.54$ \\ \hline
+\textbf{German} &                   $82.98$ & $>(99\%)$ & $81.61$ & $>(96\%)$ & $81.16$ \\ \hline
+\textbf{Czech} &                    $70.06$ & $>(99\%)$ & $69.10$ & $<(90\%)$ & $69.56$ \\ \hline
+\textbf{English} &                  $87.32$ & $>(99\%)$ & $86.77$ & $<(97\%)$ & $87.14$ \\ \hline
+\textit{\textbf{Average}} &         \textit{81.02} & &\textit{80.46} & & \textit{80.29}
+\end{tabular}
+\end{center}
+\caption{Summary of table~\ref{tab:decion_tree_in_malt_parser} containing only the accuracy of the test accuracy after training with the biggest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 55\%.}
+\label{tab:summary_decision_tree_in_malt_parser}
+\end{table}
    
       \begin{table}[htb]
  
@@ -877,13 +906,13 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
  & \textbf{AC} & $59.63$ & $63.88$ & $68.14$ & $72.30$ & $75.97$ & $78.57$ & $80.99$ & $82.28$ \\ \hline
 % & \textbf{AC 2} & $71.55$ & $75.13$ & $78.55$ & $81.72$ & $84.39$ & $86.25$ & $87.82$ & $88.54$ \\
 % & \textbf{AC 3} & $64.95$ & $68.76$ & $72.24$ & $75.96$ & $79.33$ & $81.67$ & $83.86$ & $85.17$ \\
-\multirow{3}{*}{\textbf{Swedish Decision Tree}}  
+\multirow{3}{*}{\textbf{Swedish Decision Tree Intuitive}}  
  & \textbf{TR} & $0.02$ & $0.03$ & $0.03$ & $0.12$ & $0.23$ & $0.48$ & $0.85$ & $1.59$ \\
  & \textbf{TE} & $0.01$ & $0.01$ & $0.01$ & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.06$ \\
  & \textbf{AC} & $59.48$ & $65.48$ & $70.25$ & $72.14$ & $75.87$ & $78.50$ & $80.97$ & $82.18$ \\ \hline
 % & \textbf{AC 2} & $71.52$ & $75.73$ & $79.78$ & $81.70$ & $84.27$ & $86.16$ & $87.82$ & $88.56$ \\
 % & \textbf{AC 3} & $64.90$ & $70.77$ & $74.82$ & $75.65$ & $79.21$ & $81.62$ & $83.88$ & $85.05$ \\
-\multirow{3}{*}{\textbf{Swedish Decision Tree Aut.}}  
+\multirow{3}{*}{\textbf{Swedish Decision Tree Gain Ratio}}  
  & \textbf{TR} & $0.01$ & $0.02$ & $0.03$ & $0.09$ & $0.21$ & $0.51$ & $0.88$ & $1.65$ \\
  & \textbf{TE} & $0.01$ & $0.01$ & $0.01$ & $0.01$ & $0.01$ & $0.03$ & $0.06$ & $0.10$ \\
  & \textbf{AC} & $59.86$ & $65.65$ & $70.30$ & $71.55$ & $76.34$ & $77.67$ & $80.28$ & $82.06$ \\ \hline \hline
@@ -895,13 +924,13 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
  & \textbf{AC} & $54.92$ & $61.89$ & $67.24$ & $71.15$ & $75.23$ & $78.37$ & $80.57$ & $82.54$ \\ \hline
 % & \textbf{AC 2} & $66.03$ & $72.13$ & $76.67$ & $79.29$ & $82.43$ & $84.61$ & $86.14$ & $87.51$ \\
 % & \textbf{AC 3} & $59.82$ & $66.04$ & $71.07$ & $74.60$ & $78.38$ & $81.10$ & $83.09$ & $84.84$ \\
-\multirow{3}{*}{\textbf{Chinese Decision Tree}}  
+\multirow{3}{*}{\textbf{Chinese Decision Tree Intuitive}}  
  & \textbf{TR} & $0.02$ & $0.03$ & $0.06$ & $0.12$ & $0.28$ & $0.61$ & $1.04$ & $3.73$ \\
  & \textbf{TE} & $0.01$ & $0.01$ & $0.01$ & $0.01$ & $0.02$ & $0.02$ & $0.02$ & $0.25$ \\
  & \textbf{AC} & $63.64$ & $69.48$ & $73.02$ & $76.10$ & $77.78$ & $79.33$ & $80.75$ & $82.56$ \\ \hline
 % & \textbf{AC 2} & $71.95$ & $76.98$ & $79.70$ & $82.28$ & $83.56$ & $84.90$ & $85.87$ & $87.55$ \\
 % & \textbf{AC 3} & $68.91$ & $74.02$ & $77.05$ & $79.58$ & $81.10$ & $82.35$ & $83.50$ & $84.85$ \\
-\multirow{3}{*}{\textbf{Chinese Decision Tree Aut.}}
+\multirow{3}{*}{\textbf{Chinese Decision Tree Gain Ratio}}
  & \textbf{TR} & $0.02$ & $0.05$ & $0.11$ & $0.38$ & $0.39$ & $0.77$ & $1.45$ & $2.81$ \\
  & \textbf{TE} & $0.01$ & $0.01$ & $0.02$ & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.07$ \\
  & \textbf{AC} & $62.52$ & $68.51$ & $72.91$ & $75.77$ & $77.35$ & $79.31$ & $80.76$ & $81.54$ \\ \hline \hline
@@ -913,13 +942,13 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
  & \textbf{AC} & $69.53$ & $72.68$ & $75.03$ & $76.63$ & $77.94$ & $79.25$ & $80.37$ & $81.61$ \\ \hline
 % & \textbf{AC 2} & $74.51$ & $77.03$ & $79.16$ & $80.53$ & $81.65$ & $82.62$ & $83.49$ & $84.42$ \\
 % & \textbf{AC 3} & $79.03$ & $81.43$ & $82.93$ & $84.26$ & $85.09$ & $85.96$ & $86.83$ & $87.52$ \\
-\multirow{3}{*}{\textbf{German Decision Tree}}  
+\multirow{3}{*}{\textbf{German Decision Tree Intuitive}}  
  & \textbf{TR} & $0.08$ & $0.09$ & $0.22$ & $0.54$ & $1.22$ & $2.16$ & $4.86$ & $12.33$ \\
  & \textbf{TE} & $0.03$ & $0.02$ & $0.03$ & $0.06$ & $0.07$ & $0.13$ & $0.31$ & $1.18$ \\
  & \textbf{AC} & $69.57$ & $72.72$ & $74.99$ & $76.75$ & $78.48$ & $80.18$ & $81.45$ & $82.98$ \\ \hline
 % & \textbf{AC 2} & $74.62$ & $77.02$ & $79.13$ & $80.63$ & $82.21$ & $83.57$ & $84.53$ & $85.79$ \\
 % & \textbf{AC 3} & $78.81$ & $81.41$ & $82.80$ & $84.05$ & $85.05$ & $86.10$ & $87.08$ & $88.09$ \\
-\multirow{3}{*}{\textbf{German Decision Tree Aut.}}
+\multirow{3}{*}{\textbf{German Decision Tree Gain Ratio}}
  & \textbf{TR} & $0.04$ & $0.07$ & $0.14$ & $0.33$ & $0.73$ & $1.82$ & $4.45$ & $12.67$ \\
  & \textbf{TE} & $0.02$ & $0.02$ & $0.02$ & $0.03$ & $0.06$ & $0.11$ & $0.28$ & $0.97$ \\
  & \textbf{AC} & $67.92$ & $71.13$ & $73.74$ & $75.79$ & $76.70$ & $78.53$ & $79.90$ & $81.16$ \\ \hline \hline
@@ -931,13 +960,13 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
  & \textbf{AC} & $53.91$ & $56.41$ & $59.30$ & $61.51$ & $63.63$ & $65.64$ & $67.20$ & $69.10$ \\ \hline
 % & \textbf{AC 2} & $65.23$ & $66.85$ & $69.49$ & $71.31$ & $73.03$ & $74.82$ & $75.94$ & $77.42$ \\
 % & \textbf{AC 3} & $65.20$ & $67.14$ & $69.25$ & $71.36$ & $73.06$ & $74.22$ & $75.48$ & $76.83$ \\
-\multirow{3}{*}{\textbf{Czech Decision Tree}}  
+\multirow{3}{*}{\textbf{Czech Decision Tree Intuitive}}  
  & \textbf{TR} & $0.06$ & $0.13$ & $0.26$ & $0.59$ & $1.20$ & $2.55$ & $5.64$ & $11.84$ \\
  & \textbf{TE} & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.05$ & $0.11$ & $0.18$ & $0.38$ \\
  & \textbf{AC} & $53.18$ & $57.41$ & $60.07$ & $62.33$ & $64.08$ & $66.28$ & $68.12$ & $70.06$ \\ \hline
 % & \textbf{AC 2} & $64.45$ & $68.05$ & $70.18$ & $72.10$ & $73.60$ & $75.51$ & $76.97$ & $78.43$ \\
 % & \textbf{AC 3} & $64.66$ & $67.58$ & $69.34$ & $71.23$ & $72.55$ & $74.30$ & $75.61$ & $77.18$ \\
-\multirow{3}{*}{\textbf{Czech Decision Tree Aut.}}
+\multirow{3}{*}{\textbf{Czech Decision Tree Gain Ratio}}
  & \textbf{TR} & $0.03$ & $0.08$ & $0.17$ & $0.40$ & $0.77$ & $1.70$ & $3.68$ & $12.76$ \\
  & \textbf{TE} & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.05$ & $0.10$ & $0.20$ & $0.53$ \\
  & \textbf{AC} & $53.93$ & $57.32$ & $60.06$ & $62.32$ & $64.05$ & $66.04$ & $67.89$ & $69.56$ \\ \hline \hline
@@ -949,13 +978,13 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
  & \textbf{AC} & $73.43$ & $77.06$ & $79.39$ & $81.53$ & $83.19$ & $84.75$ & $85.82$ & $86.77$ \\ \hline
 % & \textbf{AC 2} & $78.79$ & $81.95$ & $83.94$ & $85.74$ & $86.98$ & $88.16$ & $88.99$ & $89.72$ \\
 % & \textbf{AC 3} & $78.50$ & $81.62$ & $83.65$ & $85.57$ & $87.05$ & $88.34$ & $89.21$ & $90.02$ \\
-\multirow{3}{*}{\textbf{English Decision Tree}}  
+\multirow{3}{*}{\textbf{English Decision Tree Intuitive}}  
  & \textbf{TR} & $0.09$ & $0.15$ & $0.26$ & $0.43$ & $0.92$ & $1.88$ & $4.06$ & $11.44$ \\
  & \textbf{TE} & $0.03$ & $0.03$ & $0.03$ & $0.04$ & $0.05$ & $0.09$ & $0.19$ & $0.35$ \\
  & \textbf{AC} & $73.27$ & $76.96$ & $79.50$ & $81.57$ & $83.31$ & $85.01$ & $86.31$ & $87.32$ \\ \hline
 % & \textbf{AC 2} & $78.62$ & $81.88$ & $84.04$ & $85.76$ & $87.06$ & $88.39$ & $89.43$ & $90.28$ \\
 % & \textbf{AC 3} & $78.36$ & $81.50$ & $83.71$ & $85.52$ & $87.00$ & $88.37$ & $89.38$ & $90.12$ \\
-\multirow{3}{*}{\textbf{English Decision Tree Aut.}}
+\multirow{3}{*}{\textbf{English Decision Tree Gain Ratio}}
  & \textbf{TR} & $0.05$ & $0.08$ & $0.15$ & $0.33$ & $0.65$ & $1.70$ & $3.14$ & $10.30$ \\
  & \textbf{TE} & $0.03$ & $0.02$ & $0.03$ & $0.03$ & $0.05$ & $0.10$ & $0.14$ & $0.32$ \\
  & \textbf{AC} & $73.37$ & $77.08$ & $79.41$ & $81.56$ & $83.27$ & $84.90$ & $86.16$ & $87.14$ \\ \hline
@@ -973,7 +1002,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 \end{table}
 
 
-      The results of the experiment are summarized in table~\ref{tab:decion_tree_in_malt_parser}. Diagrams displaying the Labeled Attachment Score for the tests can be seen in figure~\ref{fig:decion_tree_malt_parser_swe}, \ref{fig:decion_tree_malt_parser_chi}, \ref{fig:decion_tree_malt_parser_ger}, \ref{fig:decion_tree_malt_parser_cze} and \ref{fig:decion_tree_malt_parser_eng}, which can be found it appendix~\ref{app:diagrams}. The results indicate what previous experiments also have indicated. The accuracy gets better for most languages with a decision tree than division on just one feature. The intuitive division order has better accuracy for all data sets compared to the Gain Ratio generated division order. It is interesting to note that decision order decided by Gain Ratio seemed to perform better than the intuitive decision order for the more advanced feature extraction models used for \emph{Czech} and \emph{English} in the experiment described in section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio}. An explanation for that can be that the the Gain Ratio division order can take advantage of something in the more advanced feature extraction models that the intuitive division order do not take advantage of.%intuitive decision order is designed for a simple feature extraction model and that the Gain Ratio order can take advantage of the more advanced feature extraction model.
+      The results of the experiment are summarized in table~\ref{tab:decion_tree_in_malt_parser} and table~\ref{tab:summary_decision_tree_in_malt_parser}. Diagrams displaying the Labeled Attachment Score for the tests can be seen in figure~\ref{fig:decion_tree_malt_parser_swe}, \ref{fig:decion_tree_malt_parser_chi}, \ref{fig:decion_tree_malt_parser_ger}, \ref{fig:decion_tree_malt_parser_cze} and \ref{fig:decion_tree_malt_parser_eng}, which can be found it appendix~\ref{app:diagrams}. The results indicate what previous experiments also have indicated. The accuracy can get better for most languages with a decision tree than division on just one feature. The intuitive division order has better accuracy for all data sets compared to the Gain Ratio generated division order. %It is interesting to note that decision order decided by Gain Ratio seemed to perform better than the intuitive decision order for the more advanced feature extraction models used for \emph{Czech} and \emph{English} in the experiment described in section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio}. An explanation for that can be that the the Gain Ratio division order can take advantage of something in the more advanced feature extraction models that the intuitive division order do not take advantage of.%intuitive decision order is designed for a simple feature extraction model and that the Gain Ratio order can take advantage of the more advanced feature extraction model.
 
       Tests were also performed with more advanced feature extraction models together with decision trees in MaltParser. The optimized feature extraction created models with more features than the standard, which causes them to consume more memory when loaded. This turned out to be a problem, since all of the models created consume about the same amount of memory which causes the memory usage to increase linearly with the number of models. The tests were run on computers with 16 GB of memory which was not enough to complete the experiments with all training data. For smaller subsets of the training data, the experiment indicated that the accuracy would get improved with tree division compared to devision on just one feature.
 
@@ -1012,7 +1041,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
     The main goals of the projects have been described in section~\ref{sec:goals}. In this chapter it will be discussed how well the goals are met in the project as well as limitations and interesting future work. 
 
     \emph{Goal number 1} is to investigate how division of the training data effects the performance of the resulting dependency parsing system. This has been investigated experimentally in the experiments described in chapter~\ref{ch:experiments}. The experiments show that when certain division features are used together with a linear SVM it can improve the accuracy of the resulting classifier in a significant way. %The training and testing time are affected by division when a linear SVM is used as classifier, but the difference is so small that it is probably not important for most applications. 
-    The division approach could easily be scaled out to several processors so training of different partitions could be run in parallel which could potentially speed up the training time significantly. The experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm} showed that division also could have a positive effect of the accuracy when nonlinear SVMs are used. To summarize the findings about how the accuracy is effected by division, one can say that it seems to depend on the training data and that the more training data there is the more positive effect can be gained by division. Not surprisingly division has a very positive effect on both training and testing time when division is used together with nonlinear SVM. The reason is that the training and classification time grows faster than linearly with the number of training examples for nonlinear SVMs.
+    The division approach could easily be scaled out to several processors so training of different partitions could be run in parallel which could potentially speed up the training time significantly. The experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm} showed that division also could have a positive effect on the accuracy when nonlinear SVMs are used. To summarize the findings about how the accuracy is effected by division, one can say that it seems to depend on the training data and that the more training data there is the more positive effect can be gained by division. Not surprisingly division has a very positive effect on both training and testing time when division is used together with nonlinear SVM. The reason is that the training and classification time grows faster than linearly with the number of training examples for nonlinear SVMs.
 
     \emph{Goal number 2} is to investigate the theoretical reasons for the effect of division. The hypothesis that has been discussed in this report and that many of the experiments in chapter~\ref{ch:experiments} support, is that when division on a certain features is done it creates many smaller classification problems that the nonlinear SVM and linear SVM easier can separate into classes than the full classification problem. In other words, the SVM method together with division is more powerful than just the SVM in some cases. Intuitively it can be explained by the fact that a plane may not be able to separate all data, but if enough data is removed from the original data it will be able to separate it. The risk of dividing too much is that the classifier will over-fit the problem, which will lead to worse generalization and more errors when the classifier is tested. This is a well known principle in machine learning called over-training. An attempt to address this problem in form of a decision tree classifier is tested in the experiments described in section~\ref{sec:decision_tree_with_intuitive_division_order}, \ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} and \ref{sec:decision_tree_in_malt_parser} with fairly successful results. 
 
@@ -1038,9 +1067,9 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 
 \section{Future work}
 \label{sec:conclution_future_work}
-  All the experiments that have been conducted during the thesis work in a real dependency parsing setting has used non-optimal feature extraction models and parameters. The reasons for that have been that it was desirable to keep the experiments fast to run and the memory usage within the limit that the available hardware provided. It would be interesting to see how the new decision tree based dependency parsing technique with optimized parameters perform compared to the state of the art dependency parsing systems. The amount of memory that the decision tree model needs when the dependency parsing system is in the parsing state is the biggest obstacle for archiving this. One approach to solve that is to swap out the SVM leaf models of the decision tree to disk when the memory gets full. This was tested during the project but was found to be unpractical, because the execution time become too long. A better solution would be to have the models loaded on several different computers. This could have the additional benefit of speeding up the parsing by parsing many sentences at the same time in parallel.
+  All the experiments that have been conducted during the thesis work in a real dependency parsing setting has used non-optimal feature extraction models and parameters. The reasons for that have been that it was desirable to keep the experiments fast to run and the memory usage within the limit that the available hardware provided. It would be interesting to see how the new decision tree based dependency parsing technique with optimized parameters perform compared to the state of the art dependency parsing systems. The amount of memory that the decision tree model needs when the dependency parsing system is in the parsing state is the biggest obstacle for archiving this. One approach to solve that is to swap out the SVM leaf models of the decision tree to disk when the memory gets full. This was tested during the project but was found to be unpractical, because the execution time become too long. A better solution would be to have the models loaded on several different computers. This could have the additional benefit of making it possible to easily speed up the parsing by parsing many sentences at the same time in parallel.
 
-  The speed of the training phase of the decision tree based model and the division model could also be significantly improved by parallelization. It would be a quite simple job to implement this kind of parallelization by having model training servers that run on different computers and that could be asked to train a model on specific data set by the master system. The parsing parallelization could work in a similar way but instead of servers for training models the parsing servers can be responsible for loading models and serving classification requests.
+  The speed of the training phase of the decision tree based model and the division model could also be significantly improved by parallelization. It would be a quite simple job to implement this kind of parallelization by having model training servers that run on different computers and that could be asked to train a model on specific data set by the master system. The parsing parallelization could work in a similar way but instead of servers for training models the parsing servers could be responsible for loading models and serving classification requests.
 
 
 %\chapter{Acknowledgements}
@@ -1266,7 +1295,7 @@ A detailed description of how the feature extraction model can be read is found 
   The configuration for the corresponding tests described above but with LIBSVM instead of LIBLINAR has the LIBLINEAR options replaced with corresponding LIBSVM options.
 
 \section{Advanced Feature Extraction Models for Czech and English}
-\label{app:feature_extraction_models_for_czech_english}
+\label{app:feature_extraction_models_for_czech_english}%greater_than_avarage_swe_result
 
   The feature extraction models presented in the following subsection are for \emph{English} and \emph{Czech} in combination with the two dependency parsing algorithms stack projection and stack lazy. The MaltParser option \verb|parsing_algorithm| need to be set to \verb|stackproj| for the stack projection feature extraction models and to \verb|stacklazy| for the stack lazy feature extraction models. The feature extraction models presented in the following sections have been used in the experiments presented in section~\ref{sec:different_levels_of_divisions}, \ref{sec:decision_tree_with_intuitive_division_order} and \ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio}.
 

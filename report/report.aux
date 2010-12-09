@@ -32,30 +32,30 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}Support Vector Machines}{8}}
 \newlabel{sec:svm}{{2.4}{8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}The Basic Support Vector Machine Concept}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces The maximum margin hyperplane that separates two classes in 2-dimensional space.}}{8}}
+\newlabel{fig:maximum_margin_diagram}{{2.2}{8}}
 \citation{keerthi2008sequential}
 \citation{TanSK2005}
 \citation{keerthi2008sequential}
 \citation{safavian1991survey}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces The maximum margin hyperplane that separates two classes in 2-dimensional space.}}{9}}
-\newlabel{fig:maximum_margin_diagram}{{2.2}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}The Kernel Trick}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}The Extension to Support Multiple Class Classification}{9}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Decision Trees}{9}}
 \citation{TanSK2005}
+\citation{quinlan1993c4}
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Training examples for the decision tree example.}}{10}}
 \newlabel{tab:trainingset}{{2.1}{10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The figure shows an example of a decision tree, where $s0(X)$ represent that the word on top of the stack has the word type $X$ and $b0(X)$ that the first word in the buffer has X as word type.}}{10}}
 \newlabel{fig:decision_tree_exampl}{{2.3}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Gain Ratio}{10}}
 \newlabel{sec:gain_ratio}{{2.5.1}{10}}
-\citation{quinlan1993c4}
 \citation{shannon1948mathematical}
 \citation{TanSK2005}
 \newlabel{eq:entropy}{{2.1}{11}}
 \newlabel{eq:information_gain}{{2.2}{11}}
 \newlabel{eq:split_info}{{2.3}{11}}
 \newlabel{eq:gain_ratio}{{2.4}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{11}}
 \citation{goldberg2008splitsvm}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Hypotheses and Methodology}{13}}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -63,12 +63,14 @@
 \newlabel{ch:hypotheses_and_methodology}{{3}{13}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Hypotheses}{13}}
 \newlabel{sec:hypotheses}{{3.1}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Methods}{13}}
+\newlabel{sec:methods}{{3.2}{13}}
 \citation{chang2001libsvm}
 \citation{fan2008liblinear}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Methods}{14}}
-\newlabel{sec:methods}{{3.2}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Tools}{14}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}MaltParser}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}The Support Vector Machine Libraries LIBSVM and LIBLINEAR}{14}}
+\newlabel{sec:liblinear_libsvm}{{3.3.2}{14}}
 \citation{nilsson2007conll}
 \citation{Buchholz06conll-xshared}
 \citation{Hajic09theconll-2009}
@@ -77,8 +79,6 @@
 \citation{brants2002tiger}
 \citation{hajic2006prague}
 \citation{Hajic09theconll-2009}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}The Support Vector Machine Libraries LIBSVM and LIBLINEAR}{15}}
-\newlabel{sec:liblinear_libsvm}{{3.3.2}{15}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Data Sets}{15}}
 \newlabel{sec:data_sets}{{3.4}{15}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Treebanks used in the experiments described in chapter\nobreakspace  {}4\hbox {}.}}{15}}
@@ -87,7 +87,7 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{ch:experiments}{{4}{17}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Division of the Training Set With Linear and Nonlinear SVM}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Division of the Training Set With Linear and Nonlinear SVMs}{17}}
 \newlabel{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}{{4.1}{17}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces The table contains the results for the tree languages Swedish, Chinese and German tested with a linear SVM with and without division. \textbf  {TR} = \emph  {training time in hours}, \textbf  {TE} = \emph  {testing time in hours}, \textbf  {AC} = \emph  {Labeled Attachment Score}}}{18}}
 \newlabel{tab:experiment_1_liblinear}{{4.1}{18}}
@@ -107,26 +107,28 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Different Levels of Division}{22}}
 \newlabel{sec:different_levels_of_divisions}{{4.4}{22}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces The table shows weighted cross validation scores for different levels of division. }}{23}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces The table shows weighted cross validation scores for the different levels of division. The columns with the header ''Sign.'' shows the statistical significance of the difference between the divisions. For example the statistical certainty that one division gives better accuracy than no divisions for a Swedish data set of the size used in the experiment is greater than 70\%. The estimation of the statistical certainty is based on the assumption that the cross validation accuracy has equal or better certainty than a test with a single test set of the same size as the test sets in the cross validation and a single training set with the rest of the instances. }}{23}}
 \newlabel{tab:different_levels_of_division}{{4.4}{23}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}}
 \newlabel{sec:decision_tree_with_intuitive_division_order}{{4.5}{23}}
-\newlabel{tab:division_feature_table}{{4.5}{23}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces The table lists the intuitive division order used in the decision tree creation algorithm. Input[N] represents the n:th element on the buffer and Stack[n] represents the n:th value on the stack in the dependency parsing algorithm. E.g. Input[0] represents the first element in the buffer. POSTAG is the property used for all division features.}}{23}}
-\newlabel{tab:division_feature_table}{{4.5}{23}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces The table contains the decision tree algorithm used in the experiments.}}{24}}
-\newlabel{tab:decision_tree_algorithm}{{4.6}{24}}
+\newlabel{tab:division_feature_table}{{4.5}{24}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces The table lists the intuitive division order used in the decision tree creation algorithm. Input[N] represents the n:th element on the buffer and Stack[n] represents the n:th value on the stack in the dependency parsing algorithm. E.g. Input[0] represents the first element in the buffer. POSTAG is the property used for all division features.}}{24}}
+\newlabel{tab:division_feature_table}{{4.5}{24}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces The accuracy for different language calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. Please, see section\nobreakspace  {}4.6\hbox {} for an explanation of the Gain Ratio column.}}{25}}
-\newlabel{tab:decion_tree_with_and_without_gain_ratio}{{4.7}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}}
-\newlabel{sec:decision_tree_with_devision_order_decided_by_gain_ratio}{{4.6}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{24}}
+\newlabel{sec:decision_tree_with_devision_order_decided_by_gain_ratio}{{4.6}{24}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces The table contains the decision tree algorithm used in the experiments.}}{25}}
+\newlabel{tab:decision_tree_algorithm}{{4.6}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{25}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces The accuracy for different languages calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. See section\nobreakspace  {}4.6\hbox {} for an explanation of the Gain Ratio column and the description of table\nobreakspace  {}4.4\hbox {} for a description of the ''Sign.'' columns.}}{26}}
+\newlabel{tab:decion_tree_with_and_without_gain_ratio}{{4.7}{26}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}}
 \newlabel{sec:decision_tree_in_malt_parser}{{4.7}{26}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces The table contains the results for the decision tree algorithm with LIBLINEAR implemented in MaltParser. The decision tree creation algorithm is presented in section\nobreakspace  {}4.5\hbox {}. \textbf  {TR} = \emph  {training time in hours}, \textbf  {TE} = \emph  {testing time in hours}, \textbf  {AC} = \emph  {Labeled Attachment Score}}}{28}}
-\newlabel{tab:decion_tree_in_malt_parser}{{4.8}{28}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces Summary of table\nobreakspace  {}4.9\hbox {} containing only the accuracy of the test accuracy after training with the biggest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 55\%.}}{27}}
+\newlabel{tab:summary_decision_tree_in_malt_parser}{{4.8}{27}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces The table contains the results for the decision tree algorithm with LIBLINEAR implemented in MaltParser. The decision tree creation algorithm is presented in section\nobreakspace  {}4.5\hbox {}. \textbf  {TR} = \emph  {training time in hours}, \textbf  {TE} = \emph  {testing time in hours}, \textbf  {AC} = \emph  {Labeled Attachment Score}}}{28}}
+\newlabel{tab:decion_tree_in_malt_parser}{{4.9}{28}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}MaltParser Plugin}{29}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -178,15 +180,15 @@
 \newlabel{fig:libsvm_liblinear_div_not_div_experiment_diagrams_chi}{{A.5}{39}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.6}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the German data set and tested in the experiment presented in section\nobreakspace  {}4.1\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.1\hbox {} and 4.2\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{40}}
 \newlabel{fig:libsvm_liblinear_div_not_div_experiment_diagrams_ger}{{A.6}{40}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Swedish data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.8\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Swedish data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.9\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{41}}
 \newlabel{fig:decion_tree_malt_parser_swe}{{A.7}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Chinese data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.8\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Chinese data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.9\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{42}}
 \newlabel{fig:decion_tree_malt_parser_chi}{{A.8}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the German data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.8\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the German data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.9\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{43}}
 \newlabel{fig:decion_tree_malt_parser_ger}{{A.9}{43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Czech data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.8\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the Czech data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.9\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{44}}
 \newlabel{fig:decion_tree_malt_parser_cze}{{A.10}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the English data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.8\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces The digram visualizes the Labeled Attachment Score for all training set sizes created from the English data set and tested in the experiment presented in section\nobreakspace  {}4.7\hbox {}. The values used to create the diagram can be seen in table\nobreakspace  {}4.9\hbox {}. Please, note that the x-axis in the diagram has logarithmic scale.}}{45}}
 \newlabel{fig:decion_tree_malt_parser_eng}{{A.11}{45}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {B}MaltParser Settings}{47}}
 \@writefile{lof}{\addvspace {10\p@ }}
