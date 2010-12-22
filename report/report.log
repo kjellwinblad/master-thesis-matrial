@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.10.31)  9 DEC 2010 15:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.10.31)  18 DEC 2010 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,27 +327,20 @@ File: dependency_graph_example2.eps Graphic file (type eps)
 <dependency_graph_example2.eps> [5] [6] [7]
 File: svm_maximum_margin_example.eps Graphic file (type eps)
  <svm_maximum_margin_example.eps>
-[8]
+[8] [9]
 File: decision_tree_example.eps Graphic file (type eps)
- <decision_tree_example.eps> [9] [10]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.50113pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11] [12]
+ <decision_tree_example.eps> [10] [11] [12]
 Chapter 3.
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 [][]\T1/cmr/m/n/8 All scripts and con-fig-u-ra-tions can be found at the fol-lo
 w-ing lo-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 [][]\T1/cmr/m/n/8 The mea-sure-ment tool eval07.pl can be found in the de-pen-d
 ency pars-ing wiki
  []
@@ -357,7 +350,7 @@ ency pars-ing wiki
 ]
 Chapter 4.
 
-Overfull \hbox (2.70139pt too wide) in paragraph at lines 577--621
+Overfull \hbox (2.70139pt too wide) in paragraph at lines 584--628
  [] 
  []
 
@@ -368,18 +361,18 @@ Underfull \vbox (badness 2285) has occurred while \output is active []
 
  [21]
 [22]
-Overfull \hbox (11.10098pt too wide) in paragraph at lines 831--842
+Overfull \hbox (11.10098pt too wide) in paragraph at lines 838--849
  [] 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 847--847
+Underfull \hbox (badness 10000) in paragraph at lines 854--854
 [][]\T1/cmr/m/n/8 Images that shows the struc-ture of the cre-ated de-ci-sion t
 rees can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--847
+Underfull \hbox (badness 10000) in paragraph at lines 854--854
 \T1/cmr/m/n/8 be found at the lo-ca-tion ''http://github.com/kjellwinblad/maste
 r-thesis-
  []
@@ -389,11 +382,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
 
-LaTeX Warning: Float too large for page by 41.61731pt on input line 1002.
+LaTeX Warning: Float too large for page by 41.61731pt on input line 1009.
 
 [26] [27] [28]
 Chapter 5.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1025
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1032
 .
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -466,4 +459,4 @@ Here is how much of TeX's memory you used:
  714 hyphenation exceptions out of 8191
  34i,11n,45p,1630b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.dvi (58 pages, 168428 bytes).
+Output written on report.dvi (58 pages, 168444 bytes).
