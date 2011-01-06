@@ -70,7 +70,7 @@ It has been found experimentally that division of the training data by a feature
 %Normally you should not use citation in an Abstract but here is one if you would like to learn about \LaTeX\. Many documents can be found on the Internet, e.g. see \cite{Lamp04} and \cite{Oe04}.
 \vskip 3em%
 \begin{center}
-{\bf {\Large Effekten av att Dela Träningsdata i Inuktiv Dependensparsning }}
+{\bf {\Large Effekten av att Dela Träningsdata i Induktiv Dependensparsning }}
 \vskip 1.5em%Analys av olika maskininlärningsmetoder för skapande av orakelfunktioner till Dependensparsning
 {\bf {\large Sammanfattning}}
 \end{center}
@@ -429,7 +429,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
     Many different software tools have been used during the thesis work. The most important tools are presented in the following sections. %Some of the tools are irrelevant for the results of the experiments but will be presented anyway because the lessons learned from them might be of interest for other reasons.
 
     \subsection{MaltParser}
-      MaltParser is an open source data driven transition-based dependency parsing system. It is written in the Java programming language. The main developers are Johan Hall, Jens Nilsson and Joakim Nivre at Växjö University and Uppsala University. It has been proved to be one of the best performing systems by getting the top score in the competition CoNLL Shared Task 2007 on Dependency Parsing. The system is very configurable which makes it possible to optimize it for different languages. The system is written to be easy to extend by writing plugins to replace components such as the machine learning method.
+      MaltParser is an open source data driven transition-based dependency parsing system. It is written in the Java programming language. The main developers are Johan Hall, Jens Nilsson and Joakim Nivre at Växjö University and Uppsala University. It has been proved to be one of the best performing systems by getting the top score in the competition CoNLL Shared Task 2007 on Dependency Parsing. The system is very configurable which makes it possible to optimize for different languages. The system is written to be easy to extend by writing plugins to replace components such as the machine learning method.
 
       The MaltParser system can be run in two different modes. The first mode is the training mode where the input is configurations for the machine learning technique to use, a feature extraction model, dependency parsing algorithm settings and training data consisting of sentences with corresponding dependency trees. The output of the training phase is a model used to build the oracle function approximation used to decide the next step during parsing. The second mode is called parsing mode which takes a model created in the training mode and sentences to parse. The output of that mode is sentences with corresponding trees in the same format as the training set. The MaltParser settings used in the experiments are described in appendix~\ref{cha:appendix_maltparser_settings}.
 
@@ -437,7 +437,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
       
     \subsection{The Support Vector Machine Libraries LIBSVM and LIBLINEAR}
       \label{sec:liblinear_libsvm}
-      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. LIBLINEAR implements linear SVMs and LIBSVM implements nonlinear SVMs. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries. LIBLINEAR implements linear SVMs and LIBSVM implement SVMs with the Kernel Trick \cite{chang2001libsvm, fan2008liblinear}
+      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. LIBLINEAR implements linear SVMs and LIBSVM implements nonlinear SVMs \cite{chang2001libsvm, fan2008liblinear}. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries.
 
       The settings for the two libraries used in the experiments are presented in appendix~\ref{app:LIBLINAR_and_LIBSVM_settings}.
 
