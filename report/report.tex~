@@ -523,7 +523,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
  \item Nonlinear SVM without division of the training set
 \end{itemize}
 
-    When division was used the training data was divided by the feature representing the POSTAG property of the first element in the buffer. A test set was picked out from the original data set containing 10\% of instances. Eight different training sets were created from the remaining training instances where one contained all training instances, the next one half and the third one contained one forth etc until the last one that contained $\frac{1}{128}$ of the original training instances. The MaltParser configuration used in the experiment is explained in appendix~\ref{sec:appendix_LIBLINEAR_DIV}.
+    When division was used the training data was divided by the feature representing the POSTAG property of the first element in the buffer. A test set was picked out from the original data set containing 10\% of instances. Eight different training sets were created from the remaining training instances, where one contained all training instances, the next one half and the third one contained one forth etc until the last one that contained $\frac{1}{128}$ of the original training instances. The MaltParser configuration used in the experiment is explained in appendix~\ref{sec:appendix_LIBLINEAR_DIV}.
 
 %The experiment was performed with the five different training sets Swedish, Chinese, German, Czech and English. The size of the the original training sets for these languages are different. The Swedish training set is the smallest and the English is the biggest. Three measurements where recorded for every test case, namely training time, testing time and label attachment score.
 
