@@ -202,14 +202,14 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
   \section{Dependency Parsing}
   \label{sec:dependency_parsing}
-    Dependency parsing is the process of creating dependency grammar graphs from sentences. There exist grammar based dependency parsing systems as well as data driven dependency parsing systems. The grammar based systems have a formalized grammar that is used to generate dependency trees for sentences and data driven systems make use of some machine learning approach to predict the dependency trees for sentences by making use of a large set of example predictions created by humans. Many system have both a grammar based component and a machine learning component. For example a grammar based system can make use of data driven approach to generate the formalized grammar and some grammar based systems generate many candidate dependency graphs from a grammar and use a machine learning technique to select one of them. \cite{kubler2009dependency}
+    Dependency parsing is the process of creating dependency grammar graphs from sentences. There exist grammar based dependency parsing systems as well as data driven dependency parsing systems. The grammar based systems have a formalized grammar that is used to generate dependency trees for sentences and data driven systems make use of some machine learning approach to predict the dependency trees for sentences by making use of a large set of example predictions created by humans. Many system have both a grammar based component and a machine learning component. For example a grammar based system can make use of a data driven approach to generate the formalized grammar and some grammar based systems generate many candidate dependency graphs from a grammar and use a machine learning technique to select one of them. \cite{kubler2009dependency}
 
     In the rest of this section a data driven dependency parsing technique called transition-based parsing will be described. The parsing technique used in the experiments conducted in this thesis work is very similar to the one described here. The parsing algorithm described here is a bit simpler to give an an understanding of the method without going into unnecessary details. The parsing algorithm used in the experiments is called Nivre Arc-eager \cite{nivre2008algorithms}. 
 
     A transition-based parsing system contains the three components presented in the following list:
 \begin{description}
  \item[A configuration] that contains the current state of the parsing system.
- \item[A set of rules] that can transform a state to another state.
+ \item[A set of rules,] where every rule transforms a configuration to another configuration.
  \item[An oracle function] that given a configuration outputs a rule to apply.
 \end{description}
 
@@ -247,11 +247,11 @@ The components differ in different variants of transition-based systems, but the
 
 \begin{description}
  
-  \item[LEFT-ARC] Pop $w_{1}$ from $S$ and add the arc $(w_{2}, l, w_{1})$ to $T$, where $w_{2}$ is the first word in $B$. A precondition for this rule to be allowed to be applied is that $W_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
+  \item[LEFT-ARC:] \textbf{Pop $w_{1}$ from $S$} and \textbf{add the arc $(w_{2}, l, w_{1})$ to $T$}, where $w_{2}$ is the first word in $B$. A precondition for this rule to be allowed to be applied is that $w_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
 
- \item[RIGHT-ARC] Pop $w_{1}$ from $S$, replace the first word $w_{2}$ in $B$ with $w_{1}$ and add the arc $(w_{1}, l, w_{2})$ to $T$.
+ \item[RIGHT-ARC:] \textbf{Pop $w_{1}$ from $S$}, \textbf{replace the first word $w_{2}$ in $B$ with $w_{1}$} and \textbf{add the arc $(w_{1}, l, w_{2})$ to $T$}.
 
- \item[SHIFT] Remove the first word $w$ in $B$ and push $w$ to $S$.
+ \item[SHIFT:] \textbf{Remove the first word $w$ in $B$} and \textbf{push $w$ to $S$}.
 
  \end{description}
 
@@ -298,7 +298,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
 
       \subsection{The Extension to Support Multiple Class Classification}
-	The basic SVM only supports classification to one of two classes. There are many extensions that allows SVMs to be used in multiple class classification problems. One popular approach which is both easy to implement and to understand is the one against rest extension. It works by creating one internal SVM for every class and trains each internal SVM using one class for the class it is created for and the other class for the rest of the training instances. When an instance shall be classified all internal classifiers are applied to the instance and the resulting class is calculated by selecting the class that gets the highest score. The score can be calculated e.g. by giving one point to a class for every classification that supports the class. Which extension that gives best accuracy may differ for different problems \cite{keerthi2008sequential,TanSK2005}.
+	The basic SVM only supports classification to one of two classes. There are many extensions that allows SVMs to be used in multiple class classification problems. One popular approach which is both easy to implement and to understand is the one against rest extension. It works by first creating one internal SVM for every class and then it trains each internal SVM using one class for the class it is created for and the other class for the rest of the training instances. When an instance shall be classified all internal classifiers are applied to the instance and the resulting class is calculated by selecting the class that gets the highest score. The score can be calculated for example by giving one point to a class for every classification that supports the class. Which extension that gives best accuracy may differ for different problems \cite{keerthi2008sequential,TanSK2005}.
 
 	The multiple class classification extension used for all experiments with linear SVMs in this thesis work is based on the method presented in the paper ''A Sequential Dual Method for Large Scale Multi-Class Linear SVMs'' \cite{keerthi2008sequential}.
 
@@ -747,7 +747,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
       The results of the experiment is presented in table~\ref{tab:different_levels_of_division}. An improvement is gained from one division compared to no division for all data sets and an even bigger improvement is gained from two divisions for all data sets except \emph{Swedish}. The average improvement from one division to two divisions is about 0.24\%. The average improvement from no division to 1 division is significantly larger namely 0.71\%. \emph{Swedish} is the smallest training set which can be an explanation of why the division had the least good effect on it. The partitions created by the second division on \emph{Swedish} might be too small for the training to create general enough classifiers from them.
 
-      The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That Swedish got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were bigger for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
+      The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That \emph{Swedish} got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were bigger for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
 
       So far it has just been assumed that the features that have been used for division in the first and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
 

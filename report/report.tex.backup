@@ -70,7 +70,7 @@ It has been found experimentally that division of the training data by a feature
 %Normally you should not use citation in an Abstract but here is one if you would like to learn about \LaTeX\. Many documents can be found on the Internet, e.g. see \cite{Lamp04} and \cite{Oe04}.
 \vskip 3em%
 \begin{center}
-{\bf {\Large Effekten av att Dela Träningsdata i Inuktiv Dependensparsning }}
+{\bf {\Large Effekten av att Dela Träningsdata i Induktiv Dependensparsning }}
 \vskip 1.5em%Analys av olika maskininlärningsmetoder för skapande av orakelfunktioner till Dependensparsning
 {\bf {\large Sammanfattning}}
 \end{center}
@@ -202,14 +202,14 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
   \section{Dependency Parsing}
   \label{sec:dependency_parsing}
-    Dependency parsing is the process of creating dependency grammar graphs from sentences. There exist grammar based dependency parsing systems as well as data driven dependency parsing systems. The grammar based systems have a formalized grammar that is used to generate dependency trees for sentences and data driven systems make use of some machine learning approach to predict the dependency trees for sentences by making use of a large set of example predictions created by humans. Many system have both a grammar based component and a machine learning component. For example a grammar based system can make use of data driven approach to generate the formalized grammar and some grammar based systems generate many candidate dependency graphs from a grammar and use a machine learning technique to select one of them. \cite{kubler2009dependency}
+    Dependency parsing is the process of creating dependency grammar graphs from sentences. There exist grammar based dependency parsing systems as well as data driven dependency parsing systems. The grammar based systems have a formalized grammar that is used to generate dependency trees for sentences and data driven systems make use of some machine learning approach to predict the dependency trees for sentences by making use of a large set of example predictions created by humans. Many system have both a grammar based component and a machine learning component. For example a grammar based system can make use of a data driven approach to generate the formalized grammar and some grammar based systems generate many candidate dependency graphs from a grammar and use a machine learning technique to select one of them. \cite{kubler2009dependency}
 
     In the rest of this section a data driven dependency parsing technique called transition-based parsing will be described. The parsing technique used in the experiments conducted in this thesis work is very similar to the one described here. The parsing algorithm described here is a bit simpler to give an an understanding of the method without going into unnecessary details. The parsing algorithm used in the experiments is called Nivre Arc-eager \cite{nivre2008algorithms}. 
 
     A transition-based parsing system contains the three components presented in the following list:
 \begin{description}
  \item[A configuration] that contains the current state of the parsing system.
- \item[A set of rules] that can transform a state to another state.
+ \item[A set of rules,] where every rule transforms a configuration to another configuration.
  \item[An oracle function] that given a configuration outputs a rule to apply.
 \end{description}
 
@@ -247,11 +247,11 @@ The components differ in different variants of transition-based systems, but the
 
 \begin{description}
  
-  \item[LEFT-ARC] Pop $w_{1}$ from $S$ and add the arc $(w_{2}, l, w_{1})$ to $T$, where $w_{2}$ is the first word in $B$. A precondition for this rule to be allowed to be applied is that $W_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
+  \item[LEFT-ARC:] \textbf{Pop $w_{1}$ from $S$} and \textbf{add the arc $(w_{2}, l, w_{1})$ to $T$}, where $w_{2}$ is the first word in $B$. A precondition for this rule to be allowed to be applied is that $w_{1}$ is not the special word ROOT. This is to prevent the word ROOT from depending on any other words.
 
- \item[RIGHT-ARC] Pop $w_{1}$ from $S$, replace the first word $w_{2}$ in $B$ with $w_{1}$ and add the arc $(w_{1}, l, w_{2})$ to $T$.
+ \item[RIGHT-ARC:] \textbf{Pop $w_{1}$ from $S$}, \textbf{replace the first word $w_{2}$ in $B$ with $w_{1}$} and \textbf{add the arc $(w_{1}, l, w_{2})$ to $T$}.
 
- \item[SHIFT] Remove the first word $w$ in $B$ and push $w$ to $S$.
+ \item[SHIFT:] \textbf{Remove the first word $w$ in $B$} and \textbf{push $w$ to $S$}.
 
  \end{description}
 
@@ -429,7 +429,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
     Many different software tools have been used during the thesis work. The most important tools are presented in the following sections. %Some of the tools are irrelevant for the results of the experiments but will be presented anyway because the lessons learned from them might be of interest for other reasons.
 
     \subsection{MaltParser}
-      MaltParser is an open source data driven transition-based dependency parsing system. It is written in the Java programming language. The main developers are Johan Hall, Jens Nilsson and Joakim Nivre at Växjö University and Uppsala University. It has been proved to be one of the best performing systems by getting the top score in the competition CoNLL Shared Task 2007 on Dependency Parsing. The system is very configurable which makes it possible to optimize it for different languages. The system is written to be easy to extend by writing plugins to replace components such as the machine learning method.
+      MaltParser is an open source data driven transition-based dependency parsing system. It is written in the Java programming language. The main developers are Johan Hall, Jens Nilsson and Joakim Nivre at Växjö University and Uppsala University. It has been proved to be one of the best performing systems by getting the top score in the competition CoNLL Shared Task 2007 on Dependency Parsing. The system is very configurable which makes it possible to optimize for different languages. The system is written to be easy to extend by writing plugins to replace components such as the machine learning method.
 
       The MaltParser system can be run in two different modes. The first mode is the training mode where the input is configurations for the machine learning technique to use, a feature extraction model, dependency parsing algorithm settings and training data consisting of sentences with corresponding dependency trees. The output of the training phase is a model used to build the oracle function approximation used to decide the next step during parsing. The second mode is called parsing mode which takes a model created in the training mode and sentences to parse. The output of that mode is sentences with corresponding trees in the same format as the training set. The MaltParser settings used in the experiments are described in appendix~\ref{cha:appendix_maltparser_settings}.
 
@@ -437,7 +437,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
       
     \subsection{The Support Vector Machine Libraries LIBSVM and LIBLINEAR}
       \label{sec:liblinear_libsvm}
-      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. LIBLINEAR implements linear SVMs and LIBSVM implements nonlinear SVMs. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries. LIBLINEAR implements linear SVMs and LIBSVM implement SVMs with the Kernel Trick \cite{chang2001libsvm, fan2008liblinear}
+      LIBLINEAR and LIBSVM\footnote{LIBSVM  and LIBLINEAR can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/liblinear/ and http://www.csie.ntu.edu.tw/~cjlin/libsvm/.} are two SVM implementations that are integrated into MaltParser. LIBLINEAR implements linear SVMs and LIBSVM implements nonlinear SVMs \cite{chang2001libsvm, fan2008liblinear}. The original versions of the libraries are written in C but there exist Java clones as well as interfaces to many other programming languages for both libraries.
 
       The settings for the two libraries used in the experiments are presented in appendix~\ref{app:LIBLINAR_and_LIBSVM_settings}.
 
@@ -523,7 +523,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
  \item Nonlinear SVM without division of the training set
 \end{itemize}
 
-    When division was used the training data was divided by the feature representing the POSTAG property of the first element in the buffer. A test set was picked out from the original data set containing 10\% of instances. Eight different training sets were created from the remaining training instances where one contained all training instances, the next one half and the third one contained one forth etc until the last one that contained $\frac{1}{128}$ of the original training instances. The MaltParser configuration used in the experiment is explained in appendix~\ref{sec:appendix_LIBLINEAR_DIV}.
+    When division was used the training data was divided by the feature representing the POSTAG property of the first element in the buffer. A test set was picked out from the original data set containing 10\% of instances. Eight different training sets were created from the remaining training instances, where one contained all training instances, the next one half and the third one contained one forth etc until the last one that contained $\frac{1}{128}$ of the original training instances. The MaltParser configuration used in the experiment is explained in appendix~\ref{sec:appendix_LIBLINEAR_DIV}.
 
 %The experiment was performed with the five different training sets Swedish, Chinese, German, Czech and English. The size of the the original training sets for these languages are different. The Swedish training set is the smallest and the English is the biggest. Three measurements where recorded for every test case, namely training time, testing time and label attachment score.
 
@@ -1050,7 +1050,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
     \emph{Goal number 1} is to investigate how division of the training data effects the performance of the resulting dependency parsing system. This has been investigated experimentally in the experiments described in chapter~\ref{ch:experiments}. The experiments show that when certain division features are used together with a linear SVM it can improve the accuracy of the resulting classifier in a significant way. %The training and testing time are affected by division when a linear SVM is used as classifier, but the difference is so small that it is probably not important for most applications. 
     The division approach could easily be scaled out to several processors so training of different partitions could be run in parallel which could potentially speed up the training time significantly. The experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm} showed that division also could have a positive effect on the accuracy when nonlinear SVMs are used. To summarize the findings about how the accuracy is effected by division, one can say that it seems to depend on the training data and that the more training data there is the more positive effect can be gained by division. Not surprisingly division has a very positive effect on both training and testing time when division is used together with nonlinear SVM. The reason is that the training and classification time grows faster than linearly with the number of training examples for nonlinear SVMs.
 
-    \emph{Goal number 2} is to investigate the theoretical reasons for the effect of division. The hypothesis that has been discussed in this report and that many of the experiments in chapter~\ref{ch:experiments} support, is that when division on a certain features is done it creates many smaller classification problems that the nonlinear SVM and linear SVM easier can separate into classes than the full classification problem. In other words, the SVM method together with division is more powerful than just the SVM in some cases. Intuitively it can be explained by the fact that a plane may not be able to separate all data, but if enough data is removed from the original data it will be able to separate it. The risk of dividing too much is that the classifier will over-fit the problem, which will lead to worse generalization and more errors when the classifier is tested. This is a well known principle in machine learning called over-training. An attempt to address this problem in form of a decision tree classifier is tested in the experiments described in section~\ref{sec:decision_tree_with_intuitive_division_order}, \ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} and \ref{sec:decision_tree_in_malt_parser} with fairly successful results. 
+    \emph{Goal number 2} is to investigate the theoretical reasons for the effect of division. The hypothesis that has been discussed in this report and which many of the experiments in chapter~\ref{ch:experiments} support, is that when division on a certain features is done, it creates many smaller classification problems that the nonlinear SVM and linear SVM easier can separate into classes than the full classification problem. In other words, the SVM method together with division is more powerful than just the SVM in some cases. Intuitively it can be explained by the fact that a plane may not be able to separate all data, but if enough data is removed from the original data it will be able to separate it. The risk of dividing too much is that the classifier will over-fit the problem, which will lead to worse generalization and more errors when the classifier is tested. This is a well known principle in machine learning called over-training. An attempt to address this problem in form of a decision tree classifier is tested in the experiments described in section~\ref{sec:decision_tree_with_intuitive_division_order}, \ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} and \ref{sec:decision_tree_in_malt_parser} with fairly successful results. 
 
 
     \emph{Goal number 3} is to implement a new machine learning method in MaltParser based on the findings in the work. This has been done in form of a decision tree method where one of the libraries LIBSVM and LIBLINEAR is used as classifier in the leaf nodes. The MaltParser plugin is described in chapter~\ref{ch:maltparser_plugin}. A possible use case for the new method could be when parsing and training speed as well as good accuracy is important. The experiments have shown that division strategies have more positive effect on the accuracy if the training set is bigger. The training sets available for different languages will probably be bigger in the feature to increase accuracy and then the tree division strategy investigated in this project may become even more useful than it is today.
