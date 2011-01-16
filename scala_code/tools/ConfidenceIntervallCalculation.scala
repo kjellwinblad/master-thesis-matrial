@@ -186,36 +186,9 @@ object ConfidenceIntervallCalculation extends Application {
 1925826
 [kjell@grad1 exp2MainDir]$ cat output_unique_eng_stack_proj | wc -l
 1916334
-
-
-  & \textbf{No Division} & stat. sign. & \textbf{1 Division} & stat. sign. & \textbf{2 Divisions} \\ \hline \hline
-\textbf{Swedish} &                  $90.9162$ & $<(70%)$ & $91.1496*$ & $>(55%)$ & $90.9787$ \\ \hline
-\textbf{Chinese} &                  $92.0441$ & $<(59%)$ & $92.0889$ & $<(86%)$ & $92.1678*$ \\ \hline
-\textbf{German} &                   $91.0386$ & $<(99%)$ & $92.6778$ & $<(62%)$ & $92.7075*$ \\ \hline
-\textbf{Czech Stack Lazy} &         $89.9787$ & $<(99%)$ & $91.1751$ & $<(99%)$ & $91.8522*$ \\ \hline
-\textbf{Czech Stack Projection} &   $89.7828$ & $<(99%)$ & $91.0158$ & $<(99%)$ & $91.6156*$ \\ \hline
-\textbf{English Stack Lazy} &       $94.3736$ & $<(99%)$ & $94.7557$ & $<(99%)$ & $94.9537*$ \\ \hline
-\textbf{English Stack Projection} & $94.4000$ & $<(99%)$ & $94.7626$ & $<(99%)$ & $95.0080*$ \\ \hline \hline
-
-Table 4.4 between nodiv 1 div
-SWE       0.7018132554367185
-CHI       0.5986061738803983
-GER       9.999999995343387
-CZE LAZY  9.999999995343387
-CHI STACK 9.999999995343387
-ENG LAZY  9.999999995343387
-ENG STACK 9.999999995343387
-Table 4.4 between 1 div and 2 div
-SWE       0.5558592779561877
-CHI       0.8618025714531541
-GER       0.6229254463687539
-CZE LAZY  9.999999995343387
-CHI STACK 9.999999995343387
-ENG LAZY  1.0000000009313226
-ENG STACK 9.999999995343387
    */
   
-val test = 5.0
+
   
 println("Table 4.4 between nodiv 1 div")
 println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.909162, 1 - 0.911496))
@@ -235,52 +208,24 @@ println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.910158, 
 println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.947557, 1 - 0.949537))
 println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.947626, 1 - 0.950080))
 
-/*
- & \textbf{Intuitive} & \textbf{Sign.} &\textbf{Gain Ratio} \\ \hline \hline
-\textbf{Swedish} &                  $90.9787*$  & $>(60\%)$ & $91.1675$ & $>(67\%)$ & $90.9472$ \\ \hline
-\textbf{Chinese} &                  $92.1678*$ & $>(65\%)$ & & $92.1179$ & $<(25\%)$ & $92.1349$ \\ \hline
-\textbf{German} &                   $92.7075$ & $<(99\%)$ & & $93.1317*$ & $>(99\%)$ & $92.9364$ \\ \hline
-\textbf{Czech Stack Lazy} &         $91.8522$ & $<(32\%)$ & & $91.8662$ & $<(98\%)$ & $91.9473*$ \\ \hline
-\textbf{Czech Stack Projection} &   $91.6156$ & $<(73\%)$ & $91.6537$ & $<(99\%)$ & $91.7707*$ \\ \hline
-\textbf{English Stack Lazy} &       $94.9537$ & $<(99\%)$ & $95.0205$ & $<(99\%)$ & $95.1203*$ \\ \hline
-\textbf{English Stack Projection} & $95.0080$ & $<(99\%)$ & $95.0770$ & $<(99\%)$ & $95.1578*$ \\ \hline \hline
-
-Table 4.7 between 1 div and 2 div
-SWE       0.675888410769403
-CHI       0.25164551567286253
-GER       1.0000000009313226
-CZE LAZY  0.9847643272951245
-CHI STACK 0.999407391063869
-ENG LAZY  0.9999942174181342
-ENG STACK 0.999759123660624
- */
-
-println("Table 4.7 between Intuitve and Gain Ratio")
-println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.911675, 1 - 0.909472))
-println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.921179, 1 - 0.921349))
-println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.931317, 1 - 0.929364))
-println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918662, 1 - 0.919473))
-println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916537, 1 - 0.917707))
-println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.950205, 1 - 0.951203))
-println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950770, 1 - 0.951578))
+println("Table 4.7 between 2 div and Gain Ratio")
+println("SWE       " + greaterThanMaxConf(323136/10, 323136/10,   1 - 0.909787, 1 - 0.909472))
+println("CHI       " + greaterThanMaxConf(511869/10, 511869/10,   1 - 0.921678, 1 - 0.921349))
+println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.929364))
+println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.919473))
+println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.917707))
+println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.951203))
+println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.951578))
 
 println("Table 4.7 between 2 div and Intuitive")
-println("SWE       " + greaterThanMaxConf(323136/10,  323136/10,   1 - 0.909787, 1 - 0.911675))
+println("SWE       " + greaterThanMaxConf(323136/10,  323136/10,  1 - 0.909787, 1 - 0.911675))
 println("CHI       " + greaterThanMaxConf(511869/10,  511869/10,  1 - 0.921678, 1 - 0.921179))
 println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.931317))
 println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.918662))
 println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.916537))
 println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.950205))
 println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.950770))
-/**/
-/*
- & \textbf{Intuitive} & \textbf{Sign.} & \textbf{Division} & \textbf{Sign.} &\textbf{Gain Ratio} \\ \hline \hline
-\textbf{Swedish} &                  $82.18$ & $<(55\%)$ & $82.28$ & $>(91\%)$ & $82.06$ \\ \hline
-\textbf{Chinese} &                  $82.56$ & $>(17\%)$ & $82.54$ & $>(99\%)$ & $81.54$ \\ \hline
-\textbf{German} &                   $82.98$ & $>(99\%)$ & $81.61$ & $>(99\%)$ & $81.16$ \\ \hline
-\textbf{Czech} &                    $70.06$ & $>(99\%)$ & $69.10$ & $<(99\%)$ & $69.56$ \\ \hline
-\textbf{English} &                  $87.32$ & $>(99\%)$ & $86.77$ & $<(99\%)$ & $87.14$ \\ \hline
- */
+
 println("MaltParser Decision tree between Intuitive and Division")
 println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.8228, 1 - 0.8218))
 println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.8254, 1 - 0.8256))
@@ -312,14 +257,14 @@ CZE LAZY  1.0000000009313226
 CHI STACK 0.9999999450519681
 ENG LAZY  0.9947643661871552
 ENG STACK 0.9994488907977939
-Table 4.7 between Intuitve and Gain Ratio
-SWE       0.675888410769403
-CHI       0.0806174660101533
-GER       0.9391449252143502
-CZE LAZY  0.5594004737213254
-CHI STACK 0.7240231847390532
-ENG LAZY  0.8481147466227412
-ENG STACK 0.7548076333478093
+Table 4.7 between 2 div and Gain Ratio
+SWE       0.11115868110209703
+CHI       0.15561606269329786
+GER       0.9699152735993266
+CZE LAZY  0.6316970149055123
+CHI STACK 0.8509001927450299
+ENG LAZY  0.9832543274387717
+ENG STACK 0.9687795722857118
 Table 4.7 between 2 div and Intuitive
 SWE       0.6017357716336846
 CHI       0.23371759336441755
@@ -344,7 +289,7 @@ ENG       0.9766167728230357
  * 
  */
   
- // println(compareTwoModels(32313, 32313, 1 - 0.909162, 1 - 0.911496, 0.70))
+// println(compareTwoModels(32313, 32313, 1 - 0.909162, 1 - 0.911496, 0.70))
 
 //  println(greaterThanMaxConf(30, 5000, 0.15, 0.25))
   

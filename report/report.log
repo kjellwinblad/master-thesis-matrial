@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.10.31)  9 JAN 2011 19:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.10.31)  16 JAN 2011 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,15 +299,10 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [2
 
+] [1] [2
+
 ]
-Overfull \hbox (8.91942pt too wide) in paragraph at lines 78--79
-[]\T1/cmr/m/n/10 Parsning av naturligt språk kan göras med en teknik som kallas
- in-duk-tiv de-pen-densparsning
- []
-
-[1] [2
-
-] (./report.toc [3
+(./report.toc [3
 
 ])
 \tf@toc=\write3
@@ -356,37 +351,62 @@ Overfull \hbox (2.70139pt too wide) in paragraph at lines 584--628
 
 [17] [18] [19]
 File: accuracy_of_partions/accuracy_of_partions.eps Graphic file (type eps)
- <accuracy_of_partions/accuracy_of_partions.eps> [20]
-Underfull \vbox (badness 2285) has occurred while \output is active []
-
- [21]
+ <accuracy_of_partions/accuracy_of_partions.eps> [20] [21]
 [22]
-Overfull \hbox (11.10098pt too wide) in paragraph at lines 838--849
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 755--755
+[][]\T1/cmr/m/n/8 How the con-fi-dence in-ter-vals are cal-cu-lated can be seen
+ at the fol-low-ing lo-ca-tion
+ []
+
+
+Overfull \hbox (69.35378pt too wide) in paragraph at lines 755--755
+\T1/cmr/m/n/8 ''https://github.com/kjellwinblad/master-thesis-matrial/blob/mast
+er/scala_code/tools/ConfidenceIntervallCalculation.scala''.| 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 854--854
+Overfull \hbox (11.10098pt too wide) in paragraph at lines 817--828
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 833--833
 [][]\T1/cmr/m/n/8 Images that shows the struc-ture of the cre-ated de-ci-sion t
 rees can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 854--854
+Underfull \hbox (badness 10000) in paragraph at lines 833--833
 \T1/cmr/m/n/8 be found at the lo-ca-tion ''http://github.com/kjellwinblad/maste
 r-thesis-
  []
 
-[24]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [24]
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 865--865
+[][]\T1/cmr/m/n/8 How the con-fi-dence in-ter-vals are cal-cu-lated can be seen
+ at the fol-low-ing lo-ca-tion
+ []
 
-LaTeX Warning: Float too large for page by 41.61731pt on input line 1009.
 
-[26] [27] [28]
+Overfull \hbox (69.35378pt too wide) in paragraph at lines 865--865
+\T1/cmr/m/n/8 ''https://github.com/kjellwinblad/master-thesis-matrial/blob/mast
+er/scala_code/tools/ConfidenceIntervallCalculation.scala''.| 
+ []
+
+
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+ [26]
+
+LaTeX Warning: Float too large for page by 41.61731pt on input line 989.
+
+[27] [28]
 Chapter 5.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1032
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1014
 .
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -453,10 +473,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2941 strings out of 493849
  38800 string characters out of 1152845
- 130976 words of memory out of 3000000
+ 124976 words of memory out of 3000000
  6134 multiletter control sequences out of 15000+50000
  27107 words of font info for 70 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 34i,11n,45p,1630b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,45p,1839b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.dvi (58 pages, 168380 bytes).
+Output written on report.dvi (58 pages, 169224 bytes).

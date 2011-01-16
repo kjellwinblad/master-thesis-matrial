@@ -47,9 +47,9 @@
 
 %Inductive Dependency Parsing has got a lot of attetntion the reacent years for it 
 
-Syntax parsing of natural language can be done with a technique called inductive dependency parsing which is also often referred to as data driven dependency parsing. Data driven dependency parsing makes use of a machine learning method to train a classifier that leads the parser. In this report an attempt to improve the state of the art classifier for data driven dependency parsing is presented.
+Syntax parsing of natural language can be done with inductive dependency parsing which is also often referred to as data driven dependency parsing. Data driven dependency parsing makes use of a machine learning method to train a classifier that leads the parser. In this report an attempt to improve the state of the art classifier for data driven dependency parsing is presented.
 
-It has been found experimentally that division of the training data by a feature can increase the accuracy of a dependency parsing system when the partitions created by the division are trained with linear Support Vector Machines. It has also been shown that the training and testing time can be significantly improved and that the accuracy does not suffer much when this kind of division strategy is used together with nonlinear Support Vector Machines.  The results of experiments with decision trees that use linear Support Vector Machines in the leaf nodes indicates that a small improvement of the accuracy can be gained with that technique compared to simply dividing by one feature and training the resulting partitions with linear Support Vector Machines. 
+In this thesis work it has been found experimentally that division of the training data by a feature can increase the accuracy of a dependency parsing system when the partitions created by the division are trained with linear Support Vector Machines. It has also been shown that the training and testing time can be significantly improved and that the accuracy does not suffer much when this kind of division strategy is used together with nonlinear Support Vector Machines.  The results of experiments with decision trees that use linear Support Vector Machines in the leaf nodes indicates that a small improvement of the accuracy can be gained with that technique compared to simply dividing by one feature and training the resulting partitions with linear Support Vector Machines. 
 
 
 
@@ -70,14 +70,14 @@ It has been found experimentally that division of the training data by a feature
 %Normally you should not use citation in an Abstract but here is one if you would like to learn about \LaTeX\. Many documents can be found on the Internet, e.g. see \cite{Lamp04} and \cite{Oe04}.
 \vskip 3em%
 \begin{center}
-{\bf {\Large Effekten av att Dela Träningsdata i Induktiv Dependensparsning }}
+{\bf {\Large Effekten av att dela träningsdata i induktiv dependensparsning }}
 \vskip 1.5em%Analys av olika maskininlärningsmetoder för skapande av orakelfunktioner till Dependensparsning
 {\bf {\large Sammanfattning}}
 \end{center}
 
-Parsning av naturligt språk kan göras med en teknik som kallas induktiv dependensparsning som ofta också kallas databaserad dependensparsning. Databaserad dependensparsning använder en maskininlärningsmetod för att träna en klassificerare som leder parsern. I den här rapporten presenteras ett försök att förbättra en av de bästa metoderna som finns idag för dependensparsning. 
+Parsning av naturligt språk kan göras med induktiv dependensparsning som ofta också kallas databaserad dependensparsning. Databaserad dependensparsning använder en maskininlärningsmetod för att träna en klassificerare som leder parsern. I den här rapporten presenteras ett försök att förbättra en av de bästa metoderna som finns idag för dependensparsning. 
 
-Det har visats i experiment att delning av träningsdata baserat på värdet av en egenskap hos träningsexemplen kan förbättra parsningsresultatet för ett dependensparsningssystem när delarna som har skapats vid uppdelningen tränas med linjära stödvektormaskiner. Det har också visats att tiden det tar att träna och testa kan förbättras avsevärt och att parsningsresultatet inte förändras mycket när den här typen av uppdelnings strategier används tillsammans med ickelinjära stödvektormaskiner. Resultaten från experiment med beslutsträd som använder linjära stödvektormaskiner i lövnoderna av beslutsträdet tyder på att en liten förbättring av parsningsresultatet kan fås med tekniken jämfört med att göra en enkel uppdelning av träningsdatat och träna de resulterande delarna med linjära stödvektormaskiner.
+I det här examensarbetet har det visats i experiment att delning av träningsdata baserat på värdet av en egenskap hos träningsexemplen kan förbättra parsningsresultatet för ett dependensparsningssystem när delarna som har skapats vid uppdelningen tränas med linjära stödvektormaskiner. Det har också visats att tiden det tar att träna och testa kan förbättras avsevärt och att parsningsresultatet inte förändras mycket när den här typen av uppdelningsstrategier används tillsammans med ickelinjära stödvektormaskiner. Resultaten från experiment med beslutsträd som använder linjära stödvektormaskiner i lövnoderna av beslutsträdet tyder på att en liten förbättring av parsningsresultatet kan fås med tekniken jämfört med att göra en enkel uppdelning av träningsdatat och träna de resulterande delarna med linjära stödvektormaskiner.
 
 %Dependensparsning har fått en ökad popularitet de senaste åren för parsning av naturligt språk. Detta är troligtvis på grund av att tekniken är robust och att den ger ger bra parsningsresultat. Det beror på att dependensgrammatik har några egenskaper som gör att det går att sätta upp parsnings-system som kan tränas med maskininlärningstekniker på en datamängd som innehåller syntaxträd för meningar utan att en formell grammatik behövs.
 
@@ -107,7 +107,7 @@ Det har visats i experiment att delning av träningsdata baserat på värdet av en 
 
 %#A short description of the task and why someone (a company) is interested in this problem. How does it fit into larger applications/research.
 
-  To automatically generate syntax trees for sentences in a text is of interest for many applications. It can be used in, for example, automatic translation systems and semantic analysis. A technique for generating such trees that has gained increased popularity in the recent years is data-driven dependency parsing. The data-driven dependency parsing technique called transition-based dependency parsing works by building up a syntax tree sequentially by applying different transitions on the current parsing state. Which transition that shall be applied in a given state is decided by a function which is often called the oracle function. It is a very difficult problem to find a good oracle function due to the ambiguity of natural languages. One of the best methods known so far for creating the oracle function is a supervised machine learning technique called nonlinear Support Vector Machines (SVMs) \cite{yamada2003statistical}. Supervised machine learning techniques are algorithms that given training examples of input values and output values creates a model that can be used to predict output values from input values that may not exist in the training examples. If a syntax tree for a sentence makes sense or not can only be decided by humans. Therefor it is natural to deduce the training data for the machine learning technique used to create the oracle function from syntax trees created by humans.
+  To automatically generate syntax trees for sentences in a text has several applications. It can be used in, for example, automatic translation systems and semantic analysis. A technique for generating such trees that has gained increased popularity in the recent years is data-driven dependency parsing. The data-driven dependency parsing technique called transition-based dependency parsing works by building up a syntax tree sequentially by applying different transitions on the current parsing state. Which transition that shall be applied in a given state is decided by a function which is often called the oracle function. It is a very difficult problem to find a good oracle function due to the ambiguity of natural languages. One of the best methods known so far for creating the oracle function is a supervised machine learning technique called nonlinear Support Vector Machines (SVMs) \cite{yamada2003statistical}. Supervised machine learning techniques are algorithms that given training examples of input values and output values creates a model that can be used to predict output values from input values that may not exist in the training examples. If a syntax tree for a sentence makes sense or not can only be decided by humans. Therefor it is natural to deduce the training data for the machine learning technique used to create the oracle function from syntax trees created by humans.
 
   The training phase of a nonlinear SVM is very memory and computationally expensive. To speed it up it is possible to divide the input data in a reproduce-able way and then train many smaller SVMs that can be combined to produce the final classifier \cite{goldberg2008splitsvm}. This usually produce a resulting classifier with worse accuracy.  However, when a linear SVM was used together with division of the training data, the Computational Linguistics Group at Uppsala University found that the result was better with division than without. Investigating this is interesting, since the training and testing time of the state of the art transition-based parsing system could be reduced significantly, if the division technique could be refined to give similar accuracy as the nonlinear SVM. Furthermore, it could give insight into the classification problem which could lead to other improvements.
 
@@ -256,7 +256,7 @@ The components differ in different variants of transition-based systems, but the
  \end{description}
 
     
-    The parsing algorithm is very simple. It works by applying the rules until the buffer is empty. Then if the arcs in the arc set are not connected or if words are missing from the sentence a tree containing all words is constructed by attaching words to the special ROOT word. Both the parsing algorithm described here and the Nivre Arc-eager system used in the experiments have been proven to be both sound and complete, which means that parsing will always result in a dependency tree and all possible projective trees
+    The parsing algorithm works by applying the rules until the buffer is empty. Then if the arcs in the arc set are not connected or if words are missing from the sentence a tree containing all words is constructed by attaching words to the special ROOT word. Both the parsing algorithm described here and the Nivre Arc-eager system used in the experiments have been proven to be both sound and complete, which means that parsing will always result in a dependency tree and all possible projective trees
 \footnote{
 See section 2.1.2 in \cite{kubler2009dependency} for an explanation of what it means for a dependency tree to be projective.
 %A dependency parsing tree is projective if the tree is connected and there is a direct path for all words in the tree to the words that are between the words in the endpoints of the arc that the word is head of. That words are between means that they are between the two words in the sentence that the dependency tree is made for.
@@ -298,7 +298,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
 
       \subsection{The Extension to Support Multiple Class Classification}
-	The basic SVM only supports classification to one of two classes. There are many extensions that allows SVMs to be used in multiple class classification problems. One popular approach which is both easy to implement and to understand is the one against rest extension. It works by creating one internal SVM for every class and trains each internal SVM using one class for the class it is created for and the other class for the rest of the training instances. When an instance shall be classified all internal classifiers are applied to the instance and the resulting class is calculated by selecting the class that gets the highest score. The score can be calculated e.g. by giving one point to a class for every classification that supports the class. Which extension that gives best accuracy may differ for different problems \cite{keerthi2008sequential,TanSK2005}.
+	The basic SVM only supports classification to one of two classes. There are many extensions that allows SVMs to be used in multiple class classification problems. One popular approach which is both easy to implement and to understand is the one against rest extension. It works by first creating one internal SVM for every class and then it trains each internal SVM using one class for the class it is created for and the other class for the rest of the training instances. When an instance shall be classified all internal classifiers are applied to the instance and the resulting class is calculated by selecting the class that gets the highest score. The score can be calculated for example by giving one point to a class for every classification that supports the class. Which extension that gives best accuracy may differ for different problems \cite{keerthi2008sequential,TanSK2005}.
 
 	The multiple class classification extension used for all experiments with linear SVMs in this thesis work is based on the method presented in the paper ''A Sequential Dual Method for Large Scale Multi-Class Linear SVMs'' \cite{keerthi2008sequential}.
 
@@ -735,21 +735,21 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 \textbf{Czech Stack Projection} &   $89.7828$ & $<(99\%)$ & $91.0158$ & $<(99\%)$ & $91.6156*$ \\ \hline
 \textbf{English Stack Lazy} &       $94.3736$ & $<(99\%)$ & $94.7557$ & $<(99\%)$ & $94.9537*$ \\ \hline
 \textbf{English Stack Projection} & $94.4000$ & $<(99\%)$ & $94.7626$ & $<(99\%)$ & $95.0080*$ \\ \hline \hline
-\textit{\textbf{Average}} &                  \textit{92.0479} & & \textit{92.7576} &  & \textit{93.0013*} \\ 
+\textit{\textbf{Average}} &                  \textit{91.7906} & & \textit{92.5179} &  & \textit{92.7548*} \\ 
 \end{tabular}
 }
 \end{center}
-\caption{The table shows weighted cross validation scores for the different levels of division. The columns with the header ''Sign.'' shows the statistical significance of the difference between the divisions. For example the statistical certainty that one division gives better accuracy than no divisions for a Swedish data set of the size used in the experiment is greater than 70\%. The estimation of the statistical certainty is based on the assumption that the cross validation accuracy has equal or better certainty than a test with a single test set of the same size as the test sets in the cross validation and a single training set with the rest of the instances.  %The column named \emph{No division} contains the cross validation score for the case when all training data is trained together. The column named \emph{1 Division} contains the weighted average of cross validation after the training instances had been divided by the feature representing the \emph{POSTAG} property of the first element in the buffer. The column named \emph{2 division} contains the weighted average of cross validation after the partitions created in the first division had been divided again by the feature representing the \emph{POSTAG} property of the first element in the stack. 10 fold cross validation was used when cross validation were used. The language Swedish, Chinese and Germans have the same feature extraction model used in the previous experiments. Czech and English have two different feature extraction models each that can be found in appendix~\ref{app:feature_extraction_models_for_czech_english} 
+\caption{The table shows weighted cross validation scores for the different levels of division. The columns with the header ''Sign.'' shows the statistical significance of the difference between the divisions. For example the statistical certainty that one division gives better accuracy than no divisions for a Swedish data set of the size used in the experiment is greater than 70\%. In other words, an element in a ''Sign.'' column shows the statistical confidence that there is a difference in accuracy between the method used to get the value to the left of the element and the method used to get the value to the right of the element. The estimation of the statistical certainty is based on the assumption that the cross validation accuracy has equal or better certainty than a test with a single test set of the same size as the test sets used in the cross validation\footnote{How the confidence intervals are calculated can be seen at the following location ''https://github.com/kjellwinblad/master-thesis-matrial/blob/master/scala_code/tools/ConfidenceIntervallCalculation.scala.}.  %The column named \emph{No division} contains the cross validation score for the case when all training data is trained together. The column named \emph{1 Division} contains the weighted average of cross validation after the training instances had been divided by the feature representing the \emph{POSTAG} property of the first element in the buffer. The column named \emph{2 division} contains the weighted average of cross validation after the partitions created in the first division had been divided again by the feature representing the \emph{POSTAG} property of the first element in the stack. 10 fold cross validation was used when cross validation were used. The language Swedish, Chinese and Germans have the same feature extraction model used in the previous experiments. Czech and English have two different feature extraction models each that can be found in appendix~\ref{app:feature_extraction_models_for_czech_english} 
 }
 \label{tab:different_levels_of_division} 
 \end{table}
 
 
-      The results of the experiment is presented in table~\ref{tab:different_levels_of_division}. An improvement is gained from one division compared to no division for all data sets and an even bigger improvement is gained from two divisions for all data sets except \emph{Swedish}. The average improvement from one division to two divisions is about 0.24\%. The average improvement from no division to 1 division is significantly larger namely 0.71\%. \emph{Swedish} is the smallest training set which can be an explanation of why the division had the least good effect on it. The partitions created by the second division on \emph{Swedish} might be too small for the training to create general enough classifiers from them.
+      The results of the experiment is presented in table~\ref{tab:different_levels_of_division}. An improvement is gained from one division compared to no division for all data sets and an even bigger improvement is gained from two divisions for all data sets except \emph{Swedish}. The average improvement from one division to two divisions is about 0.24\%. The average improvement from no division to 1 division is significantly larger namely 0.73\%. \emph{Swedish} is the smallest training set which can be an explanation of why the division had the least good effect on it. The partitions created by the second division on \emph{Swedish} might be too small for the training to create general enough classifiers from them.
 
-      The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That Swedish got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were bigger for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
+      The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That \emph{Swedish} got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were bigger for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
 
-      So far it has just been assumed that the features that have been used for division in the first and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
+      So far it has just been assumed that the features used for division in the first and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
 
 %Therefore, it is possible that a division feature can have much better impact on the accuracy in just one division than any combination of two division feature but it is not so likely because both features selected for division is believed to be the best.
 
@@ -772,7 +772,7 @@ $5$ & Input[3] & POSTAG  \\ \hline
 $6$ & Stack[1] & POSTAG  \\ \hline
 \end{tabular}
 \end{center}
-\caption{The table lists the intuitive division order used in the decision tree creation algorithm. Input[N] represents the n:th element on the buffer and Stack[n] represents the n:th value on the stack in the dependency parsing algorithm. E.g. Input[0] represents the first element in the buffer. POSTAG is the property used for all division features.}
+\caption{The table lists the intuitive division order used in the decision tree creation algorithm. Input[n] represents the n:th element on the buffer and Stack[n] represents the n:th value on the stack in the dependency parsing algorithm. E.g. Input[0] represents the first element in the buffer. POSTAG is the property used for all division features.}
 \label{tab:division_feature_table}  
 \end{table}
 
@@ -805,71 +805,45 @@ $6$ & Stack[1] & POSTAG  \\ \hline
 
 The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by using the feature extraction model that can be found in appendix~\ref{cha:appendix_maltparser_settings}. The feature extraction models used to create the data sets \emph{Czech Stack Lazy}, \emph{Czech Stack Projection}, \emph{English Stack Lazy} and \emph{English Stack Projection} can be found in appendix~\ref{app:feature_extraction_models_for_czech_english}.
 
-%TODO Refernece the algorithm in previous section
-%\begin{verbatim}
-%Given:
-%List of features to divide on L
-%A training set T
-%Minimum size of training set M
-%
-%Algorithm:
-%Run cross validation on T and record the accuracy as A
-%If the size of T is less than M then return A as the result
-%If L is empty return A as the result
-%Divide T into several subset so every distinct value of the first feature in L has it?s own subset
-%Create an additional training set by concatenating all training sets with size less than M
-%For all training sets created in step 4 and 5 except the ones concatenated because the size were less than M run this algorithm again %with L substituted with L without the first element and T substituted with the sub training set and collect the results
-%Calculate the weighted average accuracy WA from the results obtained in 4
-%If the weighted average accuracy WA is less than the accuracy without division A then return A as the result otherwise return WA as the %result
-%\end{verbatim}
-
-
-%\textbf{Swedish} &                  $90.9162$ & $<(70\%)$ & $91.1496*$ & $>(55\%)$ & $90.9787$ \\ \hline
-%\textbf{Chinese} &                  $92.0441$ & $<(59\%)$ & $92.0889$ & $<(86\%)$ & $92.1678*$ \\ \hline
-%\textbf{German} &                   $91.0386$ & $<(99\%)$ & $92.6778$ & $<(62\%)$ & $92.7075*$ \\ \hline
-%\textbf{Czech Stack Lazy} &         $89.9787$ & $<(99\%)$ & $91.1751$ & $<(99\%)$ & $91.8522*$ \\ \hline
-%\textbf{Czech Stack Projection} &   $89.7828$ & $<(99\%)$ & $91.0158$ & $<(99\%)$ & $91.6156*$ \\ \hline
-%\textbf{English Stack Lazy} &       $94.3736$ & $<(99\%)$ & $94.7557$ & $<(99\%)$ & $94.9537*$ \\ \hline
-%\textbf{English Stack Projection} & $94.4000$ & $<(99\%)$ & $94.7626$ & $<(99\%)$ & $95.0080*$ \\ \hline \hline
 
     \subsection{Results and Discussion}
 \begin{table}[htb]  
   \begin{center}
 \begin{tabular}{l | | l | l | l | l | l }
- & \textbf{2 Div.} & \textbf{Sign.} & \textbf{Intuitive} & \textbf{Sign.} &\textbf{Gain Ratio} \\ \hline \hline
-\textbf{Swedish} &                  $90.9787*$  & $<(60\%)$ & $91.1675$ & $>(67\%)$ & $90.9472$ \\ \hline
-\textbf{Chinese} &                  $92.1678*$ & $>(23\%)$ & $92.1179$ & $<(8\%)$ & $92.1349$ \\ \hline
-\textbf{German} &                   $92.7075$ & $<(99\%)$ & $93.1317*$ & $>(93\%)$ & $92.9364$ \\ \hline
-\textbf{Czech Stack Lazy} &         $91.8522$ & $<(10\%)$ & $91.8662$ & $<(55\%)$ & $91.9473*$ \\ \hline
-\textbf{Czech Stack Projection} &   $91.6156$ & $<(27\%)$ & $91.6537$ & $<(72\%)$ & $91.7707*$ \\ \hline
-\textbf{English Stack Lazy} &       $94.9537$ & $<(66\%)$ & $95.0205$ & $<(84\%)$ & $95.1203*$ \\ \hline
-\textbf{English Stack Projection} & $95.0080$ & $<(67\%)$ & $95.0770$ & $<(75\%)$ & $95.1578*$ \\ \hline \hline
-\textit{\textbf{Average}} &         \textit{93.0013} & &\textit{93.1178} & & \textit{93.0884}
+  & \textbf{Intuitive} & \textbf{Sign.} & \textbf{2 Div.} & \textbf{Sign.} &\textbf{Gain Ratio}  \\ \hline \hline
+\textbf{Swedish} &                  $91.1675$ &  $>(60\%)$ & $90.9787*$ & $>(11\%)$ & $90.9472$  \\ \hline
+\textbf{Chinese} &                  $92.1179$ &  $<(23\%)$ & $92.1678*$ & $>(15\%)$ & $92.1349$   \\ \hline
+\textbf{German} &                   $93.1317*$ & $>(99\%)$ & $92.7075$  & $<(96\%)$ & $92.9364$   \\ \hline
+\textbf{Czech Stack Lazy} &         $91.8662$ &  $>(10\%)$ & $91.8522$  & $<(63\%)$ & $91.9473*$  \\ \hline
+\textbf{Czech Stack Projection} &   $91.6537$ &  $>(27\%)$ & $91.6156$  & $<(85\%)$ & $91.7707*$  \\ \hline
+\textbf{English Stack Lazy} &       $95.0205$ &  $>(66\%)$ & $94.9537$ &  $<(98\%)$ & $95.1203*$  \\ \hline
+\textbf{English Stack Projection} & $95.0770$ &  $>(67\%)$ & $95.0080$ &  $<(96\%)$ & $95.1578*$  \\ \hline \hline
+\textit{\textbf{Average}} &         \textit{92.8621*} & &\textit{92.7548} & & \textit{92.8592}
 \end{tabular}
 \end{center}
 \caption{The accuracy for different languages calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. See section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} for an explanation of the Gain Ratio column and the description of table~\ref{tab:different_levels_of_division} for a description of the ''Sign.'' columns.}
 \label{tab:decion_tree_with_and_without_gain_ratio}
 \end{table}
 
-      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. Compared to the average accuracy obtained from two divisions in the experiment described in section~\ref{sec:different_levels_of_divisions} the decision tree gives an improvement of 0.11\%. All training sets except \emph{Chinese} had better accuracy with decision tree than the best obtained in the experiment described in section~\ref{sec:different_levels_of_divisions}. The two first features in the feature division list used for creating the decision tree are the same as the two used for the experiment with two divisions in section~\ref{sec:different_levels_of_divisions}. That \emph{Chinese} got slightly worse result with the decision tree anyway can be explained by the fact that when division with one and two features have been used partitions that contains less than 1000 instances have been put in a separate training set called the other training set, but with the decision tree there is one such other training set for every division. When looking  at the structure of the decision trees created for the different training sets, it is possible to see that some nodes are divided more than others and that the maximum depth for the trees seems to increase with the size of the training set\footnote{Images that shows the structure of the created decision trees can be found at the location ''http://github.com/kjellwinblad/master-thesis-matrial/tree/master/configs\_and\_scripts/exp3MainDir/results/graphs''.}. 
+      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. Compared to the average accuracy obtained from two divisions in the experiment described in section~\ref{sec:different_levels_of_divisions} the decision tree gives an  improvement of about 0.10\%. All training sets except \emph{Chinese} had better accuracy with decision tree than the best obtained in the experiment described in section~\ref{sec:different_levels_of_divisions}. The two first features in the feature division list used for creating the decision tree are the same as the two used for the experiment with two divisions in section~\ref{sec:different_levels_of_divisions}. That \emph{Chinese} got slightly worse result with the decision tree anyway can be explained by the fact that when division with one and two features have been used, partitions that contains less than 1000 instances have been put in a separate training set called the other training set, but with the decision tree there is one such other training set for every division. When looking  at the structure of the decision trees created for the different training sets, it is possible to see that some nodes are divided more than others and that the maximum depth for the trees seems to increase with the size of the training set\footnote{Images that shows the structure of the created decision trees can be found at the location ''http://github.com/kjellwinblad/master-thesis-matrial/tree/master/configs\_and\_scripts/exp3MainDir/results/graphs''.}. 
 
       \emph{Hypothesis~3}, which says that the classification accuracy of the problem can get improved by division to a certain point when it starts to get worse is strongly supported by the experiment. %The experiment indicates that the accuracy can get improved by several division but also that there is a limit for the improvement.
       %The experiment also supports \emph{hypothesis~4}, which says that there is a way to automatically create a division to improve the accuracy.
 
-      The only thing that is not automatic in the training is the selection of the division features. If that also can be automatic is investigated in the experiment described in the next section.
+      The only thing that is not automatic in the training is the selection of the division features. If that also can be made automatic is investigated in the experiment described in the next section.
 
 
   \section{Decision Tree With Devision Order Decided by Gain Ratio}
   \label{sec:decision_tree_with_devision_order_decided_by_gain_ratio}
 
-    The experiment described in section~\ref{sec:decision_tree_with_intuitive_division_order} indicated that combining a decision three with a linear SVM can improve the accuracy compared to a linear SVM without any division of the training data. It is likely that the improvements that could be gained is highly dependent on the division features used when creating the tree. One method often used to select division features when creating decision trees is called Gain Ratio. A description of the Gain Ratio measurement is provided in section~\ref{sec:gain_ratio}. This experiment was set up to try the Gain Ratio as ordering measurement for the possible division features. %to see if it could give any improvements and to remove the parameters from the method.
+    The experiment described in section~\ref{sec:decision_tree_with_intuitive_division_order} indicated that combining a decision tree with a linear SVM can improve the accuracy compared to a linear SVM without any division of the training data. It is likely that the improvements that could be gained is highly dependent on the division features used when creating the tree. One method often used to select division features when creating decision trees is called Gain Ratio. A description of the Gain Ratio measurement is provided in section~\ref{sec:gain_ratio}. This experiment was set up to try the Gain Ratio as ordering measurement for the possible division features. %to see if it could give any improvements and to remove the parameters from the method.
 
     The experiment set up is exactly the same as in the experiment described in section~\ref{sec:decision_tree_with_intuitive_division_order} with the exception that the list of division features is not a qualified guess but sorted by the Gain Ratio measurement.
 
 
     \subsection{Results and Discussion}
 
-      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. The average accuracy for the data sets trained with the Gain Ratio calculated decision order is slightly worse 0.03\% than when trained with the intuitive decision order, but still 0.08\% better than when two divisions were used without any decision tree.
+      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. The average accuracy for the data sets trained with the Gain Ratio calculated decision order is slightly worse (0.003\%) than when trained with the intuitive decision order.
 
       This experiment shows that we can get improvement with an algorithm that creates a division in a totally automatic way. This makes the decision tree method more interesting for practical use because no domain specific knowledge is required to use it.
 
@@ -896,7 +870,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 \textit{\textbf{Average}} &         \textit{81.02} & &\textit{80.46} & & \textit{80.29}
 \end{tabular}
 \end{center}
-\caption{Summary of table~\ref{tab:decion_tree_in_malt_parser} containing only the accuracy of the test accuracy after training with the biggest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 55\%.}
+\caption{Summary of table~\ref{tab:decion_tree_in_malt_parser} containing only the accuracy of the test accuracy after training with the biggest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 19\%\footnote{How the confidence intervals are calculated can be seen at the following location ''https://github.com/kjellwinblad/master-thesis-matrial/blob/master/scala_code/tools/ConfidenceIntervallCalculation.scala.}.}
 \label{tab:summary_decision_tree_in_malt_parser}
 \end{table}
    

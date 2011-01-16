@@ -31,10 +31,10 @@
 \contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}
 \contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}
-\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{24}
+\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}
 \contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{25}
 \contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}
-\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}
+\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{27}
 \contentsline {chapter}{\numberline {5}MaltParser Plugin}{29}
 \contentsline {section}{\numberline {5.1}Implementation}{29}
 \contentsline {section}{\numberline {5.2}Usage}{29}
