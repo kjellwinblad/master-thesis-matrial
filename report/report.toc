@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.4.3}The Extension to Support Multiple Class Classification}{9}
 \contentsline {section}{\numberline {2.5}Decision Trees}{9}
 \contentsline {subsection}{\numberline {2.5.1}Gain Ratio}{10}
-\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{12}
+\contentsline {section}{\numberline {2.6}Measuring the Accuracy of Machine Learning Methods with Cross-Validation}{11}
 \contentsline {chapter}{\numberline {3}Hypotheses and Methodology}{13}
 \contentsline {section}{\numberline {3.1}Hypotheses}{13}
 \contentsline {section}{\numberline {3.2}Methods}{13}
@@ -26,15 +26,15 @@
 \contentsline {section}{\numberline {4.2}Accuracy of Partitions Created by Division}{19}
 \contentsline {subsection}{\numberline {4.2.1}Results and Discussion}{20}
 \contentsline {section}{\numberline {4.3}Another Division of the Worst Performing Partitions}{21}
-\contentsline {subsection}{\numberline {4.3.1}Results and Discussion}{21}
+\contentsline {subsection}{\numberline {4.3.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.4}Different Levels of Division}{22}
 \contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}
 \contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}
 \contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}
-\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{25}
+\contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{26}
 \contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}
-\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{27}
+\contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}
 \contentsline {chapter}{\numberline {5}MaltParser Plugin}{29}
 \contentsline {section}{\numberline {5.1}Implementation}{29}
 \contentsline {section}{\numberline {5.2}Usage}{29}

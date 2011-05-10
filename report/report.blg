@@ -7,50 +7,80 @@ I was expecting a `,' or a `}'---line 25 of file base.bib
  :  pages = {2216--2219}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 143 of file base.bib
+I was expecting a `,' or a `}'---line 142 of file base.bib
  : 
  : year = {2006}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 19 entries,
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi" for entry maltparser
+while executing---line 1250 of file alpha.bst
+You've used 20 entries,
             2543 wiz_defined-function locations,
-            671 strings with 8269 characters,
-and the built_in function-call counts, 9414 in all, are:
-= -- 920
-> -- 534
+            678 strings with 8510 characters,
+and the built_in function-call counts, 9819 in all, are:
+= -- 963
+> -- 553
 < -- 12
-+ -- 192
-- -- 191
-* -- 678
-:= -- 1514
-add.period$ -- 61
-call.type$ -- 19
-change.case$ -- 147
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 363
-empty$ -- 648
-format.name$ -- 206
-if$ -- 1956
++ -- 198
+- -- 197
+* -- 710
+:= -- 1581
+add.period$ -- 64
+call.type$ -- 20
+change.case$ -- 153
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 377
+empty$ -- 677
+format.name$ -- 213
+if$ -- 2037
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 99
-num.names$ -- 57
-pop$ -- 177
+missing$ -- 21
+newline$ -- 104
+num.names$ -- 60
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 176
 quote$ -- 0
-skip$ -- 312
+skip$ -- 325
 stack$ -- 0
-substring$ -- 487
-swap$ -- 101
+substring$ -- 516
+swap$ -- 102
 text.length$ -- 12
 text.prefix$ -- 3
 top$ -- 0
-type$ -- 140
+type$ -- 148
 warning$ -- 0
-while$ -- 86
-width$ -- 23
-write$ -- 247
-(There were 2 error messages)
+while$ -- 91
+width$ -- 24
+write$ -- 260
+(There were 17 error messages)

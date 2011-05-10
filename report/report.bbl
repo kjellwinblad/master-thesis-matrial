@@ -83,6 +83,13 @@ J.~Nivre.
 \newblock {Algorithms for deterministic incremental dependency parsing}.
 \newblock {\em Computational Linguistics}, 34(4):513--553, 2008.
 
+\bibitem[NM07]{maltparser}
+J.~Hall J. Nilsson A. Chanev G. Eryigit S. Kübler S.~Marinov Nivre, J. and
+  E.~Marsi.
+\newblock {MaltParser: A language-independent system for data-driven dependency
+  parsing.}
+\newblock {\em Natural Language Engineering}, 13(2):95--135, 2007.
+
 \bibitem[NNH06]{nivre2006talbanken05}
 J.~Nivre, J.~Nilsson, and J.~Hall.
 \newblock {Talbanken05: A Swedish treebank with phrase structure and dependency

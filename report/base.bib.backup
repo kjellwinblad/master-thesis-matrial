@@ -177,16 +177,13 @@ year = {2006}
 	pages = "149--164",
 	year = "2006"
 }
- ().  , 13(2), 95-135. 
-@Article{ maltparser,
-	title = "{MaltParser: A language-independent system for data-driven dependency parsing.}",
-	author = "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi",
-	publisher = "Cambridge University Press",
-	journal = "Natural Language Engineering",
-	year = "2007",
-	pages = "95--135",
-	volume = "13",
-	number = "2"
+
+@Misc{ maltparser,
+	title = "{MaltParser: A Data-Driven Parser-Generator for Dependency Parsing}",
+	author = "Joakim Nivre and Johan Hall and Jens Nilsson",
+	publisher = "Citeseer",
+	journal = "LAMP-EPFL",
+	year = "2004"
 }
 
 @Article{ odersky2004overview,

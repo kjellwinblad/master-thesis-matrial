@@ -181,12 +181,10 @@ year = {2006}
 @Article{ maltparser,
 	title = "{MaltParser: A language-independent system for data-driven dependency parsing.}",
 	author = "Nivre, J., J. Hall, J. Nilsson, A. Chanev, G. Eryigit, S. Kübler, S. Marinov and E. Marsi",
-	publisher = "Cambridge University Press",
 	journal = "Natural Language Engineering",
-	year = "2007",
+	year = "2007"
 	pages = "95--135",
-	volume = "13",
-	number = "2"
+	volume = "13(2)",
 }
 
 @Article{ odersky2004overview,
