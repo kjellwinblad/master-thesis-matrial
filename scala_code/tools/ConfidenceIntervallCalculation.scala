@@ -189,106 +189,168 @@ object ConfidenceIntervallCalculation extends Application {
    */
   
 
-  
-println("Table 4.4 between nodiv 1 div")
-println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.909162, 1 - 0.911496))
-println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.920441, 1 - 0.920889))
-println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.910386, 1 - 0.926778))
-println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.899787, 1 - 0.911751))
-println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.897828, 1 - 0.910158))
-println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.943736, 1 - 0.947557))
-println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.944000, 1 - 0.947626))
+def printResult{
 
-println("Table 4.4 between 1 div and 2 div")
-println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.911496, 1 - 0.909787))
-println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.920889, 1 - 0.921678))
-println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.926778, 1 - 0.927075))
-println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.911751, 1 - 0.918522))
-println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.910158, 1 - 0.916156))
-println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.947557, 1 - 0.949537))
-println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.947626, 1 - 0.950080))
+	println("Table 4.4 between nodiv 1 div")
+	println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.909162, 1 - 0.911496))
+	println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.920441, 1 - 0.920889))
+	println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.910386, 1 - 0.926778))
+	println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.899787, 1 - 0.911751))
+	println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.897828, 1 - 0.910158))
+	println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.943736, 1 - 0.947557))
+	println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.944000, 1 - 0.947626))
 
-println("Table 4.7 between 2 div and Gain Ratio")
-println("SWE       " + greaterThanMaxConf(323136/10, 323136/10,   1 - 0.909787, 1 - 0.909472))
-println("CHI       " + greaterThanMaxConf(511869/10, 511869/10,   1 - 0.921678, 1 - 0.921349))
-println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.929364))
-println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.919473))
-println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.917707))
-println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.951203))
-println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.951578))
+	println("Table 4.4 between 1 div and 2 div")
+	println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.911496, 1 - 0.909787))
+	println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.920889, 1 - 0.921678))
+	println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.926778, 1 - 0.927075))
+	println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.911751, 1 - 0.918522))
+	println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.910158, 1 - 0.916156))
+	println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.947557, 1 - 0.949537))
+	println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.947626, 1 - 0.950080))
+	
+	println("Table 4.7 between 2 div and Gain Ratio")
+	println("SWE       " + greaterThanMaxConf(323136/10, 323136/10,   1 - 0.909787, 1 - 0.909472))
+	println("CHI       " + greaterThanMaxConf(511869/10, 511869/10,   1 - 0.921678, 1 - 0.921349))
+	println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.929364))
+	println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.919473))
+	println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.917707))
+	println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.951203))
+	println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.951578))
+	
+	println("Table 4.7 between 2 div and Intuitive")
+	println("SWE       " + greaterThanMaxConf(323136/10,  323136/10,  1 - 0.909787, 1 - 0.911675))
+	println("CHI       " + greaterThanMaxConf(511869/10,  511869/10,  1 - 0.921678, 1 - 0.921179))
+	println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.931317))
+	println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.918662))
+	println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.916537))
+	println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.950205))
+	println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.950770))
+	
+	println("MaltParser Decision tree between Intuitive and Division")
+	println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.8228, 1 - 0.8218))
+	println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.8254, 1 - 0.8256))
+	println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.8161, 1 - 0.8298))
+	println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.6910, 1 - 0.7006))
+	println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.8677, 1 - 0.8732))
+	
+	println("MaltParser Decision tree between Division and Gain Ratio")
+	println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.8228, 1 - 0.8206))
+	println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.8254, 1 - 0.8154))
+	println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.8161, 1 - 0.8116))
+	println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.6910, 1 - 0.6956))
+	println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.8677, 1 - 0.8714))
 
-println("Table 4.7 between 2 div and Intuitive")
-println("SWE       " + greaterThanMaxConf(323136/10,  323136/10,  1 - 0.909787, 1 - 0.911675))
-println("CHI       " + greaterThanMaxConf(511869/10,  511869/10,  1 - 0.921678, 1 - 0.921179))
-println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.927075, 1 - 0.931317))
-println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.918522, 1 - 0.918662))
-println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.916156, 1 - 0.916537))
-println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.949537, 1 - 0.950205))
-println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.950080, 1 - 0.950770))
+}
 
-println("MaltParser Decision tree between Intuitive and Division")
-println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.8228, 1 - 0.8218))
-println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.8254, 1 - 0.8256))
-println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.8161, 1 - 0.8298))
-println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.6910, 1 - 0.7006))
-println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.8677, 1 - 0.8732))
+def transformation(str:String, scale:Int = 4) = {
 
-println("MaltParser Decision tree between Division and Gain Ratio")
-println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.8228, 1 - 0.8206))
-println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.8254, 1 - 0.8154))
-println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.8161, 1 - 0.8116))
-println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.6910, 1 - 0.6956))
-println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.8677, 1 - 0.8714))
+	import scala.math.BigDecimal.RoundingMode._
+	
+	"""-\s([0-9\.]*)([,)])""".r.replaceAllIn(str, (m)=>{
+		"- " +
+		BigDecimal(m.group(1).toDouble).setScale(scale, HALF_EVEN).toString +
+		m.group(2)
+	}) 
+}
 
+def printResultLowerPrecision{
+   println("Table 4.4 between nodiv 1 div")
+   println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.90916, 1 - 0.91150))
+   println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.92044, 1 - 0.92089))
+   println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.91039, 1 - 0.92678))
+   println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.89979, 1 - 0.91175))
+   println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.89783, 1 - 0.91016))
+   println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.94374, 1 - 0.94756))
+   println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.94400, 1 - 0.94763))
+
+   println("Table 4.4 between 1 div and 2 div")
+   println("SWE       " + greaterThanMaxConf(323136/10, 323136/10, 1 - 0.91150, 1 - 0.90979))
+   println("CHI       " + greaterThanMaxConf(511869/10, 511869/10, 1 - 0.92089, 1 - 0.92168))
+   println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.92678, 1 - 0.92708))
+   println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.91175, 1 - 0.91852))
+   println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.91016, 1 - 0.91616))
+   println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.94756, 1 - 0.94954))
+   println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.94763, 1 - 0.95008))
+
+   println("Table 4.7 between 2 div and Gain Ratio")
+   println("SWE       " + greaterThanMaxConf(323136/10, 323136/10,   1 - 0.90979, 1 - 0.90947))
+   println("CHI       " + greaterThanMaxConf(511869/10, 511869/10,   1 - 0.92168, 1 - 0.92135))
+   println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.92708, 1 - 0.92936))
+   println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.91852, 1 - 0.91947))
+   println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.91616, 1 - 0.91771))
+   println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.94954, 1 - 0.95120))
+   println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.95008, 1 - 0.95158))
+
+   println("Table 4.7 between 2 div and Intuitive")
+   println("SWE       " + greaterThanMaxConf(323136/10,  323136/10,  1 - 0.90979, 1 - 0.91168))
+   println("CHI       " + greaterThanMaxConf(511869/10,  511869/10,  1 - 0.92168, 1 - 0.92118))
+   println("GER       " + greaterThanMaxConf(1188558/10, 1188558/10, 1 - 0.92708, 1 - 0.93132))
+   println("CZE LAZY  " + greaterThanMaxConf(1331838/10, 1331838/10, 1 - 0.91852, 1 - 0.91866))
+   println("CHI STACK " + greaterThanMaxConf(1305088/10, 1305088/10, 1 - 0.91616, 1 - 0.91654))
+   println("ENG LAZY  " + greaterThanMaxConf(1925826/10, 1925826/10, 1 - 0.94954, 1 - 0.95020))
+   println("ENG STACK " + greaterThanMaxConf(1916334/10, 1916334/10, 1 - 0.95008, 1 - 0.95077))
+
+   println("MaltParser Decision tree between Intuitive and Division")
+   println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.82280, 1 - 0.82180))
+   println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.82540, 1 - 0.82560))
+   println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.81610, 1 - 0.82980))
+   println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.69100, 1 - 0.70060))
+   println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.86770, 1 - 0.87320))
+
+   println("MaltParser Decision tree between Division and Gain Ratio")
+   println("SWE       " + greaterThanMaxConf(173466/10, 173466/10,   1 - 0.82280, 1 - 0.82060))
+   println("CHI       " + greaterThanMaxConf(337159/10, 337159/10,  1 - 0.82540, 1 - 0.81540))
+   println("GER       " + greaterThanMaxConf(625539/10, 625539/10, 1 - 0.81610, 1 - 0.81160))
+   println("CZE       " + greaterThanMaxConf(564446/10, 564446/10, 1 - 0.69100, 1 - 0.69560))
+   println("ENG       " + greaterThanMaxConf(848743/10, 848743/10, 1 - 0.86770, 1 - 0.87140))
+}
 /*
-Table 4.4 between nodiv 1 div
-SWE       0.7018132554367185
-CHI       0.20984800066798925
-GER       9.999999995343387
-CZE LAZY  9.999999995343387
-CHI STACK 9.999999995343387
-ENG LAZY  0.9999998332932591
-ENG STACK 0.9999993676319718
-Table 4.4 between 1 div and 2 div
-SWE       0.5558592779561877
-CHI       0.362316551618278
-GER       0.2192334784194827
-CZE LAZY  1.0000000009313226
-CHI STACK 0.9999999450519681
-ENG LAZY  0.9947643661871552
-ENG STACK 0.9994488907977939
-Table 4.7 between 2 div and Gain Ratio
-SWE       0.11115868110209703
-CHI       0.15561606269329786
-GER       0.9699152735993266
-CZE LAZY  0.6316970149055123
-CHI STACK 0.8509001927450299
-ENG LAZY  0.9832543274387717
-ENG STACK 0.9687795722857118
-Table 4.7 between 2 div and Intuitive
-SWE       0.6017357716336846
-CHI       0.23371759336441755
-GER       0.9999473253265023
-CZE LAZY  0.10540730785578489
-CHI STACK 0.27483353856951
-ENG LAZY  0.6601460045203567
-ENG STACK 0.6760388845577836
-MaltParser Decision tree between Intuitive and Division
-SWE       0.19334835465997458
-CHI       0.05456117447465658
-GER       1.0000000009313226
-CZE       0.9995718160644174
-ENG       0.9992720419541001
-MaltParser Decision tree between Division and Gain Ratio
-SWE       0.4075423674657941
-CHI       0.9993220819160342
-GER       0.9601097134873271
-CZE       0.9067039890214801
-ENG       0.9766167728230357
-
- * 
- */
-  
+ Table 4.4 between nodiv 1 div
+ SWE       0.703939818777144
+ CHI       0.21078794728964567
+ GER       9.999999995343387
+ CZE LAZY  9.999999995343387
+ CHI STACK 9.999999995343387
+ ENG LAZY  0.9999998332932591
+ ENG STACK 0.9999993862584233
+ Table 4.4 between 1 div and 2 div
+ SWE       0.5560418544337153
+ CHI       0.3624957846477628
+ GER       0.222183377481997
+ CZE LAZY  1.0000000009313226
+ CHI STACK 0.9999999543651938
+ ENG LAZY  0.9947643661871552
+ ENG STACK 0.9994488907977939
+ Table 4.7 between 2 div and Gain Ratio
+ SWE       0.11316450778394938
+ CHI       0.1563361333683133
+ GER       0.9691621595993638
+ CZE LAZY  0.6310875015333295
+ CHI STACK 0.8506569499149919
+ ENG LAZY  0.9824543772265315
+ ENG STACK 0.9689713688567281
+ Table 4.7 between 2 div and Intuitive
+ SWE       0.6017357716336846
+ CHI       0.23383408319205046
+ GER       0.9999473253265023
+ CZE LAZY  0.10540730785578489
+ CHI STACK 0.27483353856951
+ ENG LAZY  0.6540024233981967
+ ENG STACK 0.6760388845577836
+ MaltParser Decision tree between Intuitive and Division
+ SWE       0.19334835465997458
+ CHI       0.05456117447465658
+ GER       1.0000000009313226
+ CZE       0.9995718160644174
+ ENG       0.9992720419541001
+ MaltParser Decision tree between Division and Gain Ratio
+ SWE       0.4075423674657941
+ CHI       0.9993220819160342
+ GER       0.9601097134873271
+ CZE       0.9067039890214801
+ ENG       0.9766167728230357
+*/
 // println(compareTwoModels(32313, 32313, 1 - 0.909162, 1 - 0.911496, 0.70))
 
 //  println(greaterThanMaxConf(30, 5000, 0.15, 0.25))

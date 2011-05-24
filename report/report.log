@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.10)  5 MAY 2011 10:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.10)  24 MAY 2011 15:33
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -374,55 +374,41 @@ Overfull \hbox (2.70139pt too wide) in paragraph at lines 597--641
 [18] [19]
 File: accuracy_of_partions/accuracy_of_partions.eps Graphic file (type eps)
  <accuracy_of_partions/accuracy_of_partions.eps> [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 767--767
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
 [][]\T1/cmr/m/n/8 How the con-fi-dence in-ter-vals are cal-cu-lated can be seen
  at the fol-low-ing lo-ca-tion
  []
 
 
-Overfull \hbox (69.35378pt too wide) in paragraph at lines 767--767
+Overfull \hbox (69.35378pt too wide) in paragraph at lines 772--772
 \T1/cmr/m/n/8 ''https://github.com/kjellwinblad/master-thesis-matrial/blob/mast
 er/scala_code/tools/ConfidenceIntervallCalculation.scala''.| 
  []
 
 [22]
-Overfull \hbox (11.10098pt too wide) in paragraph at lines 829--840
+Overfull \hbox (6.10097pt too wide) in paragraph at lines 832--843
  [] 
  []
 
-
-Underfull \vbox (badness 1292) has occurred while \output is active []
-
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 849--849
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 [][]\T1/cmr/m/n/8 Images that show the struc-ture of the cre-ated de-ci-sion tr
 ees can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--849
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T1/cmr/m/n/8 be found at the lo-ca-tion ''http://github.com/kjellwinblad/maste
 r-thesis-
  []
 
 [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 881--881
-[][]\T1/cmr/m/n/8 How the con-fi-dence in-ter-vals are cal-cu-lated can be seen
- at the fol-low-ing lo-ca-tion
- []
 
-
-Overfull \hbox (69.35378pt too wide) in paragraph at lines 881--881
-\T1/cmr/m/n/8 ''https://github.com/kjellwinblad/master-thesis-matrial/blob/mast
-er/scala_code/tools/ConfidenceIntervallCalculation.scala''.| 
- []
-
-
-LaTeX Warning: Float too large for page by 41.61731pt on input line 1005.
+LaTeX Warning: Float too large for page by 41.61731pt on input line 1006.
 
 [26] [27] [28]
 Chapter 5.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1030
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1031
 .
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -489,10 +475,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3018 strings out of 493849
  39757 string characters out of 1152846
- 127976 words of memory out of 3000000
+ 126976 words of memory out of 3000000
  6207 multiletter control sequences out of 15000+50000
  27107 words of font info for 70 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  34i,10n,45p,1845b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.dvi (58 pages, 169060 bytes).
+Output written on report.dvi (58 pages, 168436 bytes).

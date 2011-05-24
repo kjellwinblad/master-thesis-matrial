@@ -173,7 +173,7 @@ I det här examensarbetet har det visats i experiment att delning av träningsdata
       \item[Goal number 2] is to do an analysis about the theoretical reason for the effect that the division has. This goal can be seen as a subgoal of \emph{goal number 1}. The difference between this goal and \emph{goal number 1} is that this goal emphasis on why division effects the accuracy. Whereas \emph{goal number 1} is more about in what way division effects the training. For example how much different is the accuracy when division is used from when no division is used.  This may lead to new ideas about how to improve the accuracy of the classifier as well as new insight into the characters of the classification problem. 
       
       \item[Goal number 3] is to implement an alternative oracle function into MaltParser, if the investigations described above shows that it could be useful. %Even if the results does not show that a oracle function with better accuracy than the best so far which is a nonlinear SVM, it could be useful with a classifier that works nearly as well and have much better training and testing time. 
-      The difference in training time for a linear SVM and a nonlinear SVM is big. A shorter training time could be of help when parsing methods are tested. As an example, a training time for a nonlinear SVM on a dependency parsing problem can be about a week when the linear version of the classifier can be trained within a few hours. Therefore, it could be useful with a new type of oracle function if it has a faster training time even if its accuracy is not better than the state of the art.
+      The difference in training time for a linear SVM and a nonlinear SVM is large. A shorter training time could be of help when parsing methods are tested. As an example, a training time for a nonlinear SVM on a dependency parsing problem can be about a week when the linear version of the classifier can be trained within a few hours. Therefore, it could be useful with a new type of oracle function if it has a faster training time even if its accuracy is not better than the state of the art.
     \end{description}
 
 %\section{Purposes}
@@ -639,7 +639,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
 \end{tabular}
 \end{center}
-\caption{The table contains the results for the tree languages Swedish, Chinese and German tested with a nonlinear SVM with and without division. The results for the \emph{German} with the biggest training set is not included in the results because of too long calculation time. \textbf{TR} = \emph{training time in hours}, \textbf{TE} = \emph{testing time in hours}, \textbf{AC} = \emph{Labeled Attachment Score}} 
+\caption{The table contains the results for the tree languages Swedish, Chinese and German tested with a nonlinear SVM with and without division. The results for the \emph{German} with the largest training set is not included in the results because of too long calculation time. \textbf{TR} = \emph{training time in hours}, \textbf{TE} = \emph{testing time in hours}, \textbf{AC} = \emph{Labeled Attachment Score}} 
 
 \label{tab:experiment_1_libsvm} 
 
@@ -660,7 +660,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
       \subsection{Results and Discussion}
 
-	It is not possible to see any obvious correlation between the size of the partitions of the training data and its cross validation accuracy. This is illustrated in the figure \ref{fig:accuracy_of_partions_in_relationship_to_size_swe}, \ref{fig:accuracy_of_partions_in_relationship_to_size_chi} and \ref{fig:accuracy_of_partions_in_relationship_to_size_ger} that can be found in appendix~\ref{app:diagrams}. It is noteworthy that some portions have as good as 99\% accuracy and these partitions occur among both big partitions and among small ones. The median based box plots presented in figure~\ref{fig:accuracy_of_partions} show how the accuracy vary among the partitions.
+	It is not possible to see any obvious correlation between the size of the partitions of the training data and its cross validation accuracy. This is illustrated in the figure \ref{fig:accuracy_of_partions_in_relationship_to_size_swe}, \ref{fig:accuracy_of_partions_in_relationship_to_size_chi} and \ref{fig:accuracy_of_partions_in_relationship_to_size_ger} that can be found in appendix~\ref{app:diagrams}. It is noteworthy that some portions have as good as 99\% accuracy and these partitions occur among both largest partitions and among small ones. The median based box plots presented in figure~\ref{fig:accuracy_of_partions} show how the accuracy vary among the partitions.
 
 %Place for diagram
     \begin{figure}[htb] 
@@ -684,7 +684,7 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
   \section{Another Division of the Worst Performing Partitions}
   \label{sec:an_other_division_of_the_worst_performing_partitions_after_the_first_division}
-    The hypothesis tested in this experiment is if the accuracy of the worst partitions created by division are bad because the feature selected for division was not relevant for the instances in these partitions. The experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} showed that the division that was made created some partitions with good accuracy and some with worse. The span of the accuracy of the partitions is big, which gives a reason to believe that the division was not the best for all partitions and that another division or no division could be better for the worst performing ones.
+    The hypothesis tested in this experiment is if the accuracy of the worst partitions created by division are bad because the feature selected for division was not relevant for the instances in these partitions. The experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} showed that the division that was made created some partitions with good accuracy and some with worse. The span of the accuracy of the partitions is large, which gives a reason to believe that the division was not the best for all partitions and that another division or no division could be better for the worst performing ones.
 
     All partitions that had worse than the weighted average accuracy for the partitions in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} were concatenated to a new chunk of training data. That new chunk of training data was then trained by cross validation and a linear SVM (LIBLINEAR) everything at once and after division with the feature representing the POSTAG property of the first element on the stack (feature~2). The feature used to divide the training data in the experiment described in section~\ref{sec:experiment_accuracy_of_partitions_created_by_division} represents the POSTAG property of the first element in the buffer (feature~1).  The same was done for the partitions with better than average accuracy.
 
@@ -742,14 +742,14 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 \noindent\makebox[\textwidth]{%
 \begin{tabular}{l | | l l l l l }
   & \textbf{No Div.} & \textbf{Sign.} & \textbf{1 Div.} & \textbf{Sign.} & \textbf{2 Div.} \\ \hline \hline
-\textbf{Swedish} &                  $90.9162$ & $<(70\%)$ & $91.1496*$ & $>(55\%)$ & $90.9787$ \\ \hline
-\textbf{Chinese} &                  $92.0441$ & $<(20\%)$ & $92.0889$ & $<(36\%)$ & $92.1678*$ \\ \hline
-\textbf{German} &                   $91.0386$ & $<(99\%)$ & $92.6778$ & $<(21\%)$ & $92.7075*$ \\ \hline
-\textbf{Czech Stack Lazy} &         $89.9787$ & $<(99\%)$ & $91.1751$ & $<(99\%)$ & $91.8522*$ \\ \hline
-\textbf{Czech Stack Projection} &   $89.7828$ & $<(99\%)$ & $91.0158$ & $<(99\%)$ & $91.6156*$ \\ \hline
-\textbf{English Stack Lazy} &       $94.3736$ & $<(99\%)$ & $94.7557$ & $<(99\%)$ & $94.9537*$ \\ \hline
-\textbf{English Stack Projection} & $94.4000$ & $<(99\%)$ & $94.7626$ & $<(99\%)$ & $95.0080*$ \\ \hline \hline
-\textit{\textbf{Average}} &                  \textit{91.7906} & & \textit{92.5179} &  & \textit{92.7548*} \\ 
+\textbf{Swedish} &                  $90.916$ & $<(70\%)$ & $91.150*$ & $>(55\%)$ & $90.979$ \\ \hline
+\textbf{Chinese} &                  $92.044$ & $<(21\%)$ & $92.089$ & $<(36\%)$ & $92.168*$ \\ \hline
+\textbf{German} &                   $91.039$ & $<(99\%)$ & $92.678$ & $<(22\%)$ & $92.708*$ \\ \hline
+\textbf{Czech Stack Lazy} &         $89.979$ & $<(99\%)$ & $91.175$ & $<(99\%)$ & $91.852*$ \\ \hline
+\textbf{Czech Stack Projection} &   $89.783$ & $<(99\%)$ & $91.016$ & $<(99\%)$ & $91.616*$ \\ \hline
+\textbf{English Stack Lazy} &       $94.374$ & $<(99\%)$ & $94.756$ & $<(99\%)$ & $94.954*$ \\ \hline
+\textbf{English Stack Projection} & $94.400$ & $<(99\%)$ & $94.763$ & $<(99\%)$ & $95.008*$ \\ \hline \hline
+\textit{\textbf{Average}} &                  \textit{91.791} & & \textit{92.518} &  & \textit{92.755*} \\ 
 \end{tabular}
 }
 \end{center}
@@ -762,11 +762,14 @@ can be constructed by the rules \cite{nivre2008algorithms}.
 
       The results of the experiment is presented in table~\ref{tab:different_levels_of_division}. An improvement is gained from one division compared to no division for all data sets and an even greater improvement is gained from two divisions for all data sets except \emph{Swedish}. The average improvement from one division to two divisions is about 0.24\%. The average improvement from no division to 1 division is significantly larger namely 0.73\%. \emph{Swedish} is the smallest training set which could explain why the division had the least good effect on it. The partitions created by the second division on \emph{Swedish} might be too small for the training to create general enough classifiers from them.
 
+
+
       The results of this experiment supports \emph{hypothesis~1}, which says that an improvement can be gained if the training data is divided before training. That \emph{Swedish} got worse accuracy with two divisions than one division and that the improvement of the accuracy for all languages were greater for the first division than the second supports \emph{hypothesis~3}, which states that the accuracy can be improved by division to a certain point. The results indicate that the point might be reached at one division for Swedish and that the point might be further away than two divisions for the other data sets. 
 
-\footnotetext[1]{How the confidence intervals are calculated can be seen at the following location ''https://github.com/kjellwinblad/master-thesis-matrial/blob/master/scala\_code/tools/ConfidenceIntervallCalculation.scala''.}
 
       So far it has just been assumed that the features used for division in the first and second division are good. It is possible that other features are better for the divisions and that might differ from language to language, because the same feature might have different impact on the grammatical structure of a sentence in different languages. 
+
+\footnotetext[1]{How the confidence intervals are calculated can be seen at the following location ''https://github.com/kjellwinblad/master-thesis-matrial/blob/master/scala\_code/tools/ConfidenceIntervallCalculation.scala''.}
 
 %Therefore, it is possible that a division feature can have much better impact on the accuracy in just one division than any combination of two division feature but it is not so likely because both features selected for division is believed to be the best.
 
@@ -816,7 +819,7 @@ $6$ & Stack[1] & POSTAG  \\ \hline
 \end{enumerate}
 
 
- \caption{Contains the decision tree algorithm used in the experiments.}
+ \caption{The decision tree algorithm used in the experiments.}
   \label{tab:decision_tree_algorithm}
  \end{listing}
 
@@ -828,21 +831,21 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
   \begin{center}
 \begin{tabular}{l | | l | l | l | l | l }
   & \textbf{Intuitive} & \textbf{Sign.} & \textbf{2 Div.} & \textbf{Sign.} &\textbf{Gain Ratio}  \\ \hline \hline
-\textbf{Swedish} &                  $91.1675$ &  $>(60\%)$ & $90.9787*$ & $>(11\%)$ & $90.9472$  \\ \hline
-\textbf{Chinese} &                  $92.1179$ &  $<(23\%)$ & $92.1678*$ & $>(15\%)$ & $92.1349$   \\ \hline
-\textbf{German} &                   $93.1317*$ & $>(99\%)$ & $92.7075$  & $<(96\%)$ & $92.9364$   \\ \hline
-\textbf{Czech Stack Lazy} &         $91.8662$ &  $>(10\%)$ & $91.8522$  & $<(63\%)$ & $91.9473*$  \\ \hline
-\textbf{Czech Stack Projection} &   $91.6537$ &  $>(27\%)$ & $91.6156$  & $<(85\%)$ & $91.7707*$  \\ \hline
-\textbf{English Stack Lazy} &       $95.0205$ &  $>(66\%)$ & $94.9537$ &  $<(98\%)$ & $95.1203*$  \\ \hline
-\textbf{English Stack Projection} & $95.0770$ &  $>(67\%)$ & $95.0080$ &  $<(96\%)$ & $95.1578*$  \\ \hline \hline
-\textit{\textbf{Average}} &         \textit{92.8621*} & &\textit{92.7548} & & \textit{92.8592}
+\textbf{Swedish} &                  $91.168$ &  $>(60\%)$ & $90.979*$ & $>(11\%)$ & $90.947$  \\ \hline
+\textbf{Chinese} &                  $92.118$ &  $<(23\%)$ & $92.168*$ & $>(15\%)$ & $92.135$   \\ \hline
+\textbf{German} &                   $93.132*$ & $>(99\%)$ & $92.708$  & $<(96\%)$ & $92.936$   \\ \hline
+\textbf{Czech Stack Lazy} &         $91.866$ &  $>(10\%)$ & $91.852$  & $<(63\%)$ & $91.947*$  \\ \hline
+\textbf{Czech Stack Projection} &   $91.654$ &  $>(27\%)$ & $91.616$  & $<(85\%)$ & $91.771*$  \\ \hline
+\textbf{English Stack Lazy} &       $95.020$ &  $>(65\%)$ & $94.954$ &  $<(98\%)$ & $95.120*$  \\ \hline
+\textbf{English Stack Projection} & $95.077$ &  $>(67\%)$ & $95.008$ &  $<(96\%)$ & $95.158*$  \\ \hline \hline
+\textit{\textbf{Average}} &         \textit{92.862*} & &\textit{92.755} & & \textit{92.859}
 \end{tabular}
 \end{center}
 \caption{The accuracy for different languages calculated in the decision tree experiment. The column named Intuitive represents the tree division with the intuitive division order and the column named Gain Ratio represent the tree division with division order calculated by Gain Ratio. See section~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} for an explanation of the Gain Ratio column and the description of table~\ref{tab:different_levels_of_division} for a description of the ''Sign.'' columns.}
 \label{tab:decion_tree_with_and_without_gain_ratio}
 \end{table}
 
-      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. Compared to the average accuracy obtained from two divisions in the experiment described in section~\ref{sec:different_levels_of_divisions} the decision tree gives an  improvement of about 0.10\%. All training sets except \emph{Chinese} had better accuracy with decision tree than the best obtained in the experiment described in section~\ref{sec:different_levels_of_divisions}.
+      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. Compared to the average accuracy obtained from two divisions in the experiment described in section~\ref{sec:different_levels_of_divisions} the decision tree gives an  improvement of about 0.1\%. All training sets except \emph{Chinese} had better accuracy with decision tree than the best obtained in the experiment described in section~\ref{sec:different_levels_of_divisions}.
 
       The two first features in the feature division list used for creating the decision tree are the same as the two used for the experiment with two divisions in section~\ref{sec:different_levels_of_divisions}. When division with one and two features have been used, partitions that contains less than 1000 instances have been put in a separate training set called the other training set, but with the decision tree there is one such other training set for every division. This could explain why \emph{Chinese} got slightly worse result with the decision tree anyway.
 
@@ -864,7 +867,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 
     \subsection{Results and Discussion}
 
-      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. The average accuracy for the data sets trained with the Gain Ratio calculated decision order is slightly worse (0.003\%) than when trained with the intuitive decision order.
+      The results of the experiment are summarized in table~\ref{tab:decion_tree_with_and_without_gain_ratio}. The average accuracy for the data sets trained with the Gain Ratio and intuitive decision order are almost the same. The difference is only 0.003\%.
 
       This experiment shows that we can get improvement with an algorithm that creates a division in a totally automatic way. This makes the decision tree method more interesting for practical use because no domain specific knowledge is required to use it.
 
@@ -876,9 +879,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
     The decision tree creation methods described in section~\ref{sec:decision_tree_with_intuitive_division_order} and ~\ref{sec:decision_tree_with_devision_order_decided_by_gain_ratio} are integrated into MaltParser. The implementation and usage of the MaltParser decision tree plugin is described in chapter~\ref{ch:maltparser_plugin}. For all languages tested 10\% of the instances of the original training set were removed and put in a testing set. For all tested languages 8 different sizes of the training set were tested. One contained all training instances, the next one half and the third one contained one forth etc. The set up is very similar to the experiment described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}. Also the dependency parsing algorithm and feature extraction model are the same as in  section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm}. The minimum partition size was set to 50. All partitions created by a particular division with a size less than 50 were concatenated to a new partition and if that new partition was smaller than 50 it was concatenated by the smallest partition created that is larger than 50. For comparison the linear SVM with division tests described in section~\ref{sec:experiment_division_of_training_set_with_liblinear_and_libsvm} were run again but with 50 as minimum partition size.
 
     \subsection{Results and Discussion}
-
-
-\footnotetext[1]{How the confidence intervals are calculated can be seen at the following location ''https://github.com/kjellwinblad/master-thesis-matrial/blob/master/scala\_code/tools/ConfidenceIntervallCalculation.scala''.}  
+  
 
 \begin{table}[htb]  
   \begin{center}
@@ -892,7 +893,7 @@ The \emph{Swedish}, \emph{Chinese} and \emph{German} data sets are created by us
 \textit{\textbf{Average}} &         \textit{81.02} & &\textit{80.46} & & \textit{80.29}
 \end{tabular}
 \end{center}
-\caption{Summary of table~\ref{tab:decion_tree_in_malt_parser} containing only the test accuracy after training with the largest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 19\%$^{1}$.}
+\caption{Summary of table~\ref{tab:decion_tree_in_malt_parser} containing only the test accuracy after training with the largest data sets. The ''Sign'' columns shows the statistical significance of the difference between the two tree methods and the simple division strategy. For example the statistical certainty that the simple division strategy gives better accuracy than the tree division strategy with intuitive division order for a Swedish data set of the size used in the experiment is greater than 19\%.}
 \label{tab:summary_decision_tree_in_malt_parser}
 \end{table}
    
