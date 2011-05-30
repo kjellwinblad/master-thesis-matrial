@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2.3}Measuring the Accuracy of Dependency Parsing Systems}{8}
 \contentsline {section}{\numberline {2.4}Support Vector Machines}{8}
 \contentsline {subsection}{\numberline {2.4.1}The Basic Support Vector Machine Concept}{8}
-\contentsline {subsection}{\numberline {2.4.2}The Kernel Trick}{9}
+\contentsline {subsection}{\numberline {2.4.2}The Kernel Trick}{8}
 \contentsline {subsection}{\numberline {2.4.3}The Extension to Support Multiple Class Classification}{9}
 \contentsline {section}{\numberline {2.5}Decision Trees}{9}
 \contentsline {subsection}{\numberline {2.5.1}Gain Ratio}{10}
@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {4.4.1}Results and Discussion}{22}
 \contentsline {section}{\numberline {4.5}Decision Tree With Intuitive Division Order}{23}
 \contentsline {subsection}{\numberline {4.5.1}Results and Discussion}{24}
-\contentsline {section}{\numberline {4.6}Decision Tree With Devision Order Decided by Gain Ratio}{25}
+\contentsline {section}{\numberline {4.6}Decision Tree With Division Order Decided by Gain Ratio}{25}
 \contentsline {subsection}{\numberline {4.6.1}Results and Discussion}{26}
 \contentsline {section}{\numberline {4.7}Decision Tree in Malt Parser}{26}
 \contentsline {subsection}{\numberline {4.7.1}Results and Discussion}{26}
