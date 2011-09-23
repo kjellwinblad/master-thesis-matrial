@@ -1,4 +1,8 @@
-Scripts for My Master Thesis in Computer Science
+Scripts for my master thesis in computer science
+------------------------------------------------
 
+The Impact of Training Data Division in Inductive Dependency Parsing
+--------------------------------------------------------------------
 
-This is published on github for people that have read the report and are interested in how the scripts used in the thesis work look like.
+[Report](https://github.com/kjellwinblad/master-thesis-matrial/blob/master/report/report.pdf?raw=true)
+
